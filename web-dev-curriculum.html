@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Road to Mid-Level Developer — 24-Week Curriculum</title>
+<style>
+  :root{
+    --ink:#16211c;
+    --paper:#fbfaf6;
+    --card:#ffffff;
+    --line:#dcd8cc;
+    --accent:#0b6e4f;
+    --accent-soft:#e3f0ea;
+    --amber:#b7791f;
+    --amber-soft:#fdf3e3;
+    --red:#9b2c2c;
+    --red-soft:#fdeaea;
+    --muted:#6b7268;
+    --mono:'Courier New',ui-monospace,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Georgia,'Times New Roman',serif;background:var(--paper);color:var(--ink);line-height:1.6}
+  .wrap{max-width:880px;margin:0 auto;padding:0 20px 80px}
+
+  header{border-bottom:3px double var(--line);padding:48px 0 32px;margin-bottom:8px}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
+  h1{font-size:clamp(28px,5vw,42px);line-height:1.15}
+  .sub{color:var(--muted);margin-top:12px;max-width:64ch}
+  .meta{display:flex;gap:24px;flex-wrap:wrap;font-family:var(--mono);font-size:13px;color:var(--muted);margin-top:20px}
+  .meta b{color:var(--ink)}
+
+  .howto{background:var(--accent-soft);border-left:4px solid var(--accent);padding:16px 20px;margin:28px 0 12px;font-size:15px}
+  .rule{background:var(--red-soft);border-left:4px solid var(--red);padding:16px 20px;margin:0 0 40px;font-size:15px}
+
+  .phase-label{
+    font-family:var(--mono);font-size:13px;letter-spacing:2px;text-transform:uppercase;
+    color:var(--paper);background:var(--ink);
+    display:inline-block;padding:6px 14px;border-radius:3px;
+    margin:36px 0 16px;
+  }
+
+  .module{background:var(--card);border:1px solid var(--line);border-radius:6px;margin-bottom:26px;overflow:hidden}
+  .module-head{display:flex;align-items:baseline;gap:14px;padding:18px 22px 10px;flex-wrap:wrap}
+  .weektag{font-family:var(--mono);font-size:12px;letter-spacing:1px;color:var(--paper);background:var(--accent);padding:3px 10px;border-radius:3px;white-space:nowrap}
+  .module h2{font-size:20px}
+  .module-body{padding:6px 22px 20px}
+  .module-body p{margin-bottom:12px;font-size:15.5px}
+  .goal{font-family:var(--mono);font-size:13px;color:var(--amber);margin-bottom:10px}
+
+  h3{font-size:14px;font-family:var(--mono);letter-spacing:1px;text-transform:uppercase;color:var(--muted);margin:16px 0 6px}
+
+  ul.links{list-style:none;margin:4px 0 6px}
+  ul.links li{padding:7px 0;border-top:1px dashed var(--line);font-size:15px;display:flex;gap:10px;align-items:baseline}
+  ul.links li::before{content:"→";color:var(--accent);font-weight:bold}
+  a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--accent-soft)}
+  a:hover,a:focus{border-bottom-color:var(--accent)}
+  a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .linknote{color:var(--muted);font-size:13.5px}
+
+  ul.assign{list-style:none;margin:4px 0 6px}
+  ul.assign li{padding:6px 0;border-top:1px dashed var(--line);font-size:14.5px;display:flex;gap:10px;align-items:baseline}
+  ul.assign li::before{content:"✎";color:var(--amber)}
+  ul.assign b{font-family:var(--mono);font-size:12.5px;color:var(--amber)}
+
+  .exam{background:var(--amber-soft);border:1px solid var(--amber);border-radius:4px;padding:14px 18px;margin-top:16px;font-size:14.5px}
+  .exam-title{font-family:var(--mono);font-size:12.5px;letter-spacing:1px;text-transform:uppercase;color:var(--amber);margin-bottom:6px}
+  .exam label{display:flex;gap:10px;align-items:baseline;cursor:pointer;margin-top:6px}
+  input[type=checkbox]{accent-color:var(--accent);transform:translateY(2px)}
+
+  .finish{text-align:center;margin-top:48px;padding:32px 20px;border:3px double var(--line);border-radius:6px}
+  .finish h2{font-size:22px;margin-bottom:8px}
+  .finish p{color:var(--muted);font-size:15px;max-width:58ch;margin:0 auto}
+
+  code{font-family:var(--mono);font-size:0.9em;background:var(--paper);padding:1px 5px;border:1px solid var(--line);border-radius:3px}
+
+  @media print{.module{break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">Intermediate Track · 24 Weeks · 3 Hours Daily</div>
+  <h1>Road to Mid-Level Developer</h1>
+  <p class="sub">For a student who already knows basic HTML, the editor, and the browser. This path goes deep: CSS mastery, serious JavaScript, Git, React, and backend basics — with daily assignments and an exam at the end of every phase.</p>
+  <div class="meta">
+    <span>Daily: <b>1 hr learning + 2 hr assignment</b></span>
+    <span>Weekly: <b>6 days study, 1 day review</b></span>
+    <span>Exams: <b>end of every phase</b></span>
+  </div>
+</header>
+
+<div class="howto">
+  <b>Daily rhythm:</b> Hour 1 — study the linked material for that week. Hours 2–3 — do the assignment for that day. Assignments are listed per week; do them in order, one per day. Day 7 is for finishing anything incomplete and reviewing notes.
+</div>
+<div class="rule">
+  <b>The one rule:</b> No copy-paste. Type every line. If you copied it, you didn't learn it. Using documentation and searching is allowed and encouraged — that's what real developers do.
+</div>
+
+<!-- ================= PHASE 1 ================= -->
+<div class="phase-label">Phase 1 · CSS Mastery (Weeks 1–3)</div>
+
+<div class="module">
+  <div class="module-head"><span class="weektag">WEEK 1</span><h2>CSS Fundamentals &amp; Box Model</h2></div>
+  <div class="module-body">
+    <p class="goal">Goal: understand exactly why elements sit where they sit.</p>
+    <p>Most self-taught developers stay weak at CSS forever because they guess instead of understanding. Selectors, specificity, the box model, and units are the foundation — master them now and layout stops being a mystery.</p>
+    <h3>Learning (1 hr/day)</h3>
+    <ul class="links">
+      <li><div><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics">MDN: CSS styling basics</a> <span class="linknote">— main material this week</span></div></li>
+      <li><div><a href="https://web.dev/learn/css/box-model">web.dev: Box model</a> <span class="linknote">— read twice</span></div></li>
+    </ul>
+    <h3>Assignments (2 hr/day)</h3>
+    <ul class="assign">
+      <li><div><b>D1</b> Recreate a business card as HTML/CSS — exact spacing, borders, colours.</div></li>
+      <li><div><b>D2</b> Build a pricing card (title, price, feature list, button) using only padding/margin — no flexbox yet.</div></li>
+      <li><div><b>D3</b> Take yesterday's card, break it 5 ways on purpose (wrong specificity, collapsed margins…), then fix each. Write one line per bug explaining it.</div></li>
+      <li><div><b>D4</b> Typography page: article layout with proper font sizes, line-height, and spacing using <code>rem</code> only.</div></li>
+      <li><div><b>D5</b> Recreate the header of any news website (Dawn, BBC) — logo left, links right — with <code>inline-block</code>/floats to feel the pain flexbox solves.</div></li>
+      <li><div><b>D6</b> Style a full signup form: focus states, error state (red border + message), disabled button.</div></li>
+    </ul>
+  </div>
+</div>
+
+<div class="module">
+  <div class="module-head"><span class="weektag">WEEK 2</span><h2>Flexbox &amp; Grid</h2></div>
+  <div class="module-body">
+    <p class="goal">Goal: build any layout you see, from memory, in under 30 minutes.</p>
+    <p>Flexbox for one dimension, Grid for two. These two systems are 90% of modern layout work. The games below make the properties stick; the assignments make them permanent.</p>
+    <h3>Learning (1 hr/day)</h3>
+    <ul class="links">
+      <li><div><a href="https://flexboxfroggy.com/">Flexbox Froggy</a> <span class="linknote">— finish all levels, day 1–2</span></div></li>
+      <li><div><a href="https://cssgridgarden.com/">Grid Garden</a> <span class="linknote">— finish all levels, day 3–4</span></div></li>
+      <li><div><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS-Tricks: Complete Flexbox guide</a> <span class="linknote">— keep open as reference</span></div></li>
+      <li><div><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS-Tricks: Complete Grid guide</a> <span class="linknote">— reference</span></div></li>
+    </ul>
+    <h3>Assignments (2 hr/day)</h3>
+    <ul class="assign">
+      <li><div><b>D1</b> Redo the Week-1 news header in flexbox. Compare — write 3 sentences on the difference.</div></li>
+      <li><div><b>D2</b> Card gallery: 6 cards in a flex row that wraps, equal heights, even gaps.</div></li>
+      <li><div><b>D3</b> Holy-grail layout in Grid: header, sidebar, main, footer.</div></li>
+      <li><div><b>D4</b> Photo gallery in Grid where some images span 2 columns/rows (like Instagram explore).</div></li>
+      <li><div><b>D5</b> Full landing page top section: nav + hero with text left, image right.</div></li>
+      <li><div><b>D6</b> Recreate the YouTube home layout skeleton (sidebar + video grid) with dummy boxes.</div></li>
+    </ul>
+  </div>
+</div>
+
+<div class="module">
+  <div class="module-head"><span class="weektag">WEEK 3</span><h2>Responsive Design &amp; Polish</h2></div>
+  <div class="module-body">
+    <p class="goal">Goal: one codebase, perfect on a phone and a laptop.</p>
+    <p>Half the internet in Pakistan is mobile-only. Media queries, mobile-first thinking, fluid units, and responsive images are not optional skills — they are the job.</p>
+    <h3>Learning (1 hr/day)</h3>
+    <ul class="links">
+      <li><div><a href="https://web.dev/learn/design">web.dev: Learn Responsive Design</a> <span class="linknote">— main material</span></div></li>
+      <li><div><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design">MDN: Responsive design</a> <span class="linknote">— second pass</span></div></li>
+    </ul>
+    <h3>Assignments (2 hr/day)</h3>
+    <ul class="assign">
+      <li><div><b>D1</b> Make the Week-2 landing page fully responsive: hero stacks on mobile, nav collapses to a simple menu.</div></li>
+      <li><div><b>D2</b> Card gallery responsive: 1 column phone, 2 tablet, 3 desktop — using Grid <code>auto-fit</code>/<code>minmax</code>, no media queries.</div></li>
+      <li><div><b>D3</b> Add transitions and hover effects to every interactive element on the landing page. Subtle, not circus.</div></li>
+      <li><div><b>D4–D6</b> <b>Phase project:</b> full multi-section portfolio site — hero, about, projects grid, contact form. Pixel-clean, responsive, deployed thinking (organised files).</div></li>
+    </ul>
+    <div class="exam">
+      <div class="exam-title">Phase 1 Exam — 3 hours, closed notes</div>
+      Give him a screenshot of any real website section (pick one yourself — a hero + card grid works well). He must recreate it responsive without looking at the site's code. Passing: layout matches on mobile + desktop, clean class names, no absolute-positioning hacks.
+      <label><input type="checkbox"> <span>Exam passed — allowed into Phase 2</span></label>
+    </div>
+  </div>
+</div>
+
+<!-- ================= PHASE 2 ================= -->
+<div class="phase-label">Phase 2 · JavaScript, Seriously (Weeks 4–9)</div>
+
+<div class="module">
+  <div class="module-head"><span class="weektag">WEEKS 4–5</span><h2>Language Fundamentals</h2></div>
+  <div class="module-body">
+    <p class="goal">Goal: solve small logic problems in JS without help.</p>
+    <p>This is where students quit — the jump from markup to programming. Two full weeks on pure language: variables, types, conditions, loops, functions, arrays, objects. No DOM yet. Console only. Slow is fast here.</p>
+    <h3>Learning (1 hr/day)</h3>
+    <ul class="links">
+      <li><div><a href="https://javascript.info/first-steps">JavaScript.info Part 1, ch. 2–5</a> <span class="linknote">— the core material, read + type every example</span></div></li>
+      <li><div><a href="https://www.freecodecamp.org/learn/full-stack-developer/">freeCodeCamp JS sections</a> <span class="linknote">— extra reps when a topic feels shaky</span></div></li>
+    </ul>
+    <h3>Assignments (2 hr/day, examples per topic)</h3>
+    <ul class="assign">
+      <li><div><b>W4 D1–D2</b> 10 small console programs: grade calculator, odd/even, biggest of three, multiplication table, etc.</div></li>
+      <li><div><b>W4 D3–D4</b> Loop drills: sum 1–100, reverse a string, count vowels, FizzBuzz, print patterns (triangle of stars).</div></li>
+      <li><div><b>W4 D5–D6</b> Functions: rewrite all previous drills as functions with parameters and return values.</div></li>
+      <li><div><b>W5 D1–D3</b> Arrays: build a student-marks program — add marks, average, highest, lowest, filter passed students. Use <code>map</code>/<code>filter</code>/<code>reduce</code> by D3.</div></li>
+      <li><div><b>W5 D4–D6</b> Objects: contact book in the console — add, search, delete, list contacts (array of objects).</div></li>
+    </ul>
+  </div>
+</div>
+
+<div class="module">
+  <div class="module-head"><span class="weektag">WEEKS 6–7</span><h2>DOM &amp; Events</h2></div>
+  <div class="module-body">
+    <p class="goal">Goal: connect JS logic to the page — real interactive apps.</p>
+    <p>The DOM is where JavaScript meets his HTML/CSS skills. Selecting elements, changing them, listening for clicks and input. From here every assignment is a visible app.</p>
+    <h3>Learning (1 hr/day)</h3>
+    <ul class="links">
+      <li><div><a href="https://javascript.info/document">JavaScript.info Part 2: Document</a> <span class="linknote">— DOM chapters</span></div></li>
+      <li><div><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events">MDN: Introduction to events</a></div></li>
+    </ul>
+    <h3>Assignments (2 hr/day)</h3>
+    <ul class="assign">
+      <li><div><b>W6 D1</b> Counter app: +, −, reset buttons; number turns red below zero.</div></li>
+      <li><div><b>W6 D2–D3</b> Full calculator with clickable buttons (his CSS skills style it).</div></li>
+      <li><div><b>W6 D4–D6</b> To-do list: add, delete, mark done, count remaining. Rebuild it from scratch on D6 without looking at D5's code.</div></li>
+      <li><div><b>W7 D1–D2</b> Form validation: signup form with live inline errors (email format, password length, matching passwords).</div></li>
+      <li><div><b>W7 D3–D4</b> Quiz app: questions from an array of objects, score at the end.</div></li>
+      <li><div><b>W7 D5–D6</b> Image slider/carousel with next, previous, and dots. No library.</div></li>
+    </ul>
+  </div>
+</div>
+
+<div class="module">
+  <div class="module-head"><span class="weektag">WEEKS 8–9</span><h2>Modern JS, Async &amp; APIs</h2></div>
+  <div class="module-body">
+    <p class="goal">Goal: fetch real data, handle failure, and use the JS every codebase uses today.</p>
+    <p>ES6+ (destructuring, template literals, spread, modules), then the hard one: asynchronous code — promises, <code>async/await</code>, <code>fetch</code>. This is the exact skill that separates tutorial-followers from developers.</p>
+    <h3>Learning (1 hr/day)</h3>
+    <ul class="links">
+      <li><div><a href="https://javascript.info/async">JavaScript.info: Promises, async/await</a> <span class="linknote">— main material, weeks' hardest reading</span></div></li>
+      <li><div><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch">MDN: Using Fetch</a></div></li>
+      <li><div><a href="https://github.com/public-apis/public-apis">public-apis list</a> <span class="linknote">— free APIs for assignments</span></div></li>
+    </ul>
+    <h3>Assignments (2 hr/day)</h3>
+    <ul class="assign">
+      <li><div><b>W8 D1–D2</b> Refactor the quiz + to-do apps into ES6: arrow functions, template literals, destructuring, modules.</div></li>
+      <li><div><b>W8 D3–D4</b> Random-user cards: fetch from <code>randomuser.me</code>, render cards, "load more" button, loading spinner.</div></li>
+      <li><div><b>W8 D5–D6</b> Weather app with <a href="https://open-meteo.com/">Open-Meteo</a>: city search, current weather, error message for bad input.</div></li>
+      <li><div><b>W9 D1–D3</b> Movie search with <a href="https://www.omdbapi.com/">OMDb API</a> (free key): search, results grid, detail view.</div></li>
+      <li><div><b>W9 D4–D6</b> <b>Phase project:</b> currency converter or prayer-times app (<a href="https://aladhan.com/prayer-times-api">AlAdhan API</a>) — his choice, built alone.</div></li>
+    </ul>
+    <div class="exam">
+      <div class="exam-title">Phase 2 Exam — two parts</div>
+      Part A (1 hr, no internet): 5 logic problems on paper/console — e.g. reverse words in a sentence, find duplicates in an array, sum nested object values. Part B (2 hr, docs allowed): build a small app against an API he hasn't used, from a one-paragraph spec you write. Passing: working app + he can explain every line out loud.
+      <label><input type="checkbox"> <span>Exam passed — allowed into Phase 3</span></label>
+    </div>
+  </div>
+</div>
+
+<!-- ================= PHASE 3 ================= -->
+<div class="phase-label">Phase 3 · Professional Tooling (Weeks 10–11)</div>
+
+<div class="module">
+  <div class="module-head"><span class="weektag">WEEKS 10–11</span><h2>Git, GitHub, npm &amp; DevTools</h2></div>
+  <div class="module-body">
+    <p class="goal">Goal: work like a professional — version control, branches, published code.</p>
+    <p>No mid-level developer works without Git. Two weeks: commits, branches, merges, pull requests, plus npm basics and real debugging in browser DevTools. From now on, <b>every assignment is committed to GitHub with proper messages</b> — that becomes his public portfolio.</p>
+    <h3>Learning (1 hr/day)</h3>
+    <ul class="links">
+      <li><div><a href="https://git-scm.com/book/en/v2">Pro Git, ch. 1–3</a> <span class="linknote">— free book, main material</span></div></li>
+      <li><div><a href="https://learngitbranching.js.org/">Learn Git Branching</a> <span class="linknote">— interactive, do "Main" sequence</span></div></li>
+      <li><div><a href="https://docs.github.com/en/pull-requests">GitHub: Pull requests docs</a></div></li>
+      <li><div><a href="https://developer.chrome.com/docs/devtools">Chrome DevTools docs</a> <span class="linknote">— Elements, Console, Network, Sources tabs</span></div></li>
+    </ul>
+    <h3>Assignments (2 hr/day)</h3>
+    <ul class="assign">
+      <li><div><b>W10</b> Push all previous projects to GitHub (one repo each, real READMEs). Deploy the 3 best on GitHub Pages. Daily: one Learn-Git-Branching level set.</div></li>
+      <li><div><b>W11 D1–D3</b> Branch workflow drill: for one project, every change = branch → commit → PR → merge. You (teacher) review the PRs and request changes at least once.</div></li>
+      <li><div><b>W11 D4–D6</b> Debugging drills: you break his old projects (3 bugs each), he finds them using DevTools breakpoints — no <code>console.log</code> allowed.</div></li>
+    </ul>
+    <div class="exam">
+      <div class="exam-title">Phase 3 Exam — practical</div>
+      Give him a repo with a bug and a feature request. He must: clone, branch, fix the bug, add the feature, open a PR with a clear description. Passing: clean history, working code, readable PR.
+      <label><input type="checkbox"> <span>Exam passed — allowed into Phase 4</span></label>
+    </div>
+  </div>
+</div>
+
+<!-- ================= PHASE 4 ================= -->
+<div class="phase-label">Phase 4 · React (Weeks 12–17)</div>
+
+<div class="module">
+  <div class="module-head"><span class="weektag">WEEKS 12–14</span><h2>React Fundamentals</h2></div>
+  <div class="module-body">
+    <p class="goal">Goal: think in components — props, state, and rendering lists.</p>
+    <p>React is the most in-demand frontend skill in job listings (Pakistan and remote). The official docs are now genuinely the best course. Components, JSX, props, state, events, conditional rendering, lists.</p>
+    <h3>Learning (1 hr/day)</h3>
+    <ul class="links">
+      <li><div><a href="https://react.dev/learn">react.dev: Learn React</a> <span class="linknote">— main course, "Describing the UI" + "Adding Interactivity"</span></div></li>
+      <li><div><a href="https://vite.dev/guide/">Vite guide</a> <span class="linknote">— how to start React projects</span></div></li>
+    </ul>
+    <h3>Assignments (2 hr/day)</h3>
+    <ul class="assign">
+      <li><div><b>W12</b> Rebuild the counter, then a profile-card component reused 5 times with different props, then a togglable FAQ accordion.</div></li>
+      <li><div><b>W13</b> Rebuild the to-do app in React (D1–D3), then the quiz app in React (D4–D6). Rebuilding known apps isolates the "React way" as the only new thing.</div></li>
+      <li><div><b>W14</b> Multi-component app: expense tracker — add expense form, list, total, filter by category. Lifted state, controlled inputs.</div></li>
+    </ul>
+  </div>
+</div>
+
+<div class="module">
+  <div class="module-head"><span class="weektag">WEEKS 15–17</span><h2>React with Data &amp; Routing</h2></div>
+  <div class="module-body">
+    <p class="goal">Goal: real multi-page React apps that fetch and manage server data.</p>
+    <p><code>useEffect</code>, data fetching, custom hooks, React Router for multiple pages, and useContext for shared state. This is mid-level frontend territory.</p>
+    <h3>Learning (1 hr/day)</h3>
+    <ul class="links">
+      <li><div><a href="https://react.dev/learn/escape-hatches">react.dev: Escape Hatches (useEffect)</a></div></li>
+      <li><div><a href="https://reactrouter.com/home">React Router docs</a></div></li>
+      <li><div><a href="https://react.dev/learn/passing-data-deeply-with-context">react.dev: Context</a></div></li>
+    </ul>
+    <h3>Assignments (2 hr/day)</h3>
+    <ul class="assign">
+      <li><div><b>W15</b> Rebuild the movie-search app in React with a custom <code>useFetch</code> hook, loading and error states.</div></li>
+      <li><div><b>W16</b> Add React Router: home, search, movie-detail page (<code>/movie/:id</code>), favourites page. Favourites in Context.</div></li>
+      <li><div><b>W17</b> <b>Phase project:</b> a small e-commerce front (fake store API: <code>fakestoreapi.com</code>) — product grid, detail page, cart with Context, deployed on <a href="https://www.netlify.com/">Netlify</a> or <a href="https://vercel.com/">Vercel</a>.</div></li>
+    </ul>
+    <div class="exam">
+      <div class="exam-title">Phase 4 Exam — 3 hours, docs allowed</div>
+      Spec you write: a 2-page React app against any public API with routing, loading/error states, and one piece of shared state. He builds it live while explaining decisions. Passing: it works, components are sensibly split, no state bugs.
+      <label><input type="checkbox"> <span>Exam passed — allowed into Phase 5</span></label>
+    </div>
+  </div>
+</div>
+
+<!-- ================= PHASE 5 ================= -->
+<div class="phase-label">Phase 5 · Backend Basics (Weeks 18–21)</div>
+
+<div class="module">
+  <div class="module-head"><span class="weektag">WEEKS 18–19</span><h2>Node.js &amp; Express</h2></div>
+  <div class="module-body">
+    <p class="goal">Goal: build the APIs he has been consuming.</p>
+    <p>A mid-level developer understands both sides of <code>fetch</code>. Node runs his JavaScript on a server; Express turns it into an API: routes, request/response, middleware, JSON.</p>
+    <h3>Learning (1 hr/day)</h3>
+    <ul class="links">
+      <li><div><a href="https://nodejs.org/en/learn">Node.js official Learn</a> <span class="linknote">— intro chapters</span></div></li>
+      <li><div><a href="https://expressjs.com/en/starter/installing.html">Express: Getting started</a></div></li>
+      <li><div><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs">MDN: Express/Node tutorial</a> <span class="linknote">— main structured course</span></div></li>
+    </ul>
+    <h3>Assignments (2 hr/day)</h3>
+    <ul class="assign">
+      <li><div><b>W18</b> Hello-world server → JSON API for the to-do app: GET, POST, DELETE, PUT routes with an in-memory array. Test with <a href="https://www.postman.com/downloads/">Postman</a> or <code>curl</code>.</div></li>
+      <li><div><b>W19</b> Add middleware: logging, input validation, error handling, 404s. Then connect his React to-do frontend to his own API — full stack for the first time.</div></li>
+    </ul>
+  </div>
+</div>
+
+<div class="module">
+  <div class="module-head"><span class="weektag">WEEKS 20–21</span><h2>Database &amp; Auth Basics</h2></div>
+  <div class="module-body">
+    <p class="goal">Goal: data that survives a restart, and users that log in.</p>
+    <p>SQLite first — it's a real SQL database with zero setup, perfect for learning. Then password hashing and JWT login, the minimum a mid-level dev must understand about auth.</p>
+    <h3>Learning (1 hr/day)</h3>
+    <ul class="links">
+      <li><div><a href="https://www.sqlitetutorial.net/">SQLite Tutorial</a> <span class="linknote">— SELECT/INSERT/UPDATE/DELETE/JOIN basics</span></div></li>
+      <li><div><a href="https://github.com/WiseLibs/better-sqlite3">better-sqlite3</a> <span class="linknote">— use from Node</span></div></li>
+      <li><div><a href="https://jwt.io/introduction">JWT introduction</a></div></li>
+    </ul>
+    <h3>Assignments (2 hr/day)</h3>
+    <ul class="assign">
+      <li><div><b>W20</b> Replace the in-memory to-do array with SQLite. Daily SQL drills (10 queries/day on a sample DB you give him).</div></li>
+      <li><div><b>W21</b> Add signup/login with hashed passwords (<code>bcrypt</code>) and JWT; each user sees only their own todos.</div></li>
+    </ul>
+    <div class="exam">
+      <div class="exam-title">Phase 5 Exam — take-home, 2 days</div>
+      Spec: a notes API (users, login, CRUD notes, SQLite) + minimal React frontend. Then a 30-minute viva: you ask him to explain auth flow, one SQL query, and one middleware, and to add one small feature live. Passing: secure, working, explained.
+      <label><input type="checkbox"> <span>Exam passed — allowed into Phase 6</span></label>
+    </div>
+  </div>
+</div>
+
+<!-- ================= PHASE 6 ================= -->
+<div class="phase-label">Phase 6 · Capstone (Weeks 22–24)</div>
+
+<div class="module">
+  <div class="module-head"><span class="weektag">WEEKS 22–24</span><h2>One Real Project, Shipped</h2></div>
+  <div class="module-body">
+    <p class="goal">Goal: a deployed full-stack app he designed, built, and can defend in an interview.</p>
+    <p>Three weeks, one project of his own choosing that needs everything: React frontend, Express API, database, auth, Git workflow with branches, deployed live. Ideas: a class result-management system, a small marketplace, a hostel mess-management app — local problems make the best portfolios.</p>
+    <h3>Support material</h3>
+    <ul class="links">
+      <li><div><a href="https://render.com/docs">Render docs</a> <span class="linknote">— free backend hosting</span></div></li>
+      <li><div><a href="https://vercel.com/docs">Vercel docs</a> <span class="linknote">— frontend hosting</span></div></li>
+      <li><div><a href="https://www.conventionalcommits.org/">Conventional Commits</a> <span class="linknote">— commit message standard</span></div></li>
+    </ul>
+    <h3>Structure</h3>
+    <ul class="assign">
+      <li><div><b>W22</b> Plan (features list, simple wireframes, DB schema on paper — you approve it) + build the API.</div></li>
+      <li><div><b>W23</b> Build the frontend, connect everything, auth working end to end.</div></li>
+      <li><div><b>W24</b> Polish, fix, write a proper README with screenshots, deploy, and prepare a 10-minute demo presentation.</div></li>
+    </ul>
+    <div class="exam">
+      <div class="exam-title">Final Exam — demo + defence</div>
+      He presents the live app for 10 minutes, then 30 minutes of questions: "why this schema?", "what happens if the token expires?", "make this button do X — live." Passing this = he is genuinely at junior-to-mid level and ready for real freelance work or internships.
+      <label><input type="checkbox"> <span>Graduated 🎓</span></label>
+    </div>
+  </div>
+</div>
+
+<div class="finish">
+  <h2>After Graduation</h2>
+  <p>Portfolio: GitHub with 24 weeks of commits + a deployed capstone. Next moves: TypeScript (<a href="https://www.typescriptlang.org/docs/handbook/intro.html">official handbook</a>), testing with <a href="https://vitest.dev/">Vitest</a>, and start bidding small Fiverr/Upwork jobs — real clients teach what no course can.</p>
+</div>
+
+</div>
+</body>
+</html>
