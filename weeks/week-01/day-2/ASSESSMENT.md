@@ -2,7 +2,8 @@
 
 **Assignment:** Build a pricing card using only padding and margin — flexbox and grid banned.
 **Folder:** `weeks/week-01/day-2/`
-**Submitted:** 2026-07-27 14:55 — ☑ on time (same day)
+**Submitted:** 2026-07-27 14:55 (commit `f8452d5`) — ☑ on time (same day)
+**Graded version:** `weeks/week-01/day-2/assignment/` — the 14:55 final, not the 13:57 draft you first pushed to `2026-7/27/`. Good: you added the scale/colour comment between the two.
 **Reviewed by:** Adil on 2026-07-27
 
 ---
@@ -156,7 +157,8 @@ Answer these in `learn/NOTES.md` before the redo:
 - [ ] Replace every spacing number with one from your own scale: 4 / 8 / 16 / 24 / 32 / 48
 - [ ] Delete the duplicate `font-size` and `text-align` declarations
 - [ ] Answer the 5 questions in `learn/NOTES.md`
-- [ ] Delete the stray files in `weeks/week-09/`
+- [ ] Delete the stray files in `weeks/week-09/` (`index.html` containing `sss`, the empty `style.css`)
+- [ ] Note: I removed the leftover `2026-7/27/` draft copy of this card for you — it was an older version of the same work sitting in the old folder format, and having two copies would have had you editing the wrong file tomorrow. It is still in git history (`git show 61001bf:2026-7/27/card.css`) if you want it.
 - [ ] Untick any box you have not actually done
 
 **Redo due:** day 6 or 7 of this week, before starting Day 3.
