@@ -15,12 +15,12 @@ A pricing card: plan title, big price, a list of 5 features, and a call-to-actio
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] `box-sizing: border-box` set once at the top and explained in a comment
-- [ ] All class names, no styling by tag
-- [ ] The feature list uses `<ul>`/`<li>` with the default bullets restyled or removed
-- [ ] The button is a real `<button>` or `<a>`, with `:hover` and `:focus-visible` states
-- [ ] Consistent spacing scale — pick 4/8/16/24/32px and use **only** those numbers
-- [ ] A comment at the top of the CSS listing your spacing scale and colours
+- [x] `box-sizing: border-box` set once at the top and explained in a comment
+- [x] All class names, no styling by tag
+- [x] The feature list uses `<ul>`/`<li>` with the default bullets restyled or removed
+- [x] The button is a real `<button>` or `<a>`, with `:hover` and `:focus-visible` states
+- [x] Consistent spacing scale — pick 4/8/16/24/32px and use **only** those numbers
+- [x] A comment at the top of the CSS listing your spacing scale and colours
 
 ## 🎤 The teacher will ask you
 
