@@ -13,7 +13,7 @@ Every assignment is scored **out of 10** by the teacher in an `ASSESSMENT.md` fi
 | 1 | **Requirements met** | 3 | Every item in the day's *Must have* checklist is done. Nothing skipped, nothing half-built. |
 | 2 | **Code quality** | 2 | Sensible class/variable names, consistent indentation, no dead code, no magic numbers scattered around, no `div` soup. |
 | 3 | **Understanding** | 3 | In the viva, you can explain *why* each part is written the way it is, and change it live when asked. This is the biggest single block of marks — on purpose. |
-| 4 | **Process** | 2 | Correct folder, `LEARNED.md` filled in own words, committed and pushed the same day, clear commit message. |
+| 4 | **Process** | 2 | Correct folder, `learn/NOTES.md` filled in own words, committed and pushed the same day, clear commit message. |
 
 **Pass mark: 6/10.** Below 6 the day is marked 🔁 REDO and repeated on day 6 or 7.
 
@@ -32,7 +32,7 @@ Every assignment is scored **out of 10** by the teacher in an `ASSESSMENT.md` fi
 
 AI is a tool you will use for the rest of your career. Hiding that you used it is the problem, not using it.
 
-Every `LEARNED.md` has this line, and it is **mandatory**:
+Every day's `learn/NOTES.md` has this line, and it is **mandatory**:
 
 ```
 **AI used?** yes / no — what for:
@@ -53,7 +53,7 @@ Not by guessing. By these:
 1. **The viva.** Any line, picked at random: *"what does this do, and what breaks if I delete it?"* AI-written code you did not write cannot survive two follow-up questions.
 2. **Skill jump.** Code that uses `grid-template-areas` and CSS custom properties the day after you struggled with `margin` is a flag, not proof — it just triggers a longer viva.
 3. **Commit shape.** Real work is built in several commits with mistakes in between. One giant perfect commit at 11:55 PM is a flag.
-4. **`LEARNED.md` mismatch.** The "what I struggled with" section describing struggles the code shows no trace of.
+4. **`learn/NOTES.md` mismatch.** The "what I struggled with" section describing struggles the code shows no trace of.
 
 None of these alone is an accusation. All of them lead to the same place: **explain your code out loud.** That is the real test, every time.
 
@@ -74,7 +74,7 @@ This is where the 3 "Understanding" points are won or lost. It is also exactly w
 
 ## Test material
 
-Every day on every week page has a **Test material** block: 3–5 questions plus a "prove it" task. Those questions are the pool the viva is drawn from. They are published in advance on purpose — there are no trick questions here, only questions you either did or did not do the reading for.
+Every day's `assignment/README.md` ends with a **"The teacher will ask you"** block: 3–5 questions plus a "prove it" task. Those questions are the pool the viva is drawn from. They are published in advance on purpose — there are no trick questions here, only questions you either did or did not do the reading for.
 
 ---
 
@@ -82,7 +82,7 @@ Every day on every week page has a **Test material** block: 3–5 questions plus
 
 - **Week score** = average of the 5 day scores, shown in [SCOREBOARD.md](SCOREBOARD.md).
 - Week average below 6 → the week repeats.
-- **Phase exams** are scored out of 10 with the same rubric but are pass/fail gates: **7/10 minimum** to enter the next phase. Exam work goes in `weeks/week-NN/exam/` with an `EXAM.md` instead of `LEARNED.md`.
+- **Phase exams** are scored out of 10 with the same rubric but are pass/fail gates: **7/10 minimum** to enter the next phase. Exam work goes in `weeks/week-NN/exam/` with an `EXAM.md` instead of the usual day files.
 
 ---
 

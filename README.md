@@ -23,14 +23,20 @@ _(Last completed: [Week 01 · Day 1 — Business card](weeks/week-01/day-1/) —
 | Know how I am marked, and the AI rule | [📏 GRADING.md](GRADING.md) |
 | See every score so far | [🏆 SCOREBOARD.md](SCOREBOARD.md) |
 | Read deeper — state, auth, sessions, guards, APIs, security | [📚 RESOURCES.md](RESOURCES.md) |
-| Copy the daily files | [📁 `_template/`](_template/) |
+| The teacher's marking template | [📁 `_template/`](_template/) |
 
-**Every single day has its own page.** It contains the assignment, the reading, the checklist, the test questions, the submit commands and the AI rule — all in one screen. You never need to hunt through a long week page to find today's work.
+**Every day is its own small folder.** One brief, one `learn/` folder, one `assignment/` folder. Nothing is longer than a screen, and the assignment page tells you the exact filenames to hand in.
 
 ```
-weeks/week-01/day-2/README.md   ← today's assignment, in full
-                    LEARNED.md  ← you write this
-                    ASSESSMENT.md ← teacher writes this, your score /10
+weeks/week-01/day-2/
+├── README.md            ← the brief: today's job, in one screen
+├── learn/               ← 1 hour: what to read
+│   ├── README.md          the links
+│   └── NOTES.md           ← YOU fill this in
+├── assignment/          ← 2 hours: what to build
+│   ├── README.md          the task + the exact files to hand in + the mark sheet
+│   └── (your code)        ← YOUR WORK GOES HERE
+└── ASSESSMENT.md        ← TEACHER fills this in — your score /10
 ```
 
 ---
