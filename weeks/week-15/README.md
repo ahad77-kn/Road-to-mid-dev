@@ -31,17 +31,22 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Effect drills — including three effects that should not exist | [`day-1/`](day-1/) | – |
-| D2 | Fetching with loading, error & empty states | [`day-2/`](day-2/) | – |
-| D3 | Race conditions, cleanup & abort | [`day-3/`](day-3/) | – |
-| D4 | Extract a `useFetch` custom hook | [`day-4/`](day-4/) | – |
-| D5 | Movie search rebuilt in React with your hooks | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | Effect drills — including three effects that should not exist | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Fetching with loading, error & empty states | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Race conditions, cleanup & abort | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Extract a `useFetch` custom hook | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Movie search rebuilt in React with your hooks | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — Effect drills
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** react.dev *Synchronizing with effects* + *You might not need an effect*.
 
@@ -78,6 +83,11 @@ Effects that are **wrong** — write the bad version, screenshot the problem, th
 
 ## Day 2 — Fetching properly
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** react.dev *Lifecycle of reactive effects* + *Separating events from effects*.
 
 **Build (2 hr):** A user browser against [jsonplaceholder](https://jsonplaceholder.typicode.com/) or [randomuser.me](https://randomuser.me/).
@@ -103,6 +113,11 @@ Effects that are **wrong** — write the bad version, screenshot the problem, th
 
 ## Day 3 — Race conditions & cleanup
 
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
+
 **Read first (1 hr):** react.dev *Removing effect dependencies*.
 
 **Build (2 hr):** A search-as-you-type against an API — the classic race-condition trap.
@@ -125,6 +140,11 @@ Effects that are **wrong** — write the bad version, screenshot the problem, th
 ---
 
 ## Day 4 — `useFetch`
+
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
 
 **Read first (1 hr):** react.dev *Reusing logic with custom hooks*.
 
@@ -150,6 +170,11 @@ Effects that are **wrong** — write the bad version, screenshot the problem, th
 ---
 
 ## Day 5 — Movie search, React edition
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** react.dev *`useRef`* + *Manipulating the DOM with refs*.
 

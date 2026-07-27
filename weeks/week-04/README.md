@@ -35,17 +35,22 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Variables, types & 5 tiny programs | [`day-1/`](day-1/) | – |
-| D2 | Conditionals — 6 decision programs | [`day-2/`](day-2/) | – |
-| D3 | Loop drills — sums, reversals, FizzBuzz, patterns | [`day-3/`](day-3/) | – |
-| D4 | Functions — parameters, returns, scope | [`day-4/`](day-4/) | – |
-| D5 | Refactor everything from D1–D3 into functions | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | Variables, types & 5 tiny programs | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Conditionals — 6 decision programs | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Loop drills — sums, reversals, FizzBuzz, patterns | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Functions — parameters, returns, scope | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Refactor everything from D1–D3 into functions | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — Variables, types, operators
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** JS.info ch. 2.1–2.8.
 
@@ -74,6 +79,11 @@
 
 ## Day 2 — Conditionals
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** JS.info ch. 2.9–2.13.
 
 **Build (2 hr):** Six programs in `day-2/`:
@@ -101,6 +111,11 @@
 ---
 
 ## Day 3 — Loops
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** JS.info ch. 2.14–2.15.
 
@@ -134,6 +149,11 @@
 
 ## Day 4 — Functions
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** JS.info ch. 2.16–2.18.
 
 **Build (2 hr):** In `day-4/functions.js`, write and test at least 10 functions:
@@ -157,6 +177,11 @@
 ---
 
 ## Day 5 — Refactor everything into functions
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** MDN *JS first steps* — go back over whatever was shakiest this week.
 

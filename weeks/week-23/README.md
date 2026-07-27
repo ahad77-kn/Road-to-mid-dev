@@ -27,19 +27,24 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Frontend skeleton — routing, layout, auth pages | [`day-1/`](day-1/) | – |
-| D2 | Main feature, vertical slice #1 | [`day-2/`](day-2/) | – |
-| D3 | Vertical slices #2 and #3 | [`day-3/`](day-3/) | – |
-| D4 | Remaining Must-haves + all edge states | [`day-4/`](day-4/) | – |
-| D5 | Full end-to-end pass; fix everything found | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | Frontend skeleton — routing, layout, auth pages | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Main feature, vertical slice #1 | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Vertical slices #2 and #3 | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Remaining Must-haves + all edge states | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Full end-to-end pass; fix everything found | [📄 day-5 →](day-5/) | – |
 
 > Log progress daily in `day-N/progress.md`: what shipped, what broke, what is next. That log becomes your demo script in Week 24.
 
 ---
 
 ## Day 1 — Skeleton & auth
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Build (3 hr):**
 
@@ -63,6 +68,11 @@
 
 ## Day 2 — First vertical slice
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Build (3 hr):** One complete feature — your app's single most important action.
 
 **Must have**
@@ -85,6 +95,11 @@
 
 ## Day 3 — Slices two and three
 
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
+
 **Build (3 hr):** The next two Must-have features, to the same standard.
 
 **Must have**
@@ -103,6 +118,11 @@
 ---
 
 ## Day 4 — Finish the Musts, handle the edges
+
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
 
 **Read first (1 hr):** web.dev *Learn Forms*.
 
@@ -126,6 +146,11 @@
 ---
 
 ## Day 5 — The full pass
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** MDN full-stack debugging + Express security best practices.
 

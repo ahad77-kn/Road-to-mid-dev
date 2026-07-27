@@ -6,77 +6,89 @@
 **Length:** Week 00 (foundations) + 24 weeks · 5 study days per week · 3 hrs/day (1 hr learning + 2 hr assignment)
 **Track:** Computer basics → HTML/CSS → JavaScript → Git → React → Node/Express → MongoDB → Auth → Capstone
 
-> This README is the **road**. Click a week → you land on that week's page → each week has 5 days → each day has its learning material, its assignment, its test material, and a link to the folder where the work lives.
+> This README is the **road**. Click a week → click a day → you get that day's full assignment page: what to read, what to build, the checklist it is marked against, and the questions you will be asked about it.
 
 ---
 
-## 📖 How to read this repo
+## 👉 Start here
 
-| You want to… | Go to |
+### ⬜ Next up: **[Week 01 · Day 2 — Pricing card →](weeks/week-01/day-2/)**
+
+_(Last completed: [Week 01 · Day 1 — Business card](weeks/week-01/day-1/) — **6/10** ✅)_
+
+| I want to… | Go to |
 | --- | --- |
-| See the whole path and pick a week | [The Road](#-the-road) below |
-| Know exactly what to do today | the week page → the day section |
-| Know how you are marked | [GRADING.md](GRADING.md) |
-| See every score so far | [SCOREBOARD.md](SCOREBOARD.md) |
-| Read beyond the assignment (state, auth, sessions, guards, APIs…) | [RESOURCES.md](RESOURCES.md) |
-| Copy the daily files | [`_template/`](_template/) |
+| **Know exactly what to do today** | **[📅 DAYS.md — all 125 assignments, clickable](DAYS.md)** |
+| Pick a week and see its plan | [🧭 The Road](#-the-road) below |
+| Know how I am marked, and the AI rule | [📏 GRADING.md](GRADING.md) |
+| See every score so far | [🏆 SCOREBOARD.md](SCOREBOARD.md) |
+| Read deeper — state, auth, sessions, guards, APIs, security | [📚 RESOURCES.md](RESOURCES.md) |
+| Copy the daily files | [📁 `_template/`](_template/) |
+
+**Every single day has its own page.** It contains the assignment, the reading, the checklist, the test questions, the submit commands and the AI rule — all in one screen. You never need to hunt through a long week page to find today's work.
+
+```
+weeks/week-01/day-2/README.md   ← today's assignment, in full
+                    LEARNED.md  ← you write this
+                    ASSESSMENT.md ← teacher writes this, your score /10
+```
 
 ---
 
 ## 🧭 The Road
 
 ### Phase 0 · Foundations
-| Week | Topic | Days | Status |
+| Week | Topic | Days (click to open the assignment) | Status |
 | --- | --- | --- | --- |
-| [Week 00](weeks/week-00/) | How computers, the internet & the web actually work | 5 | ⬜ |
+| [Week 00](weeks/week-00/) | How computers, the internet & the web actually work | [1](weeks/week-00/day-1/) · [2](weeks/week-00/day-2/) · [3](weeks/week-00/day-3/) · [4](weeks/week-00/day-4/) · [5](weeks/week-00/day-5/) | ⬜ |
 
 ### Phase 1 · CSS Mastery
-| Week | Topic | Days | Status |
+| Week | Topic | Days (click to open the assignment) | Status |
 | --- | --- | --- | --- |
-| [Week 01](weeks/week-01/) | CSS fundamentals, selectors & the box model | 5 | 🟨 in progress |
-| [Week 02](weeks/week-02/) | Flexbox & Grid | 5 | ⬜ |
-| [Week 03](weeks/week-03/) | Responsive design & polish → **Phase 1 exam** | 5 | ⬜ |
+| [Week 01](weeks/week-01/) | CSS fundamentals, selectors & the box model | [1](weeks/week-01/day-1/) · [2](weeks/week-01/day-2/) · [3](weeks/week-01/day-3/) · [4](weeks/week-01/day-4/) · [5](weeks/week-01/day-5/) | 🟨 in progress |
+| [Week 02](weeks/week-02/) | Flexbox & Grid | [1](weeks/week-02/day-1/) · [2](weeks/week-02/day-2/) · [3](weeks/week-02/day-3/) · [4](weeks/week-02/day-4/) · [5](weeks/week-02/day-5/) | ⬜ |
+| [Week 03](weeks/week-03/) | Responsive design & polish → **Phase 1 exam** | [1](weeks/week-03/day-1/) · [2](weeks/week-03/day-2/) · [3](weeks/week-03/day-3/) · [4](weeks/week-03/day-4/) · [5](weeks/week-03/day-5/) | ⬜ |
 
 ### Phase 2 · JavaScript, Seriously
-| Week | Topic | Days | Status |
+| Week | Topic | Days (click to open the assignment) | Status |
 | --- | --- | --- | --- |
-| [Week 04](weeks/week-04/) | Language fundamentals — types, conditions, loops, functions | 5 | ⬜ |
-| [Week 05](weeks/week-05/) | Arrays & objects, `map`/`filter`/`reduce` | 5 | ⬜ |
-| [Week 06](weeks/week-06/) | The DOM — selecting and changing the page | 5 | ⬜ |
-| [Week 07](weeks/week-07/) | Events, forms & real interactive apps | 5 | ⬜ |
-| [Week 08](weeks/week-08/) | Modern JS (ES6+), promises & `async/await` | 5 | ⬜ |
-| [Week 09](weeks/week-09/) | Fetching real APIs → **Phase 2 exam** | 5 | ⬜ |
+| [Week 04](weeks/week-04/) | Language fundamentals — types, conditions, loops, functions | [1](weeks/week-04/day-1/) · [2](weeks/week-04/day-2/) · [3](weeks/week-04/day-3/) · [4](weeks/week-04/day-4/) · [5](weeks/week-04/day-5/) | ⬜ |
+| [Week 05](weeks/week-05/) | Arrays & objects, `map`/`filter`/`reduce` | [1](weeks/week-05/day-1/) · [2](weeks/week-05/day-2/) · [3](weeks/week-05/day-3/) · [4](weeks/week-05/day-4/) · [5](weeks/week-05/day-5/) | ⬜ |
+| [Week 06](weeks/week-06/) | The DOM — selecting and changing the page | [1](weeks/week-06/day-1/) · [2](weeks/week-06/day-2/) · [3](weeks/week-06/day-3/) · [4](weeks/week-06/day-4/) · [5](weeks/week-06/day-5/) | ⬜ |
+| [Week 07](weeks/week-07/) | Events, forms & real interactive apps | [1](weeks/week-07/day-1/) · [2](weeks/week-07/day-2/) · [3](weeks/week-07/day-3/) · [4](weeks/week-07/day-4/) · [5](weeks/week-07/day-5/) | ⬜ |
+| [Week 08](weeks/week-08/) | Modern JS (ES6+), promises & `async/await` | [1](weeks/week-08/day-1/) · [2](weeks/week-08/day-2/) · [3](weeks/week-08/day-3/) · [4](weeks/week-08/day-4/) · [5](weeks/week-08/day-5/) | ⬜ |
+| [Week 09](weeks/week-09/) | Fetching real APIs → **Phase 2 exam** | [1](weeks/week-09/day-1/) · [2](weeks/week-09/day-2/) · [3](weeks/week-09/day-3/) · [4](weeks/week-09/day-4/) · [5](weeks/week-09/day-5/) | ⬜ |
 
 ### Phase 3 · Professional Tooling
-| Week | Topic | Days | Status |
+| Week | Topic | Days (click to open the assignment) | Status |
 | --- | --- | --- | --- |
-| [Week 10](weeks/week-10/) | Git & GitHub properly — branches, PRs, deploys | 5 | ⬜ |
-| [Week 11](weeks/week-11/) | npm, DevTools & debugging → **Phase 3 exam** | 5 | ⬜ |
+| [Week 10](weeks/week-10/) | Git & GitHub properly — branches, PRs, deploys | [1](weeks/week-10/day-1/) · [2](weeks/week-10/day-2/) · [3](weeks/week-10/day-3/) · [4](weeks/week-10/day-4/) · [5](weeks/week-10/day-5/) | ⬜ |
+| [Week 11](weeks/week-11/) | npm, DevTools & debugging → **Phase 3 exam** | [1](weeks/week-11/day-1/) · [2](weeks/week-11/day-2/) · [3](weeks/week-11/day-3/) · [4](weeks/week-11/day-4/) · [5](weeks/week-11/day-5/) | ⬜ |
 
 ### Phase 4 · React
-| Week | Topic | Days | Status |
+| Week | Topic | Days (click to open the assignment) | Status |
 | --- | --- | --- | --- |
-| [Week 12](weeks/week-12/) | React basics — components, JSX, props, state | 5 | ⬜ |
-| [Week 13](weeks/week-13/) | Lists, keys, conditional rendering & controlled forms | 5 | ⬜ |
-| [Week 14](weeks/week-14/) | State design — lifting state, `useReducer` | 5 | ⬜ |
-| [Week 15](weeks/week-15/) | `useEffect`, data fetching & custom hooks | 5 | ⬜ |
-| [Week 16](weeks/week-16/) | React Router & Context (shared state) | 5 | ⬜ |
-| [Week 17](weeks/week-17/) | Phase project — e-commerce front → **Phase 4 exam** | 5 | ⬜ |
+| [Week 12](weeks/week-12/) | React basics — components, JSX, props, state | [1](weeks/week-12/day-1/) · [2](weeks/week-12/day-2/) · [3](weeks/week-12/day-3/) · [4](weeks/week-12/day-4/) · [5](weeks/week-12/day-5/) | ⬜ |
+| [Week 13](weeks/week-13/) | Lists, keys, conditional rendering & controlled forms | [1](weeks/week-13/day-1/) · [2](weeks/week-13/day-2/) · [3](weeks/week-13/day-3/) · [4](weeks/week-13/day-4/) · [5](weeks/week-13/day-5/) | ⬜ |
+| [Week 14](weeks/week-14/) | State design — lifting state, `useReducer` | [1](weeks/week-14/day-1/) · [2](weeks/week-14/day-2/) · [3](weeks/week-14/day-3/) · [4](weeks/week-14/day-4/) · [5](weeks/week-14/day-5/) | ⬜ |
+| [Week 15](weeks/week-15/) | `useEffect`, data fetching & custom hooks | [1](weeks/week-15/day-1/) · [2](weeks/week-15/day-2/) · [3](weeks/week-15/day-3/) · [4](weeks/week-15/day-4/) · [5](weeks/week-15/day-5/) | ⬜ |
+| [Week 16](weeks/week-16/) | React Router & Context (shared state) | [1](weeks/week-16/day-1/) · [2](weeks/week-16/day-2/) · [3](weeks/week-16/day-3/) · [4](weeks/week-16/day-4/) · [5](weeks/week-16/day-5/) | ⬜ |
+| [Week 17](weeks/week-17/) | Phase project — e-commerce front → **Phase 4 exam** | [1](weeks/week-17/day-1/) · [2](weeks/week-17/day-2/) · [3](weeks/week-17/day-3/) · [4](weeks/week-17/day-4/) · [5](weeks/week-17/day-5/) | ⬜ |
 
 ### Phase 5 · Backend
-| Week | Topic | Days | Status |
+| Week | Topic | Days (click to open the assignment) | Status |
 | --- | --- | --- | --- |
-| [Week 18](weeks/week-18/) | Node.js & Express — building the API | 5 | ⬜ |
-| [Week 19](weeks/week-19/) | Middleware, error handling & full-stack wiring | 5 | ⬜ |
-| [Week 20](weeks/week-20/) | MongoDB & Mongoose | 5 | ⬜ |
-| [Week 21](weeks/week-21/) | Auth — hashing, JWT, sessions, route guards → **Phase 5 exam** | 5 | ⬜ |
+| [Week 18](weeks/week-18/) | Node.js & Express — building the API | [1](weeks/week-18/day-1/) · [2](weeks/week-18/day-2/) · [3](weeks/week-18/day-3/) · [4](weeks/week-18/day-4/) · [5](weeks/week-18/day-5/) | ⬜ |
+| [Week 19](weeks/week-19/) | Middleware, error handling & full-stack wiring | [1](weeks/week-19/day-1/) · [2](weeks/week-19/day-2/) · [3](weeks/week-19/day-3/) · [4](weeks/week-19/day-4/) · [5](weeks/week-19/day-5/) | ⬜ |
+| [Week 20](weeks/week-20/) | MongoDB & Mongoose | [1](weeks/week-20/day-1/) · [2](weeks/week-20/day-2/) · [3](weeks/week-20/day-3/) · [4](weeks/week-20/day-4/) · [5](weeks/week-20/day-5/) | ⬜ |
+| [Week 21](weeks/week-21/) | Auth — hashing, JWT, sessions, route guards → **Phase 5 exam** | [1](weeks/week-21/day-1/) · [2](weeks/week-21/day-2/) · [3](weeks/week-21/day-3/) · [4](weeks/week-21/day-4/) · [5](weeks/week-21/day-5/) | ⬜ |
 
 ### Phase 6 · Capstone
-| Week | Topic | Days | Status |
+| Week | Topic | Days (click to open the assignment) | Status |
 | --- | --- | --- | --- |
-| [Week 22](weeks/week-22/) | Plan the app & build the API | 5 | ⬜ |
-| [Week 23](weeks/week-23/) | Build the frontend, connect everything | 5 | ⬜ |
-| [Week 24](weeks/week-24/) | Polish, deploy, demo → **Final exam** | 5 | ⬜ |
+| [Week 22](weeks/week-22/) | Plan the app & build the API | [1](weeks/week-22/day-1/) · [2](weeks/week-22/day-2/) · [3](weeks/week-22/day-3/) · [4](weeks/week-22/day-4/) · [5](weeks/week-22/day-5/) | ⬜ |
+| [Week 23](weeks/week-23/) | Build the frontend, connect everything | [1](weeks/week-23/day-1/) · [2](weeks/week-23/day-2/) · [3](weeks/week-23/day-3/) · [4](weeks/week-23/day-4/) · [5](weeks/week-23/day-5/) | ⬜ |
+| [Week 24](weeks/week-24/) | Polish, deploy, demo → **Final exam** | [1](weeks/week-24/day-1/) · [2](weeks/week-24/day-2/) · [3](weeks/week-24/day-3/) · [4](weeks/week-24/day-4/) · [5](weeks/week-24/day-5/) | ⬜ |
 
 Legend: ⬜ not started · 🟨 in progress · ✅ passed · 🔁 repeating
 

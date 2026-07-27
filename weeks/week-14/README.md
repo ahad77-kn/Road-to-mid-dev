@@ -34,17 +34,22 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Design the expense tracker on paper, then build the form | [`day-1/`](day-1/) | – |
-| D2 | List, total & lifted state | [`day-2/`](day-2/) | – |
-| D3 | Filters, sorting & derived values | [`day-3/`](day-3/) | – |
-| D4 | Refactor the whole thing to `useReducer` | [`day-4/`](day-4/) | – |
-| D5 | Charts, edit mode & polish | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | Design the expense tracker on paper, then build the form | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | List, total & lifted state | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Filters, sorting & derived values | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Refactor the whole thing to `useReducer` | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Charts, edit mode & polish | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — Design first, then the form
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** react.dev *Choosing the state structure*.
 
@@ -77,6 +82,11 @@ Then build the add-expense form: description, amount, category (select), date, a
 
 ## Day 2 — List, total, lifted state
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** react.dev *Sharing state between components* + *Thinking in React*.
 
 **Build (2 hr):** Add the list, the total, and per-category summaries.
@@ -99,6 +109,11 @@ Then build the add-expense form: description, amount, category (select), date, a
 ---
 
 ## Day 3 — Filters, sorting, search
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** react.dev *Extracting state logic into a reducer* (read it today, apply it tomorrow).
 
@@ -124,6 +139,11 @@ Then build the add-expense form: description, amount, category (select), date, a
 
 ## Day 4 — `useReducer`
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** react.dev *`useReducer` reference* + *`useState` vs `useReducer`*.
 
 **Build (2 hr):** Refactor everything to a reducer. **No new features today** — a pure refactor, which is a skill in itself.
@@ -147,6 +167,11 @@ Then build the add-expense form: description, amount, category (select), date, a
 ---
 
 ## Day 5 — Polish
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** react.dev *Preserving and resetting state* + *`useMemo`*.
 

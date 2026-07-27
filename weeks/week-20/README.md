@@ -33,17 +33,22 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Atlas setup, concepts & first documents | [`day-1/`](day-1/) | – |
-| D2 | 30 queries in `mongosh` — the raw database | [`day-2/`](day-2/) | – |
-| D3 | Mongoose schemas, models & validation | [`day-3/`](day-3/) | – |
-| D4 | Rebuild the to-do API on MongoDB | [`day-4/`](day-4/) | – |
-| D5 | Relations, `populate`, indexes & aggregation | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | Atlas setup, concepts & first documents | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | 30 queries in `mongosh` — the raw database | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Mongoose schemas, models & validation | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Rebuild the to-do API on MongoDB | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Relations, `populate`, indexes & aggregation | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — Concepts & setup
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** MongoDB manual intro + Atlas getting started + *Documents*.
 
@@ -69,6 +74,11 @@
 
 ## Day 2 — The raw database
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** MongoDB *CRUD* + *Query operators*.
 
 **Build (2 hr):** 30 queries in `mongosh`, against a seeded dataset of 100+ documents. Save every query with its result in `day-2/queries.md`. **No Mongoose today** — knowing the layer underneath is what stops Mongoose being magic.
@@ -91,6 +101,11 @@ Cover: `insertOne`/`insertMany` · `find` with projection · `$gt`/`$lt`/`$gte`/
 ---
 
 ## Day 3 — Mongoose
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** Mongoose *Schemas*, *SchemaTypes*, *Validation*.
 
@@ -118,6 +133,11 @@ Cover: `insertOne`/`insertMany` · `find` with projection · `$gt`/`$lt`/`$gte`/
 
 ## Day 4 — The to-do API, on a real database
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** Mongoose *Queries* + *Middleware*.
 
 **Build (2 hr):** Replace the in-memory array in your Week 19 API with MongoDB. **The API contract must not change** — the same endpoints, the same responses. Your React frontend must work untouched.
@@ -143,6 +163,11 @@ Cover: `insertOne`/`insertMany` · `find` with projection · `$gt`/`$lt`/`$gte`/
 ---
 
 ## Day 5 — Relations, indexes & aggregation
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** MongoDB *Data modelling*, *Embed vs reference*, *Indexes* + Mongoose *populate*.
 

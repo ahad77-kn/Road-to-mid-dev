@@ -29,17 +29,22 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | ES6 refactor of the quiz + to-do apps | [`day-1/`](day-1/) | – |
-| D2 | Split everything into ES modules | [`day-2/`](day-2/) | – |
-| D3 | Promise drills — write them by hand before using any | [`day-3/`](day-3/) | – |
-| D4 | `async`/`await` + first real `fetch` | [`day-4/`](day-4/) | – |
-| D5 | Random-user cards — loading, error, load more | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | ES6 refactor of the quiz + to-do apps | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Split everything into ES modules | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Promise drills — write them by hand before using any | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | `async`/`await` + first real `fetch` | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Random-user cards — loading, error, load more | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — ES6 refactor
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** JS.info *Destructuring*, *Rest & spread*, *Optional chaining*.
 
@@ -64,6 +69,11 @@
 ---
 
 ## Day 2 — Modules
+
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
 
 **Read first (1 hr):** JS.info *Modules* + MDN *JS modules*.
 
@@ -99,6 +109,11 @@ day-2/todo/
 
 ## Day 3 — Promises, by hand
 
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
+
 **Read first (1 hr):** JS.info *Callbacks*, *Promise basics*, *Chaining*. **Then watch the event-loop video.**
 
 **Build (2 hr):** In `day-3/`, write promise drills from scratch. **No `fetch` today** — fake the delays with `setTimeout`. Understanding the machine before using it is the whole point.
@@ -131,6 +146,11 @@ day-2/todo/
 
 ## Day 4 — `async`/`await` and your first real request
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** JS.info *async/await* + *Error handling with promises*.
 
 **Build (2 hr):** Convert every promise drill to `async`/`await`, then make your first real network call.
@@ -153,6 +173,11 @@ day-2/todo/
 ---
 
 ## Day 5 — Random-user cards
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** MDN *Using Fetch* + *HTTP status codes*.
 

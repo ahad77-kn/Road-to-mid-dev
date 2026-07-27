@@ -37,17 +37,22 @@ cd my-app && npm install && npm run dev
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Vite setup + JSX drills | [`day-1/`](day-1/) | – |
-| D2 | Split a page into components | [`day-2/`](day-2/) | – |
-| D3 | Profile card reused 5× with different props | [`day-3/`](day-3/) | – |
-| D4 | Counter in React — `useState` and events | [`day-4/`](day-4/) | – |
-| D5 | FAQ accordion — conditional rendering | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | Vite setup + JSX drills | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Split a page into components | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Profile card reused 5× with different props | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Counter in React — `useState` and events | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | FAQ accordion — conditional rendering | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — Setup & JSX
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** Vite guide + react.dev *Quick start*.
 
@@ -71,6 +76,11 @@ cd my-app && npm install && npm run dev
 
 ## Day 2 — Components
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** react.dev *Your first component*, *Importing and exporting*, *Writing markup with JSX*.
 
 **Build (2 hr):** Rebuild your Week 3 portfolio page as React components in `day-2/`.
@@ -93,6 +103,11 @@ cd my-app && npm install && npm run dev
 ---
 
 ## Day 3 — Props
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** react.dev *Passing props* + *JavaScript in JSX*.
 
@@ -120,6 +135,11 @@ cd my-app && npm install && npm run dev
 
 ## Day 4 — State & events
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** react.dev *Responding to events* + *State: a component's memory*.
 
 **Build (2 hr):** The Week 6 counter, in React — then compare the two.
@@ -143,6 +163,11 @@ cd my-app && npm install && npm run dev
 ---
 
 ## Day 5 — FAQ accordion
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** react.dev *Render and commit*, *State as a snapshot*, *Conditional rendering*.
 

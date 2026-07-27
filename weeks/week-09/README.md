@@ -29,18 +29,23 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Movie search — list results from OMDb | [`day-1/`](day-1/) | – |
-| D2 | Movie detail view + shareable URLs | [`day-2/`](day-2/) | – |
-| D3 | Debounce, abort, cache, pagination | [`day-3/`](day-3/) | – |
-| D4 | Phase project part 1 — build it | [`day-4/`](day-4/) | – |
-| D5 | Phase project part 2 — finish, harden, deploy | [`day-5/`](day-5/) | – |
-| — | **Phase 2 exam** (two parts) | [`exam/`](exam/) | – |
+| [**D1**](day-1/) | Movie search — list results from OMDb | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Movie detail view + shareable URLs | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Debounce, abort, cache, pagination | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Phase project part 1 — build it | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Phase project part 2 — finish, harden, deploy | [📄 day-5 →](day-5/) | – |
+| — | **Phase 2 exam** (two parts) | [📄 exam →](exam/) | – |
 
 ---
 
 ## Day 1 — Movie search
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** MDN *Using Fetch* again + the [OMDb docs](https://www.omdbapi.com/) (free key, arrives by email in a minute).
 
@@ -65,6 +70,11 @@
 
 ## Day 2 — Detail view & real URLs
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** MDN *URLSearchParams* + *History API*.
 
 **Build (2 hr):** Click a movie → full detail view. Plot, cast, ratings, runtime, genre, awards.
@@ -87,6 +97,11 @@
 ---
 
 ## Day 3 — Make it feel professional
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** MDN *AbortController* + *Debounce*.
 
@@ -111,6 +126,11 @@
 
 ## Day 4 — Phase project, part 1
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** the docs of whichever API you choose.
 
 **Build (2 hr):** **Your choice, built alone**, no tutorial:
@@ -133,6 +153,11 @@
 ---
 
 ## Day 5 — Phase project, part 2
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** MDN *CORS* + OWASP *XSS prevention*.
 

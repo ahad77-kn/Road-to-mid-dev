@@ -30,18 +30,23 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Make the Week-2 landing/header fully responsive | [`day-1/`](day-1/) | – |
-| D2 | Responsive gallery with **zero** media queries | [`day-2/`](day-2/) | – |
-| D3 | Transitions, hover & motion — subtle, not circus | [`day-3/`](day-3/) | – |
-| D4 | Phase project part 1 — portfolio structure & content | [`day-4/`](day-4/) | – |
-| D5 | Phase project part 2 — responsive, accessible, clean | [`day-5/`](day-5/) | – |
-| — | **Phase 1 exam** (3 hrs, closed notes) | [`exam/`](exam/) | – |
+| [**D1**](day-1/) | Make the Week-2 landing/header fully responsive | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Responsive gallery with **zero** media queries | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Transitions, hover & motion — subtle, not circus | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Phase project part 1 — portfolio structure & content | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Phase project part 2 — responsive, accessible, clean | [📄 day-5 →](day-5/) | – |
+| — | **Phase 1 exam** (3 hrs, closed notes) | [📄 exam →](exam/) | – |
 
 ---
 
 ## Day 1 — Make it survive a phone
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** web.dev *Learn Responsive Design*, ch. 1–5.
 
@@ -68,6 +73,11 @@ Take the YouTube skeleton and news header from Week 2 into `day-1/` and make the
 
 ## Day 2 — Responsive with no media queries
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** MDN *Responsive design* + *Media queries*.
 
 **Build (2 hr):**
@@ -90,6 +100,11 @@ The Week-2 card gallery: 1 column on a phone, 2 on a tablet, 3+ on desktop — a
 ---
 
 ## Day 3 — Motion, done with restraint
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** MDN *Using CSS transitions* + web.dev *Animations*.
 
@@ -116,6 +131,11 @@ Add interaction feedback to every interactive element in the landing page. **Sub
 
 ## Day 4 — Phase project, part 1: build the portfolio
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** MDN *Responsive images* + web.dev *Accessibility basics*.
 
 **Build (2 hr):**
@@ -139,6 +159,11 @@ Start your real portfolio site — this is the Phase 1 deliverable and the first
 ---
 
 ## Day 5 — Phase project, part 2: make it real
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** MDN *Organizing your CSS* + BEM.
 

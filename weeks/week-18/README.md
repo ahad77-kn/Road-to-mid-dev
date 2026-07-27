@@ -31,17 +31,22 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Node basics — modules, fs, a CLI tool | [`day-1/`](day-1/) | – |
-| D2 | Raw `http` server, then the same in Express | [`day-2/`](day-2/) | – |
-| D3 | REST route design — the to-do API contract | [`day-3/`](day-3/) | – |
-| D4 | Full CRUD to-do API (in-memory) | [`day-4/`](day-4/) | – |
-| D5 | Test everything with Postman + curl; status codes | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | Node basics — modules, fs, a CLI tool | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Raw `http` server, then the same in Express | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | REST route design — the to-do API contract | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Full CRUD to-do API (in-memory) | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Test everything with Postman + curl; status codes | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — Node without a browser
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** Node *Introduction* + *Differences between Node and the browser*.
 
@@ -66,6 +71,11 @@
 
 ## Day 2 — From raw `http` to Express
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** Node *Anatomy of an HTTP transaction* + Express *Getting started*.
 
 **Build (2 hr):** Write the same tiny server twice.
@@ -88,6 +98,11 @@
 ---
 
 ## Day 3 — Designing the contract
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** Express *Routing* + MDN *HTTP methods* + restfulapi.net.
 
@@ -121,6 +136,11 @@
 
 ## Day 4 — Full CRUD
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** MDN *Express tutorial — routes*.
 
 **Build (2 hr):** Implement the API for real. Data in an in-memory array (the database arrives in Week 20).
@@ -145,6 +165,11 @@
 ---
 
 ## Day 5 — Test it like a client would
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** MDN *status codes* + Postman docs.
 

@@ -29,17 +29,22 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Draw the request/response journey | [`day-1/`](day-1/) | – |
-| D2 | HTTP hunting in DevTools | [`day-2/`](day-2/) | – |
-| D3 | Terminal drills — build a folder tree with no mouse | [`day-3/`](day-3/) | – |
-| D4 | Take a page apart in DevTools | [`day-4/`](day-4/) | – |
-| D5 | Git from zero — 10 commits, 1 branch, 1 revert | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | Draw the request/response journey | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | HTTP hunting in DevTools | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Terminal drills — build a folder tree with no mouse | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Take a page apart in DevTools | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Git from zero — 10 commits, 1 branch, 1 revert | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — The journey of a request
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** MDN *How does the internet work* + *What is a web server*.
 
@@ -65,6 +70,11 @@ Then draw the same thing by hand on paper, photograph it, and save it as `day-1/
 
 ## Day 2 — HTTP, seen with your own eyes
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** MDN *Overview of HTTP*, *HTTP methods*, *Status codes*.
 
 **Build (2 hr):**
@@ -86,6 +96,11 @@ Open Chrome DevTools → **Network** tab. Visit three different websites and stu
 ---
 
 ## Day 3 — The terminal, no mouse allowed
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** MDN *Command line crash course* + *Dealing with files*.
 
@@ -123,6 +138,11 @@ Record **every command you used, in order**, into `day-3/commands.md` with a one
 
 ## Day 4 — Take a real page apart
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** web.dev *How browsers work* + [Chrome DevTools docs](https://developer.chrome.com/docs/devtools) (Elements + Console tabs).
 
 **Build (2 hr):**
@@ -143,6 +163,11 @@ Pick any real Pakistani news site (Dawn, Geo) and, using DevTools only, produce 
 ---
 
 ## Day 5 — Git, properly, from zero
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** Pro Git ch. 1–2 + GitHub *Hello World*.
 

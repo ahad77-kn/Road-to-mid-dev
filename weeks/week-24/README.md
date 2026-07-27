@@ -23,18 +23,23 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Polish, performance & accessibility | [`day-1/`](day-1/) | – |
-| D2 | Documentation & README with screenshots | [`day-2/`](day-2/) | – |
-| D3 | Deploy the API + database to production | [`day-3/`](day-3/) | – |
-| D4 | Deploy the frontend; full production test | [`day-4/`](day-4/) | – |
-| D5 | Demo preparation & rehearsal | [`day-5/`](day-5/) | – |
-| — | **Final exam — demo & defence** | [`exam/`](exam/) | – |
+| [**D1**](day-1/) | Polish, performance & accessibility | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Documentation & README with screenshots | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Deploy the API + database to production | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Deploy the frontend; full production test | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Demo preparation & rehearsal | [📄 day-5 →](day-5/) | – |
+| — | **Final exam — demo & defence** | [📄 exam →](exam/) | – |
 
 ---
 
 ## Day 1 — Polish
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** web.dev *Core Web Vitals* + *Learn Accessibility*.
 
@@ -61,6 +66,11 @@
 
 ## Day 2 — Documentation
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** makeareadme.com + Awesome READMEs.
 
 **Build (2 hr):** The README is what people read instead of your code. It matters more than you think.
@@ -84,6 +94,11 @@
 ---
 
 ## Day 3 — Deploy the backend
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** Render deployment + Atlas production network access.
 
@@ -111,6 +126,11 @@
 
 ## Day 4 — Deploy the frontend
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** Vercel docs + Vite production build + 12-factor config.
 
 **Build (2 hr):** The whole thing, live.
@@ -134,6 +154,11 @@
 ---
 
 ## Day 5 — Prepare the defence
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** *How to demo software* + the STAR method.
 

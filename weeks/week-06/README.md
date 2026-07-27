@@ -31,17 +31,22 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | DOM playground — select, read, change 20 things | [`day-1/`](day-1/) | – |
-| D2 | Counter app | [`day-2/`](day-2/) | – |
-| D3 | Calculator part 1 — layout & display logic | [`day-3/`](day-3/) | – |
-| D4 | Calculator part 2 — full working calculator | [`day-4/`](day-4/) | – |
-| D5 | To-do list v1 | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | DOM playground — select, read, change 20 things | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Counter app | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Calculator part 1 — layout & display logic | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Calculator part 2 — full working calculator | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | To-do list v1 | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — DOM playground
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** JS.info *Document*, ch. 1–4.
 
@@ -78,6 +83,11 @@ Required operations include:
 
 ## Day 2 — Counter app
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** JS.info ch. 5–7 — node properties and modifying the document.
 
 **Build (2 hr):** A counter with +, −, reset. Styled properly (you have CSS skills — use them).
@@ -103,6 +113,11 @@ Required operations include:
 
 ## Day 3 — Calculator, part 1
 
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
+
 **Read first (1 hr):** MDN *Introduction to events* + JS.info *Browser events*.
 
 **Build (2 hr):** Build the calculator's **structure and display logic** — no arithmetic yet.
@@ -127,6 +142,11 @@ Required operations include:
 
 ## Day 4 — Calculator, part 2
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** JS.info *Bubbling and capturing* + *Event delegation*.
 
 **Build (2 hr):** Make it actually calculate.
@@ -150,6 +170,11 @@ Required operations include:
 ---
 
 ## Day 5 — To-do list v1
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** MDN *DOM manipulation guide*.
 

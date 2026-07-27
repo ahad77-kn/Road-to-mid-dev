@@ -30,17 +30,22 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Idea, user stories & scope cut | [`day-1/`](day-1/) | – |
-| D2 | Wireframes & user flows | [`day-2/`](day-2/) | – |
-| D3 | Database schema (teacher must approve before D4) | [`day-3/`](day-3/) | – |
-| D4 | API design doc + project setup | [`day-4/`](day-4/) | – |
-| D5 | Build the API core with auth | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | Idea, user stories & scope cut | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Wireframes & user flows | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Database schema (teacher must approve before D4) | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | API design doc + project setup | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Build the API core with auth | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — What are you building, and what are you not
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** *Writing user stories* + *MoSCoW*.
 
@@ -65,6 +70,11 @@
 
 ## Day 2 — Wireframes & flows
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** Excalidraw + *Laws of UX*.
 
 **Build (2 hr):** Design the screens before you build them.
@@ -87,6 +97,11 @@
 ---
 
 ## Day 3 — The schema ⚠️ teacher approval required
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** MongoDB *Data modelling* + *anti-patterns*.
 
@@ -113,6 +128,11 @@
 
 ## Day 4 — API design & setup
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** Google API design guide + OpenAPI basics.
 
 **Build (2 hr):** `day-4/API.md` plus the project skeleton.
@@ -136,6 +156,11 @@
 ---
 
 ## Day 5 — Build the API core
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** Conventional Commits + Keep a Changelog.
 

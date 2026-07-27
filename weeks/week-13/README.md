@@ -28,17 +28,22 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Lists & keys — including the index-key bug, proved | [`day-1/`](day-1/) | – |
-| D2 | Immutable state updates — arrays and objects | [`day-2/`](day-2/) | – |
-| D3 | To-do app in React | [`day-3/`](day-3/) | – |
-| D4 | Controlled forms — the signup form in React | [`day-4/`](day-4/) | – |
-| D5 | Quiz app in React | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | Lists & keys — including the index-key bug, proved | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Immutable state updates — arrays and objects | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | To-do app in React | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Controlled forms — the signup form in React | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Quiz app in React | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — Lists & keys
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** react.dev *Rendering lists* + *Keeping components pure*.
 
@@ -63,6 +68,11 @@
 
 ## Day 2 — Immutable updates
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** react.dev *Updating objects in state* + *Updating arrays in state*.
 
 **Build (2 hr):** A "team manager" in `day-2/` that exercises every kind of update.
@@ -84,6 +94,11 @@
 ---
 
 ## Day 3 — To-do in React
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** react.dev *Reacting to input with state* + *Choosing the state structure*.
 
@@ -107,6 +122,11 @@
 ---
 
 ## Day 4 — Controlled forms
+
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
 
 **Read first (1 hr):** react.dev *Sharing state between components*.
 
@@ -132,6 +152,11 @@
 ---
 
 ## Day 5 — Quiz in React
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** react.dev *Preserving and resetting state*.
 

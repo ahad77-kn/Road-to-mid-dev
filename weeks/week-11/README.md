@@ -29,18 +29,23 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | npm from zero — packages, scripts, versions | [`day-1/`](day-1/) | – |
-| D2 | DevTools: Elements & Console mastery | [`day-2/`](day-2/) | – |
-| D3 | Breakpoints — the Sources panel | [`day-3/`](day-3/) | – |
-| D4 | **Bug hunt** — the teacher breaks your old projects | [`day-4/`](day-4/) | – |
-| D5 | Prettier, ESLint & a proper project README | [`day-5/`](day-5/) | – |
-| — | **Phase 3 exam** (practical) | [`exam/`](exam/) | – |
+| [**D1**](day-1/) | npm from zero — packages, scripts, versions | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | DevTools: Elements & Console mastery | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Breakpoints — the Sources panel | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | **Bug hunt** — the teacher breaks your old projects | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Prettier, ESLint & a proper project README | [📄 day-5 →](day-5/) | – |
+| — | **Phase 3 exam** (practical) | [📄 exam →](exam/) | – |
 
 ---
 
 ## Day 1 — npm
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** npm docs — *About npm*, *package.json*, and semver.
 
@@ -67,6 +72,11 @@
 
 ## Day 2 — Elements & Console
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** Chrome DevTools *Elements* + *CSS features*.
 
 **Build (2 hr):** Take a **live production site** (any big Pakistani or international site) and investigate it. Write `day-2/devtools-report.md`.
@@ -90,6 +100,11 @@
 ---
 
 ## Day 3 — Breakpoints
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** Chrome *JavaScript debugging* + *Breakpoints*.
 
@@ -116,6 +131,11 @@
 
 ## Day 4 — Bug hunt
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** Chrome *Network* panel + MDN *Troubleshooting JavaScript*.
 
 **Build (2 hr):** The teacher takes three of your finished projects and plants **3 bugs in each** (9 total) across different categories: a logic bug, a CSS bug, an async/timing bug, an event bug, a data-shape bug.
@@ -139,6 +159,11 @@
 ---
 
 ## Day 5 — Tooling & polish
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** Prettier docs + ESLint *Getting started*.
 

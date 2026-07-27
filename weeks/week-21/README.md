@@ -36,18 +36,23 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Password hashing & signup | [`day-1/`](day-1/) | – |
-| D2 | Login & JWT issuing | [`day-2/`](day-2/) | – |
-| D3 | Auth middleware — the real guard | [`day-3/`](day-3/) | – |
-| D4 | Sessions vs JWT, cookies & refresh tokens | [`day-4/`](day-4/) | – |
-| D5 | Per-user data + the React auth flow | [`day-5/`](day-5/) | – |
-| — | **Phase 5 exam** (take-home, 2 days + viva) | [`exam/`](exam/) | – |
+| [**D1**](day-1/) | Password hashing & signup | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Login & JWT issuing | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Auth middleware — the real guard | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Sessions vs JWT, cookies & refresh tokens | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Per-user data + the React auth flow | [📄 day-5 →](day-5/) | – |
+| — | **Phase 5 exam** (take-home, 2 days + viva) | [📄 exam →](exam/) | – |
 
 ---
 
 ## Day 1 — Passwords
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** Copenhagen Book *Password authentication* + OWASP *Password storage*.
 
@@ -75,6 +80,11 @@
 
 ## Day 2 — Login & tokens
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** jwt.io *Introduction* + Copenhagen *Sessions*.
 
 **Build (2 hr):** `POST /api/auth/login` issuing a JWT.
@@ -101,6 +111,11 @@
 
 ## Day 3 — The guard that actually guards
 
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
+
 **Read first (1 hr):** Express *writing middleware* + OWASP *Authorization*.
 
 **Build (2 hr):** `requireAuth` and `requireRole` middleware.
@@ -126,6 +141,11 @@
 
 ## Day 4 — Sessions, cookies & refresh
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** MDN *Set-Cookie* + Auth0 *Refresh tokens* + OWASP *Session management*.
 
 **Build (2 hr):** Implement the **other** approach, then compare them honestly.
@@ -150,6 +170,11 @@
 ---
 
 ## Day 5 — The full loop
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** OWASP Top 10 + CSRF prevention.
 

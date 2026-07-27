@@ -31,17 +31,22 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Write five middleware functions by hand | [`day-1/`](day-1/) | – |
-| D2 | Validation middleware for the whole API | [`day-2/`](day-2/) | – |
-| D3 | Central error handling, 404s & custom errors | [`day-3/`](day-3/) | – |
-| D4 | Restructure: routes / controllers / services | [`day-4/`](day-4/) | – |
-| D5 | **Connect React to your own API** | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | Write five middleware functions by hand | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Validation middleware for the whole API | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Central error handling, 404s & custom errors | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Restructure: routes / controllers / services | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | **Connect React to your own API** | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — Middleware, by hand
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** Express *Using middleware* + *Writing middleware*.
 
@@ -69,6 +74,11 @@
 ---
 
 ## Day 2 — Validation
+
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
 
 **Read first (1 hr):** express-validator or zod docs.
 
@@ -98,6 +108,11 @@
 
 ## Day 3 — Errors
 
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
+
 **Read first (1 hr):** Express *Error handling* + RFC 9457.
 
 **Build (2 hr):** One place where all errors are handled.
@@ -122,6 +137,11 @@
 ---
 
 ## Day 4 — Structure
+
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
 
 **Read first (1 hr):** MDN *Express skeleton* + 12-factor *config*.
 
@@ -159,6 +179,11 @@ src/
 ---
 
 ## Day 5 — 🎉 Full stack
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** MDN *CORS* + Express cors middleware.
 

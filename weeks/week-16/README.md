@@ -29,17 +29,22 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Router setup — multi-page movie app | [`day-1/`](day-1/) | – |
-| D2 | URL params, search params & detail pages | [`day-2/`](day-2/) | – |
-| D3 | Nested layouts, 404s & loading UI | [`day-3/`](day-3/) | – |
-| D4 | Context — favourites without prop drilling | [`day-4/`](day-4/) | – |
-| D5 | Reducer + Context, and a protected route | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | Router setup — multi-page movie app | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | URL params, search params & detail pages | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Nested layouts, 404s & loading UI | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Context — favourites without prop drilling | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Reducer + Context, and a protected route | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — Routing
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** React Router *installation* + *routing basics*.
 
@@ -63,6 +68,11 @@
 ---
 
 ## Day 2 — Params & search params
+
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
 
 **Read first (1 hr):** React Router *navigating* + the hooks reference.
 
@@ -88,6 +98,11 @@
 
 ## Day 3 — Layouts, 404s and loading
 
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
+
 **Read first (1 hr):** React Router *nested routes* + error elements.
 
 **Build (2 hr):** Structure the app the way a real one is structured.
@@ -112,6 +127,11 @@
 
 ## Day 4 — Context
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** react.dev *Passing data deeply with context* + `useContext`.
 
 **Build (2 hr):** Favourites, reachable from anywhere.
@@ -135,6 +155,11 @@
 ---
 
 ## Day 5 — Reducer + Context, and your first guard
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** react.dev *Scaling up with reducer and context*.
 

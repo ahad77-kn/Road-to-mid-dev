@@ -31,17 +31,22 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Git internals — commits, staging, history surgery | [`day-1/`](day-1/) | – |
-| D2 | Branching & merging drills | [`day-2/`](day-2/) | – |
-| D3 | Conflicts, rebase, stash, undo | [`day-3/`](day-3/) | – |
-| D4 | Pull-request workflow with real review | [`day-4/`](day-4/) | – |
-| D5 | Publish everything — repos, READMEs, GitHub Pages | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | Git internals — commits, staging, history surgery | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Branching & merging drills | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Conflicts, rebase, stash, undo | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Pull-request workflow with real review | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Publish everything — repos, READMEs, GitHub Pages | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — What Git actually stores
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** Pro Git ch. 1–2.
 
@@ -67,6 +72,11 @@
 
 ## Day 2 — Branching & merging
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** Pro Git ch. 3 + Learn Git Branching "Main" sequence.
 
 **Build (2 hr):** Branch drills in `day-2/`, all recorded in `branching.md`.
@@ -90,6 +100,11 @@
 ---
 
 ## Day 3 — Conflicts, rebase and undo
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** Learn Git Branching "Remote" sequence + Pro Git *Rewriting history*.
 
@@ -117,6 +132,11 @@
 
 ## Day 4 — Pull requests & code review
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** GitHub *About pull requests* + *Reviewing changes*.
 
 **Build (2 hr):** Take one earlier project and run it through a real team workflow.
@@ -140,6 +160,11 @@
 ---
 
 ## Day 5 — Publish everything
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** GitHub Pages docs + [makeareadme.com](https://www.makeareadme.com/).
 

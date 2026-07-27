@@ -29,17 +29,22 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Array basics — 10 drills with loops | [`day-1/`](day-1/) | – |
-| D2 | Rewrite all 10 with `map`/`filter`/`reduce` | [`day-2/`](day-2/) | – |
-| D3 | Student marks program | [`day-3/`](day-3/) | – |
-| D4 | Objects — modelling real things | [`day-4/`](day-4/) | – |
-| D5 | Console contact book (array of objects) | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | Array basics — 10 drills with loops | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Rewrite all 10 with `map`/`filter`/`reduce` | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Student marks program | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Objects — modelling real things | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Console contact book (array of objects) | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — Arrays the manual way
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** JS.info *Arrays*.
 
@@ -73,6 +78,11 @@
 
 ## Day 2 — `map`, `filter`, `reduce`
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** JS.info *Array methods* — the whole chapter.
 
 **Build (2 hr):** Rewrite all ten of yesterday's drills using array methods, in `day-2/`, then add five more:
@@ -100,6 +110,11 @@
 ---
 
 ## Day 3 — Student marks program
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** MDN *Array reference* — skim every method name so you know what exists.
 
@@ -139,6 +154,11 @@ Required functions, all pure (input → output, no globals):
 
 ## Day 4 — Objects
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** JS.info *Objects* + *Object methods, `this`*.
 
 **Build (2 hr):** In `day-4/`, model three real things as objects with both data and methods:
@@ -165,6 +185,11 @@ Required functions, all pure (input → output, no globals):
 ---
 
 ## Day 5 — Console contact book
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** JS.info *Object copying by reference* + *keys/values/entries*.
 

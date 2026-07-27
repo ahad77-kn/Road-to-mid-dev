@@ -32,17 +32,22 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Business card — exact spacing, borders, colours | [`day-1/`](day-1/) | **6/10** ✅ |
-| D2 | Pricing card — padding & margin only, no flexbox | [`day-2/`](day-2/) | – |
-| D3 | Break it 5 ways on purpose, then fix each | [`day-3/`](day-3/) | – |
-| D4 | Typography article page — `rem` only | [`day-4/`](day-4/) | – |
-| D5 | Signup form with focus, error and disabled states | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | Business card — exact spacing, borders, colours | [📄 day-1 →](day-1/) | **6/10** ✅ |
+| [**D2**](day-2/) | Pricing card — padding & margin only, no flexbox | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Break it 5 ways on purpose, then fix each | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Typography article page — `rem` only | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Signup form with focus, error and disabled states | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — Business card ✅ done
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** MDN *CSS styling basics*.
 
@@ -67,6 +72,11 @@
 
 ## Day 2 — Pricing card (no flexbox)
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** web.dev *Box model*, twice. Then MDN box model.
 
 **Build (2 hr):**
@@ -90,6 +100,11 @@ A pricing card: plan title, big price, a list of 5 features, and a call-to-actio
 ---
 
 ## Day 3 — Break it 5 ways, then fix it
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** web.dev *Specificity* + *The cascade* + MDN *Handling conflicts*.
 
@@ -125,6 +140,11 @@ For each: screenshot the broken state, then write in `day-3/bugs.md`:
 
 ## Day 4 — Typography page, `rem` only
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** web.dev *Sizing units* + MDN *Values and units*.
 
 **Build (2 hr):**
@@ -148,6 +168,11 @@ An article page: title, subtitle, author line, 4–5 paragraphs, a subheading, a
 ---
 
 ## Day 5 — Signup form with real states
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** MDN *Styling web forms* + *Pseudo-classes*.
 

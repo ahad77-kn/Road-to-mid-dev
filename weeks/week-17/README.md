@@ -32,18 +32,23 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | Plan + product grid with filters | [`day-1/`](day-1/) | – |
-| D2 | Product detail page | [`day-2/`](day-2/) | – |
-| D3 | Cart with Context + reducer | [`day-3/`](day-3/) | – |
-| D4 | Checkout, persistence & polish | [`day-4/`](day-4/) | – |
-| D5 | Performance, accessibility & deploy | [`day-5/`](day-5/) | – |
-| — | **Phase 4 exam** (3 hrs, docs allowed) | [`exam/`](exam/) | – |
+| [**D1**](day-1/) | Plan + product grid with filters | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Product detail page | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Cart with Context + reducer | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Checkout, persistence & polish | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Performance, accessibility & deploy | [📄 day-5 →](day-5/) | – |
+| — | **Phase 4 exam** (3 hrs, docs allowed) | [📄 exam →](exam/) | – |
 
 ---
 
 ## Day 1 — Plan & product grid
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** *Thinking in React* + the API docs.
 
@@ -74,6 +79,11 @@
 
 ## Day 2 — Product detail
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** web.dev *Responsive images* + react.dev *Suspense*.
 
 **Build (2 hr):** `/product/:id` — the page that has to sell the thing.
@@ -97,6 +107,11 @@
 ---
 
 ## Day 3 — The cart
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** react.dev *Scaling up with reducer and context*.
 
@@ -124,6 +139,11 @@
 
 ## Day 4 — Checkout & polish
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** web.dev *Core Web Vitals* + react.dev *Profiler*.
 
 **Build (2 hr):**
@@ -147,6 +167,11 @@
 ---
 
 ## Day 5 — Ship it
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** Vercel deployment docs + Vite production build.
 

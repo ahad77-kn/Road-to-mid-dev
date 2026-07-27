@@ -29,17 +29,22 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | To-do list **rebuilt from scratch, no reference** | [`day-1/`](day-1/) | – |
-| D2 | Signup form with live inline validation | [`day-2/`](day-2/) | – |
-| D3 | Quiz app | [`day-3/`](day-3/) | – |
-| D4 | Image slider / carousel, no library | [`day-4/`](day-4/) | – |
-| D5 | Add localStorage to all three apps | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | To-do list **rebuilt from scratch, no reference** | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Signup form with live inline validation | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Quiz app | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Image slider / carousel, no library | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | Add localStorage to all three apps | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — Rebuild the to-do, blind
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first:** nothing. **Close Week 6's folder. Do not open it.** You may read your own `LEARNED.md` notes, nothing else.
 
@@ -68,6 +73,11 @@
 
 ## Day 2 — Signup form, live validation
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** MDN *Client-side form validation* + *Web forms*.
 
 **Build (2 hr):** Take Week 1 Day 5's signup form and make it live.
@@ -92,6 +102,11 @@
 ---
 
 ## Day 3 — Quiz app
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** JS.info *Forms & form events* + *change/input events*.
 
@@ -118,6 +133,11 @@
 
 ## Day 4 — Carousel, from nothing
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** MDN *Regular expressions* (Thursday's warm-up reading; the carousel uses none, but you need regex before Week 9).
 
 **Build (2 hr):** An image slider/carousel with **no library**.
@@ -142,6 +162,11 @@
 ---
 
 ## Day 5 — Make it all survive a refresh
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** MDN *Web Storage API* + JS.info *LocalStorage*.
 

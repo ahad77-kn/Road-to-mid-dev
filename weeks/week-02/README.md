@@ -35,17 +35,22 @@
 
 ## 🗓️ The week at a glance
 
-| Day | Assignment | Folder | Score |
+| Day | Assignment | Open the assignment | Score |
 | --- | --- | --- | --- |
-| D1 | News-site header in Flexbox + a written comparison | [`day-1/`](day-1/) | – |
-| D2 | Card gallery — 6 cards, wrapping, equal heights | [`day-2/`](day-2/) | – |
-| D3 | Holy-grail layout in Grid | [`day-3/`](day-3/) | – |
-| D4 | Photo gallery with spanning cells | [`day-4/`](day-4/) | – |
-| D5 | YouTube home skeleton — Grid page + Flex components | [`day-5/`](day-5/) | – |
+| [**D1**](day-1/) | News-site header in Flexbox + a written comparison | [📄 day-1 →](day-1/) | – |
+| [**D2**](day-2/) | Card gallery — 6 cards, wrapping, equal heights | [📄 day-2 →](day-2/) | – |
+| [**D3**](day-3/) | Holy-grail layout in Grid | [📄 day-3 →](day-3/) | – |
+| [**D4**](day-4/) | Photo gallery with spanning cells | [📄 day-4 →](day-4/) | – |
+| [**D5**](day-5/) | YouTube home skeleton — Grid page + Flex components | [📄 day-5 →](day-5/) | – |
 
 ---
 
 ## Day 1 — The header, twice
+
+📄 **[Open this day's assignment page →](day-1/)**
+
+
+
 
 **Read first (1 hr):** Flexbox Froggy levels 1–12, then web.dev *Flexbox*.
 
@@ -71,6 +76,11 @@ Part B — rebuild the identical header with Flexbox in `day-1/flex.html`.
 
 ## Day 2 — Card gallery
 
+📄 **[Open this day's assignment page →](day-2/)**
+
+
+
+
 **Read first (1 hr):** finish all 24 Froggy levels + MDN *Flexbox*.
 
 **Build (2 hr):**
@@ -93,6 +103,11 @@ Part B — rebuild the identical header with Flexbox in `day-1/flex.html`.
 ---
 
 ## Day 3 — Holy grail in Grid
+
+📄 **[Open this day's assignment page →](day-3/)**
+
+
+
 
 **Read first (1 hr):** Grid Garden, all levels + web.dev *Grid*.
 
@@ -117,6 +132,11 @@ The classic page skeleton: header across the top, left sidebar, main content, ri
 
 ## Day 4 — Photo gallery with spans
 
+📄 **[Open this day's assignment page →](day-4/)**
+
+
+
+
 **Read first (1 hr):** MDN *CSS grid layout* + *grid-template-areas*.
 
 **Build (2 hr):**
@@ -139,6 +159,11 @@ An Instagram-explore-style gallery: a grid of images where some cells span 2 col
 ---
 
 ## Day 5 — YouTube home skeleton
+
+📄 **[Open this day's assignment page →](day-5/)**
+
+
+
 
 **Read first (1 hr):** MDN *Layout cookbook* — read 3 recipes.
 
