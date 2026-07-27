@@ -5,7 +5,7 @@
 Every assignment is out of 10. Pass mark 6. Week average below 6 → the week repeats.
 Filled in by the teacher after each day is marked.
 
-**Running average:** _—_ · **Days completed:** 1 / 120 · **Redos:** 0
+**Running average:** _—_ · **Days completed:** 1 / 125 · **Redos:** 0
 
 ---
 

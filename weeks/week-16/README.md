@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | D1 | [React Router: installation & routing](https://reactrouter.com/start/library/installation) · [Routing basics](https://reactrouter.com/start/library/routing) | React Router |
 | D2 | [URL params & navigation](https://reactrouter.com/start/library/navigating) · [`useParams`, `useNavigate`, `useSearchParams`](https://reactrouter.com/api/hooks/useParams) | React Router |
-| D3 | [Nested routes & layouts](https://reactrouter.com/start/library/routing#nested-routes) · [Error boundaries / 404s](https://reactrouter.com/start/library/route-object#errorelement) | React Router |
+| D3 | [Nested routes & layouts](https://reactrouter.com/start/library/routing#nested-routes) · [Error boundaries / 404s](https://reactrouter.com/how-to/error-boundary) | React Router |
 | D4 | [react.dev: Passing data deeply with context](https://react.dev/learn/passing-data-deeply-with-context) · [`useContext`](https://react.dev/reference/react/useContext) | react.dev |
 | D5 | [Scaling up with reducer and context](https://react.dev/learn/scaling-up-with-reducer-and-context) | react.dev |
 

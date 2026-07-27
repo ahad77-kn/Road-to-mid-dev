@@ -3,7 +3,7 @@
 **Student:** Muhammad Ahad
 **Teacher:** Adil
 **Started:** 2026-07-22
-**Length:** 24 weeks · 5 study days per week · 3 hrs/day (1 hr learning + 2 hr assignment)
+**Length:** Week 00 (foundations) + 24 weeks · 5 study days per week · 3 hrs/day (1 hr learning + 2 hr assignment)
 **Track:** Computer basics → HTML/CSS → JavaScript → Git → React → Node/Express → MongoDB → Auth → Capstone
 
 > This README is the **road**. Click a week → you land on that week's page → each week has 5 days → each day has its learning material, its assignment, its test material, and a link to the folder where the work lives.

@@ -22,7 +22,7 @@
 ### 📰 Articles worth your time this week
 - [public-apis](https://github.com/public-apis/public-apis) — the list to browse for project ideas
 - [MDN: HTTP status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) — you should now know 200/201/400/401/403/404/429/500 cold
-- [How to read API documentation](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Client-side_web_APIs/Introduction)
+- [How to read API documentation](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction)
 - **Never commit an API key.** Read [GitHub: about secret scanning](https://docs.github.com/en/code-security/secret-scanning/introduction/about-secret-scanning). Frontend keys are visible to users regardless — this is a real limitation you will fix with your own backend in Phase 5.
 
 ---

@@ -24,7 +24,7 @@
 - [CSS-Tricks: `box-sizing: border-box`, and why everyone uses it](https://css-tricks.com/box-sizing/)
 - [web.dev: Inheritance](https://web.dev/learn/css/inheritance)
 - [BEM in 5 minutes](https://getbem.com/introduction/) — how to name classes so future-you can read them
-- [MDN: Normal flow](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Normal_Flow) — what the page does *before* you touch it
+- [MDN: Normal flow](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Flow_layout) — what the page does *before* you touch it
 
 **Reference to keep open all week:** [MDN CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 
