@@ -93,3 +93,11 @@ Kept honest, not to punish — to see the trend. The goal is for the "self" colu
 | Week/Day | Reason | Redone on | New score |
 | --- | --- | --- | --- |
 | W01 D2 | box-sizing missing, 3 of 5 features, 5× position hacks, all test questions blank | _pending_ | – |
+
+---
+
+## 📁 Unscored work
+
+| Date | What | Note |
+| --- | --- | --- |
+| 2026-07-23 | [Profile site](extra/2026-07-23-profile-page/) built unprompted | Not scored — empty LEARNED.md, not a set assignment. [Feedback given](extra/2026-07-23-profile-page/FEEDBACK.md). |
