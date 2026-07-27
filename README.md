@@ -12,9 +12,11 @@
 
 ## 👉 Start here
 
-### ⬜ Next up: **[Week 01 · Day 2 — Pricing card →](weeks/week-01/day-2/)**
+### 🔁 Redo first: **[Week 01 · Day 2 — Pricing card](weeks/week-01/day-2/)** — 5/10, see the redo list
 
-_(Last completed: [Week 01 · Day 1 — Business card](weeks/week-01/day-1/) — **6/10** ✅)_
+### ⬜ Then: **[Week 01 · Day 3 — Break it 5 ways →](weeks/week-01/day-3/)**
+
+_(Day 1 — Business card: **6/10** ✅ · Running average: **5.5**)_
 
 | I want to… | Go to |
 | --- | --- |

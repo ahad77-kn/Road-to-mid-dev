@@ -5,7 +5,7 @@
 Every assignment is out of 10. Pass mark 6. Week average below 6 → the week repeats.
 Filled in by the teacher after each day is marked.
 
-**Running average:** _—_ · **Days completed:** 1 / 125 · **Redos:** 0
+**Running average:** **5.5** · **Days completed:** 2 / 125 · **Redos:** 1
 
 ---
 
@@ -19,7 +19,7 @@ Filled in by the teacher after each day is marked.
 
 | Week | D1 | D2 | D3 | D4 | D5 | Avg | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [01](weeks/week-01/) — CSS fundamentals & box model | **6** | – | – | – | – | – | 🟨 |
+| [01](weeks/week-01/) — CSS fundamentals & box model | **6** | **5** 🔁 | – | – | – | 5.5 | 🟨 |
 | [02](weeks/week-02/) — Flexbox & Grid | – | – | – | – | – | – | ⬜ |
 | [03](weeks/week-03/) — Responsive & polish | – | – | – | – | – | – | ⬜ |
 | **Phase 1 exam** | | | | | | – | ⬜ |
@@ -84,6 +84,7 @@ Kept honest, not to punish — to see the trend. The goal is for the "self" colu
 | Week/Day | Declared | Verified by teacher | Cap applied |
 | --- | --- | --- | --- |
 | W01 D1 | no | ✅ matches — beginner-level CSS, real mistakes present | none |
+| W01 D2 | yes — background image + text stroke | ✅ matches — 4 lines of 180, rest is clearly his | none (declaration was vague — asked him to be precise) |
 
 ---
 
@@ -91,4 +92,4 @@ Kept honest, not to punish — to see the trend. The goal is for the "self" colu
 
 | Week/Day | Reason | Redone on | New score |
 | --- | --- | --- | --- |
-| – | – | – | – |
+| W01 D2 | box-sizing missing, 3 of 5 features, 5× position hacks, all test questions blank | _pending_ | – |
