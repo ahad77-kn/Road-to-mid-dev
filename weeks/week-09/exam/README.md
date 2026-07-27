@@ -10,7 +10,7 @@
 
 ---
 
-## 📋 The task
+## 📋 The task 
 
 **Part A — 5 logic problems, console only:** reverse the words in a sentence keeping punctuation · find and count duplicates in an array · sum every number in a nested object at any depth · group an array of objects by a key · running balance from a transaction list.
 

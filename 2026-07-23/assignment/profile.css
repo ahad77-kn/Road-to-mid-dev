@@ -1,0 +1,154 @@
+.first-image {    position: absolute;
+    top: 10px;
+    left: 35%;
+    border: 2px solid black;
+    border-radius: 80%;
+    background-color: black;
+    padding: 2px;
+}
+
+.second-image {
+    position: absolute;
+    border-radius: 5px;
+    top: 10px;
+    right: 1%;
+}
+.card {
+    position: absolute;
+    top: 10px;
+    left: 1%;
+    width: 1360px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    color: white;
+    font-size: 45px;
+}
+
+h1 span {
+    color: rgb(125, 41, 41);
+    display: block;
+    text-align: center;
+    font-size: 80px;
+}
+
+header h2 {
+    position: absolute;
+    top: 250px;
+    left: 1%;
+    color: white;
+    font-size: 50px;
+}
+header p {
+    position: absolute;
+    top: 240px;
+    left: 2%;
+    color: white;
+    font-size: 30px;
+}
+
+nav {
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 420px;
+    left: 1%;
+    background-color: rgb(125, 41, 41);
+    padding: 30px;
+    width: 1350px;
+    height: 5px;
+    border: 2px solid black;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 20px;
+    text-align: center;
+    position: relative;
+    top: -15px;
+    border-radius: 5px;
+    padding: 10px 20px;
+
+}
+
+nav a:hover {
+     background-color: rgb(255, 255, 255);
+    color: rgb(125, 41, 41);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#about h2 {
+    position: absolute;
+    text-align: center;
+    top: 550px;
+    left: 40%;
+    color: rgb(125, 41, 41);
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+#about p {
+    position: relative;
+    text-align: center;
+    top: 650px;
+    color: rgb(125, 41, 41);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skills h2 {
+    position: absolute;
+    text-align: center;
+    top: 750px;
+    left: 40%;
+    color: rgb(125, 41, 41);
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.skills {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 860px;
+    left: 28%;
+    font-size: 20px;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.skill-card {
+    background-color: rgba(125, 41, 41, 0);
+    border: 2px solid rgb(125, 41, 41);
+    color: rgb(125, 41, 41);
+    padding: 30px 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skill-card:hover {
+    background-color: rgb(125, 41, 41);
+    color: white;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
