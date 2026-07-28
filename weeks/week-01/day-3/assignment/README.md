@@ -27,10 +27,10 @@ For each: screenshot the broken state, then write in `day-3/bugs.md`:
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] All 5 bugs, each with a screenshot and a *why* in your own words
-- [ ] The specificity of the conflicting selectors written out as numbers (e.g. `0-1-1` vs `0-2-0`)
-- [ ] Also fix the two problems from Day 1: switch to class selectors, remove the `position` hack
-- [ ] Final card renders correctly
+- [x] All 5 bugs, each with a screenshot and a *why* in your own words
+- [x] The specificity of the conflicting selectors written out as numbers (e.g. `0-1-1` vs `0-2-0`)
+- [x] Also fix the two problems from Day 1: switch to class selectors, remove the `position` hack
+- [x] Final card renders correctly
 
 ## 🎤 The teacher will ask you
 

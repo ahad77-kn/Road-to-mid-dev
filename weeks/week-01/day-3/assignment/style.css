@@ -1,0 +1,92 @@
+/* 
+pricing card ;
+width and height ; 500px;
+
+every text aligned ;
+right;
+
+used some;
+paadings;
+border and its radius;
+relitive positions;
+   Spacing scale:
+   
+   4px, 8px, 16px, 24px, 32px, 48px
+
+   Colours:
+   solid Black: #000000
+   White: #ffffff
+   rgb(255, 156, 75)
+*/
+
+.pricing-card {
+    width: 500px;
+    padding: 30px;
+    margin: 50px auto;
+    border: 5px solid black;
+    border-radius: 15px;
+    box-sizing: content-box;
+
+    background-image: url("burger.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.pricing-card h2 {
+    color: rgb(255, 156, 75);
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 280px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-text-stroke: 2px black;
+    white-space: nowrap;
+
+}
+
+.price {
+    font-size: 27px;
+    margin-left: 350px;
+    margin-top: 50px;
+     background-color: rgb(255, 156, 75);
+     padding: 7px 15px;
+      border-radius: 8px;
+       display: inline-block;
+ }
+
+.pricing-card ul {
+    margin: 20px opx;
+    padding-right: 10px;
+
+     list-style-type: square;
+      list-style-position: inside;
+}
+
+.pricing-card li {
+    margin-left: 230px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 18px;
+    color: rgb(255, 156, 75);
+    font-size: 22px;
+    white-space: nowrap;
+}
+
+.pricing-card button {
+    padding: 12px 30px;
+    margin-left: 340px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(255, 156, 75);
+}
+
+.pricing-card button:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+}
