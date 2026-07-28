@@ -14,9 +14,9 @@
 
 ### 🔁 Redo first: **[Week 01 · Day 2 — Pricing card](weeks/week-01/day-2/)** — 5/10, see the redo list
 
-### ⬜ Then: **[Week 01 · Day 3 — Break it 5 ways →](weeks/week-01/day-3/)**
+### ⬜ Then: **[Week 01 · Day 4 — Typography page →](weeks/week-01/day-4/)**
 
-_(Day 1 — Business card: **6/10** ✅ · Running average: **5.5**)_
+_(Day 1: **6/10** ✅ · Day 2: **5/10** 🔁 · Day 3: **6/10** ✅ · Running average: **5.7**)_
 
 | I want to… | Go to |
 | --- | --- |

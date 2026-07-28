@@ -36,7 +36,7 @@
 | --- | --- | --- | --- |
 | [**D1**](day-1/) | Business card — exact spacing, borders, colours | [📄 open →](day-1/) | **6/10** ✅ |
 | [**D2**](day-2/) | Pricing card — padding & margin only, no flexbox | [📄 open →](day-2/) | **5/10** 🔁 |
-| [**D3**](day-3/) | Break it 5 ways on purpose, then fix each | [📄 open →](day-3/) | – |
+| [**D3**](day-3/) | Break it 5 ways on purpose, then fix each | [📄 open →](day-3/) | **6/10** ✅ |
 | [**D4**](day-4/) | Typography article page — `rem` only | [📄 open →](day-4/) | – |
 | [**D5**](day-5/) | Signup form with focus, error and disabled states | [📄 open →](day-5/) | – |
 

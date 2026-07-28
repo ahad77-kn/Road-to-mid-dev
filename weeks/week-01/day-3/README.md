@@ -13,7 +13,7 @@
 | 📖 | **[`learn/`](learn/)** | 1 hr | read the material, then write `learn/NOTES.md` |
 | 🛠️ | **[`assignment/`](assignment/)** | 2 hr | build it — the files you must hand in are listed there |
 
-**Marked:** ⬜ not started · [how marking works](../../../GRADING.md)
+**Marked:** ✅ **6/10 — PASS** · see [ASSESSMENT.md](ASSESSMENT.md) · [how marking works](../../../GRADING.md)
 
 ## 📤 Submit — the same day
 
