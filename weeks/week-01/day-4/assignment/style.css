@@ -1,0 +1,72 @@
+/*
+i used sizings rem,ch,and unit less except px,%.
+i used different sizes like 1.3rem,3rem,1rem,2rem,0.8rem,1.4rem,2.7rem,1.9rem,0.2rem,1.33rem.
+line-height 1.6,2
+color;aliceblue,solid black,rgba(226, 222, 222, 0.528).
+max-width,72ch,80ch,margins of top and bottom like 3rem,1rem,2rem,auto.
+padding 3rem,1rem.
+font style italic.oblique,font weight bold.
+white-space no wrap.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.article {
+    background-color: aliceblue;
+    max-width: 72ch;
+    margin: 2rem;
+    border-radius: 0.8rem;
+    margin: 2rem auto;
+    padding: 3rem;
+
+    border: 1px solid black;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 2.7rem;
+    white-space: nowrap;
+    
+}
+
+h2 {
+    font-size: 1.9rem;
+    font-style: oblique;
+}
+
+.author {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+blockquote {
+    font-size: 1.4rem;
+    background-color: rgba(226, 222, 222, 0.528);
+    border-radius: 0.2rem;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+}
+hr{
+    max-width: 80ch;
+}
+
+ul {
+    font-size: 1.33rem;
+    line-height: 2;
+}

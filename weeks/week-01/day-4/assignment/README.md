@@ -15,12 +15,12 @@ An article page: title, subtitle, author line, 4–5 paragraphs, a subheading, a
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] **Every** size in `rem` (or unitless for `line-height`). No `px` anywhere except `border` widths — justify each one in a comment
-- [ ] A type scale: pick 4–5 sizes with a consistent ratio, listed in a comment at the top
-- [ ] `line-height` between 1.5 and 1.7 on body text, unitless
-- [ ] Body text between 60–75 characters per line (use `max-width` in `ch`)
-- [ ] Vertical rhythm — consistent, deliberate space between paragraphs and headings
-- [ ] A web font loaded from [Google Fonts](https://fonts.google.com/) with a fallback stack
+- [x] **Every** size in `rem` (or unitless for `line-height`). No `px` anywhere except `border` widths — justify each one in a comment
+- [x] A type scale: pick 4–5 sizes with a consistent ratio, listed in a comment at the top
+- [x] `line-height` between 1.5 and 1.7 on body text, unitless
+- [x] Body text between 60–75 characters per line (use `max-width` in `ch`)
+- [x] Vertical rhythm — consistent, deliberate space between paragraphs and headings
+- [x] A web font loaded from [Google Fonts](https://fonts.google.com/) with a fallback stack
 
 ## 🎤 The teacher will ask you
 
