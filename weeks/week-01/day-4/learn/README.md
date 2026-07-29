@@ -4,7 +4,7 @@
 
 ## Read this
 
-[Sizing units](https://web.dev/learn/css/sizing) · [MDN: Values and units](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units)
+[Sizing units](https://web.dev/learn/css/sizing) · [MDN: Values and units](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units) · [Google Fonts: getting started](https://developers.google.com/fonts/docs/getting_started) · [MDN: `@font-face`](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)
 
 **How to read it:** web.dev *Sizing units* + MDN *Values and units*.
 

@@ -14,9 +14,9 @@
 
 ### 🔁 Redo first: **[Week 01 · Day 2 — Pricing card](weeks/week-01/day-2/)** — 5/10, see the redo list
 
-### ⬜ Then: **[Week 01 · Day 4 — Typography page →](weeks/week-01/day-4/)**
+### ⬜ Then: **[Week 01 · Day 5 — Signup form states →](weeks/week-01/day-5/)**
 
-_(Day 1: **6/10** ✅ · Day 2: **5/10** 🔁 · Day 3: **6/10** ✅ · Running average: **5.7**)_
+_(D1 **6** ✅ · D2 **5** 🔁 · D3 **6** ✅ · D4 **6.5** ✅ · Running average: **5.9**)_
 
 | I want to… | Go to |
 | --- | --- |

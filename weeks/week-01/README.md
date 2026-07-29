@@ -16,13 +16,14 @@
 | D1 | [CSS styling basics — What is CSS / Getting started](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics) | MDN |
 | D2 | [The box model](https://web.dev/learn/css/box-model) — **read it twice** · [MDN: box model](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model) | web.dev / MDN |
 | D3 | [Specificity](https://web.dev/learn/css/specificity) · [The cascade](https://web.dev/learn/css/the-cascade) · [Handling conflicts](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts) | web.dev / MDN |
-| D4 | [Sizing units](https://web.dev/learn/css/sizing) · [MDN: Values and units](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units) | web.dev / MDN |
+| D4 | [Sizing units](https://web.dev/learn/css/sizing) · [MDN: Values and units](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units) · [Google Fonts: getting started](https://developers.google.com/fonts/docs/getting_started) · [MDN: `@font-face`](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face) | web.dev / MDN / Google |
 | D5 | [MDN: Styling forms](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Styling_web_forms) · [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) | MDN |
 
 ### 📰 Articles worth your time this week
 - [MDN: Margin collapsing](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Mastering_margin_collapsing) — the #1 "why is there a gap?" answer
 - [CSS-Tricks: `box-sizing: border-box`, and why everyone uses it](https://css-tricks.com/box-sizing/)
 - [web.dev: Inheritance](https://web.dev/learn/css/inheritance)
+- [type-scale.com](https://typescale.com/) — build a type scale from a base size and a ratio
 - [BEM in 5 minutes](https://getbem.com/introduction/) — how to name classes so future-you can read them
 - [MDN: Normal flow](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Flow_layout) — what the page does *before* you touch it
 
@@ -37,7 +38,7 @@
 | [**D1**](day-1/) | Business card — exact spacing, borders, colours | [📄 open →](day-1/) | **6/10** ✅ |
 | [**D2**](day-2/) | Pricing card — padding & margin only, no flexbox | [📄 open →](day-2/) | **5/10** 🔁 |
 | [**D3**](day-3/) | Break it 5 ways on purpose, then fix each | [📄 open →](day-3/) | **6/10** ✅ |
-| [**D4**](day-4/) | Typography article page — `rem` only | [📄 open →](day-4/) | – |
+| [**D4**](day-4/) | Typography article page — `rem` only | [📄 open →](day-4/) | **6.5/10** ✅ |
 | [**D5**](day-5/) | Signup form with focus, error and disabled states | [📄 open →](day-5/) | – |
 
 ---
