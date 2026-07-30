@@ -59,6 +59,23 @@ None of these alone is an accusation. All of them lead to the same place: **expl
 
 ---
 
+## ☑️ The checklist rule
+
+Each day's `assignment/README.md` ends with a **Done when** checklist. That is your mark sheet.
+
+**Tick a box only when you can point at the line in the file that satisfies it.**
+
+If you cannot point at it, leave it unticked and write one sentence in `learn/NOTES.md` saying why.
+
+| | Cost |
+| --- | --- |
+| Unticked box + honest note | Almost nothing — the teacher can see the attempt and knows where to help |
+| Ticked box that is not done | The marks for that item, **and** the teacher now verifies every other claim you make |
+
+Honesty is the cheaper option, every time.
+
+---
+
 ## The viva (spot-check)
 
 Short, verbal, no notes, 5–10 minutes. The teacher picks 2–3 lines from your code and asks:

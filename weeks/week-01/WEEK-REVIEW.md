@@ -41,6 +41,39 @@ You are one short session away from closing a week you have actually done well i
 
 ---
 
+## 🗓️ Your catch-up days — Friday 31 July & Saturday 1 August
+
+Rule 7 of this repo: *"Day 6 & 7 are yours — finish incomplete work, redo anything marked 🔁, or rest."*
+
+You have not used them yet. **This is not an extension or a favour — it is the schedule.** But it is the last time the Day 2 redo gets asked for, so here it is in writing.
+
+### Deadline: **Saturday 1 August, end of day.** Assessed Sunday 2 August.
+
+| Priority | What | Time | Effect |
+| --- | --- | --- | --- |
+| **1** | [Day 2 redo](day-2/ASSESSMENT.md) — the 6 items | ~30 min | **This decides the week.** The new score replaces the 5. |
+| 2 | [Day 3 fixes](day-3/ASSESSMENT.md) — `opx` → `0`, `content-box` → `border-box`, duplicate `font-size` | ~10 min | Clears the oldest open defect in the repo |
+| 3 | [Day 5 fixes](day-5/ASSESSMENT.md) — the outline, the radius, `:focus-visible`, `:checked` | ~10 min | Closes the week clean |
+
+**About an hour, total.**
+
+### What happens either way
+
+- **Redo submitted by Saturday** → Day 2 is re-marked, week average lands near **6.35**, Week 1 ✅ passes, you start Week 02 on Monday with nothing owed.
+- **Nothing by Saturday** → week average stays **5.95**, below the 6.0 gate, and **Week 1 repeats**. You would redo Week 1's five assignments before starting flexbox.
+
+That is not a threat, it is arithmetic, and you are being told it three days early precisely so it does not happen. You did not miss a single day this week — do not lose the week to a card you built on the 27th.
+
+### One new rule, starting Week 2
+
+**Tick a checklist box only when you can point at the line in the file that satisfies it.**
+
+You ticked items you had not done on four of five days this week — `box-sizing`, the type scale, `:focus-visible`, `:checked`, the keyboard test. If you cannot point at the line, leave the box unticked and write one sentence in `NOTES.md` about why.
+
+An unticked box with an honest note costs you **almost nothing** — I can see you tried and I know where to help. A wrongly ticked one costs you the marks *and* makes me check everything else twice. Honesty is genuinely the cheaper option here.
+
+---
+
 ## 📈 What genuinely improved
 
 This is the part that matters more than the average. Habits I flagged and you killed, in order:

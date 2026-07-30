@@ -14,7 +14,10 @@
 
 ### 🔁 Redo first: **[Week 01 · Day 2 — Pricing card](weeks/week-01/day-2/)** — 5/10, see the redo list
 
-### ⚠️ Week 1 is at **5.95** — the 6.0 gate hinges on that redo. [Week review →](weeks/week-01/WEEK-REVIEW.md)
+### ⏳ ACTION NEEDED by **Sat 1 Aug**: the [Day 2 redo](weeks/week-01/day-2/ASSESSMENT.md) decides whether Week 1 passes
+
+Week 1 average is **5.95** — the gate is 6.0. Fri 31 Jul & Sat 1 Aug are your catch-up days (rule 7).
+~1 hour of work: Day 2 redo, plus the short Day 3 and Day 5 fix lists. Full detail → **[Week 1 review](weeks/week-01/WEEK-REVIEW.md)**
 
 ### ⬜ Then: **[Week 02 — Flexbox & Grid →](weeks/week-02/)**
 

@@ -161,7 +161,8 @@ Answer these in `learn/NOTES.md` before the redo:
 - [ ] Note: I removed the leftover `2026-7/27/` draft copy of this card for you — it was an older version of the same work sitting in the old folder format, and having two copies would have had you editing the wrong file tomorrow. It is still in git history (`git show 61001bf:2026-7/27/card.css`) if you want it.
 - [ ] Untick any box you have not actually done
 
-**Redo due:** day 6 or 7 of this week, before starting Day 3.
+**Redo due: Saturday 1 August, end of day** — assessed Sunday 2 August.
+This is the item that decides whether Week 1 passes (average 5.95 vs a 6.0 gate). See the [Week 1 review](../WEEK-REVIEW.md#-your-catch-up-days--friday-31-july--saturday-1-august).
 
 ---
 
