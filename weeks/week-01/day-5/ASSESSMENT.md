@@ -214,3 +214,54 @@ Editor: looks right. DevTools: tells the truth.
 ---
 
 📄 **Week 1 is now complete — see [WEEK-REVIEW.md](../WEEK-REVIEW.md) for where you stand and what happens next.**
+
+---
+---
+
+# ✅ FIXES DONE — 30 July 15:58, commit `8157ce0`
+
+You applied **eight of the nine** items, 84 minutes after reading this assessment.
+
+| Fix | |
+| --- | --- |
+| `outline: 0.2rem` → `outline: 0.2rem solid skyblue` | ✅ |
+| `border-radius: 0.5` → `0.5rem` | ✅ |
+| `input:focus` → `input:focus-visible` | ✅ |
+| Real `:checked` rule added | ✅ |
+| `id="confirm password"` → `confirm-password` (both places) | ✅ |
+| Empty `<div class="checkbox">` deleted | ✅ |
+| `width: 95%` → `100%` | ✅ |
+| **A second, enabled `<button type="submit">` added** | ✅ — the keyboard test can now actually pass |
+| Third "What I learned" bullet | ⬜ still two |
+
+The enabled button is the one I am most pleased about. You had spotted the problem yourself in your closing question, I suggested showing both states side by side, and you did exactly that. The form is now genuinely completable with Tab and Enter — so the box you ticked is now true.
+
+## One over-correction to undo
+
+I said the `inter` name was unreachable and that three generic families in a row was meaningless. You trimmed the **wrong end** of both stacks:
+
+```css
+font-family: inter, 'Franklin Gothic Medium';   /* ← no generic safety net left */
+font-family: monospace ;                         /* ← fine, but see below */
+```
+
+A font stack should always **end in a generic family**, because that is the guaranteed fallback if every named font is missing:
+
+```css
+font-family: 'Inter', 'Franklin Gothic Medium', Arial, sans-serif;   /* keep sans-serif last */
+```
+
+The generic goes **last** and stays. What was pointless was listing `serif, sans-serif` *after* `monospace` — because `monospace` always resolves, so nothing after it is ever reached. Trim the middle, never the end.
+
+## Does the score change?
+
+**No — Day 5 stays at 6.25.** The policy, for consistency:
+
+| Original score | What fixes do |
+| --- | --- |
+| **Below 6** (🔁 redo) | The day is re-marked and the new score **replaces** the old — as happened with Day 2 |
+| **6 or above** (✅ pass) | The score stands. It reflects the work at the deadline. Fixes are logged and count toward your habits record. |
+
+That is not me being stingy — it is the incentive working the right way round. **Had these eight fixes been in the file when you pushed at 14:34, this would have been roughly a 7.5.** The marks were not lost to lack of knowledge; you clearly had it, since you applied every fix in under an hour and a half. They were lost to shipping before checking.
+
+Which is the same sentence I have written every day this week — and the reason it is worth saying once more is that you are now fixing things faster than I can write them down. Move that speed to *before* the commit and your scores jump a full point overnight.

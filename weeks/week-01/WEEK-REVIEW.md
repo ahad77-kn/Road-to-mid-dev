@@ -2,7 +2,7 @@
 
 [← The Road](../../README.md) · [⬆ Week 01](README.md) · [🏆 Scoreboard](../../SCOREBOARD.md)
 
-**Student:** Muhammad Ahad · **Week:** 22–30 July 2026 · **Reviewed:** 30 July
+**Student:** Muhammad Ahad · **Week:** 22–30 July 2026 · **Reviewed:** 30 July · **Result: ✅ PASSED (6.1)**
 
 ---
 
@@ -11,35 +11,34 @@
 | Day | Assignment | Score | |
 | --- | --- | --- | --- |
 | [D1](day-1/) | Business card | **6.0** | ✅ |
-| [D2](day-2/) | Pricing card, no flexbox | **5.0** | 🔁 redo not done |
+| [D2](day-2/) | Pricing card, no flexbox | **5.75** | 🔁 redone 30 Jul (was 5.0) |
 | [D3](day-3/) | Break it 5 ways | **6.0** | ✅ |
 | [D4](day-4/) | Typography page, `rem` only | **6.5** | ✅ |
 | [D5](day-5/) | Signup form states | **6.25** | ✅ |
-| | **Week average** | **5.95** | ⚠️ |
+| | **Week average** | **6.1** | ✅ **PASSED** |
 
 **Attendance:** 5 of 5 days submitted, every one pushed the same day. No missed submissions.
 
 ---
 
-## ⚠️ The gate
+## ✅ The gate — PASSED
 
-**The rule is: week average ≥ 6.0 to move on. You are at 5.95.**
+**Week average 6.1, against a 6.0 gate. Week 02 is unlocked.**
 
-Five hundredths of a point. And it is entirely one thing: **Day 2 is still sitting at 5/10 because the redo was never done.** I asked on the 27th, again on the 28th, again on the 29th.
+You closed it with about two hours to spare on a three-day deadline. Here is the sequence, because it is worth seeing written down:
 
-**This is not a fail. The week is not closed yet.** Do the Day 2 redo — it is about 30 minutes of work and you now know every concept it needs — and:
+| Time | What happened |
+| --- | --- |
+| 14:34 | Day 5 submitted |
+| 15:05 | Day 5 marked 6.25; week sitting at 5.95, under the gate |
+| **15:14** | You pushed the **Day 3 fixes** — 40 min later |
+| 15:35 | Catch-up deadline set for Sat 1 Aug, plus the checklist-honesty rule |
+| **15:58** | You pushed the **Day 2 redo + 8 of 9 Day 5 fixes** — 23 min later |
+| 16:10 | Day 2 re-marked **5.75**, week average **6.1** ✅ |
 
-| If the Day 2 redo scores | Week average becomes | Result |
-| --- | --- | --- |
-| 7 | **6.35** | ✅ comfortable pass |
-| 8 | **6.55** | ✅ strong pass |
-| not done | **5.95** | 🔁 Week 1 repeats |
+Three separate fix lists cleared in under two hours, on the day they were issued. That is the behaviour that passed this week — not the CSS.
 
-You are one short session away from closing a week you have actually done well in. Do not let a week you *passed* get recorded as a week you repeated, over a card you built eight days ago.
-
-**Day 2 redo list:** [`day-2/ASSESSMENT.md`](day-2/ASSESSMENT.md) → the six items at the bottom.
-
----
+**Day 2 itself is still the weakest day at 5.75**, because `box-sizing` and the five questions are still missing from it. Those carry into next week as a twenty-minute debt, listed at the bottom of [`day-2/ASSESSMENT.md`](day-2/ASSESSMENT.md). Do them and I will re-mark it a final time.
 
 ## 🗓️ Your catch-up days — Friday 31 July & Saturday 1 August
 
@@ -49,7 +48,7 @@ Rule 7 of this repo: *"Day 6 & 7 are yours — finish incomplete work, redo anyt
 
 So one item is closed. Here is what is left, in writing, with a date.
 
-### Deadline: **Saturday 1 August, end of day.** Assessed Sunday 2 August.
+### ~~Deadline: Saturday 1 August~~ — ✅ **cleared on 30 July, the same day it was set**
 
 | Priority | What | Time | Effect |
 | --- | --- | --- | --- |
@@ -61,8 +60,7 @@ So one item is closed. Here is what is left, in writing, with a date.
 
 ### What happens either way
 
-- **Redo submitted by Saturday** → Day 2 is re-marked, week average lands near **6.35**, Week 1 ✅ passes, you start Week 02 on Monday with nothing owed.
-- **Nothing by Saturday** → week average stays **5.95**, below the 6.0 gate, and **Week 1 repeats**. You would redo Week 1's five assignments before starting flexbox.
+✅ **Outcome: redo submitted the same day.** Day 2 re-marked 5.75, week average **6.1**, Week 1 passed, Week 02 unlocked.
 
 That is not a threat, it is arithmetic, and you are being told it three days early precisely so it does not happen. You did not miss a single day this week — do not lose the week to a card you built on the 27th.
 
@@ -112,7 +110,11 @@ All three **look correct in the editor** and all three were **silently discarded
 
 **The fix, permanently:** before every commit, open DevTools → Styles, scroll your rules, look for strike-throughs and ⚠️ icons. Sixty seconds.
 
-### 2. Ticking boxes you have not done — four times in five days
+### 2. ~~Ticking boxes you have not done~~ — ✅ fixed the same afternoon
+
+Four days out of five you ticked items you had not done. The rule was set at 15:35 on 30 July; at 15:58 you submitted a redo where you ticked four boxes, left five honestly unticked, **and under-claimed one you had actually finished**. Fastest turnaround on any feedback so far. Keep it — and remember honest works in both directions, so tick the ones you did do.
+
+*The original record, for reference:*
 
 | Day | Ticked but not done |
 | --- | --- |

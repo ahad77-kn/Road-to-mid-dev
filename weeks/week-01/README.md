@@ -36,17 +36,17 @@
 | Day | Assignment | Open | Score |
 | --- | --- | --- | --- |
 | [**D1**](day-1/) | Business card — exact spacing, borders, colours | [📄 open →](day-1/) | **6/10** ✅ |
-| [**D2**](day-2/) | Pricing card — padding & margin only, no flexbox | [📄 open →](day-2/) | **5/10** 🔁 |
+| [**D2**](day-2/) | Pricing card — padding & margin only, no flexbox | [📄 open →](day-2/) | **5.75/10** 🔁 redone |
 | [**D3**](day-3/) | Break it 5 ways on purpose, then fix each | [📄 open →](day-3/) | **6/10** ✅ |
 | [**D4**](day-4/) | Typography article page — `rem` only | [📄 open →](day-4/) | **6.5/10** ✅ |
 | [**D5**](day-5/) | Signup form with focus, error and disabled states | [📄 open →](day-5/) | **6.25/10** ✅ |
 
 ---
 
-## 📋 Week complete — [read the WEEK REVIEW →](WEEK-REVIEW.md)
+## 📋 ✅ WEEK PASSED — average **6.1** · [read the WEEK REVIEW →](WEEK-REVIEW.md)
 
-**Average 5.95** — five hundredths below the 6.0 gate, entirely because the Day 2 redo was never done.
-The week is not closed: do the Day 2 redo and it passes at ~6.35.
+Day 2 was redone on 30 July (5 → 5.75), which took the week average over the 6.0 gate.
+**Week 02 — Flexbox & Grid is unlocked.**
 
 ---
 

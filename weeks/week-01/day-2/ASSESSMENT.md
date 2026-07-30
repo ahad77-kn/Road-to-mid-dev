@@ -173,3 +173,143 @@ This is the item that decides whether Week 1 passes (average 5.95 vs a 6.0 gate)
 For `box-sizing` that is one `Cmd+F` in your CSS. Ten seconds would have caught it. Do that ten seconds before every commit, for the rest of this course.
 
 You are not behind. Day 1 was 6, today is 5, and the gap is entirely *process* — reading to the end, checking your own work, answering the questions. Those are the cheapest marks in the whole course to win back.
+
+---
+---
+
+# 🔁 REDO ASSESSMENT — 30 July, commit `8157ce0`
+
+**Resubmitted:** 2026-07-30 15:58 — ☑ well inside the Sat 1 Aug deadline (44 minutes after it was set)
+
+## Revised score
+
+| # | Criterion | Max | Was | Now |
+| --- | --- | --- | --- | --- |
+| 1 | Requirements met | 3 | 1.5 | **1.75** |
+| 2 | Code quality | 2 | 1 | **1.25** |
+| 3 | Understanding | 3 | 1 | **1.25** |
+| 4 | Process | 2 | 1.5 | **1.5** |
+| | **TOTAL** | **10** | 5 | **5.75 / 10** |
+
+**This score replaces the 5.** And it is the score that closed out your week — see the bottom of this file.
+
+---
+
+## ✅ What you fixed
+
+| Redo item | |
+| --- | --- |
+| Add the 2 missing features (5 total) | ✅ done — and you did not even tick it |
+| Delete all five `position: relative` blocks and every offset | ✅ done |
+| Delete the duplicate `font-size` and `text-align` | ✅ done |
+| Delete the stray files in `weeks/week-09/` | ✅ done |
+| *(bonus)* rename to `index.html` / `style.css` | ✅ done — matches the artifact table |
+
+## 🌟 And the thing I want to single out
+
+**You ticked four boxes and honestly left five unticked — including one you had actually done.**
+
+You completed the 5 features and left that box empty. You *under-claimed*. Compare that with the original submission, where you ticked all six boxes with two of them plainly false.
+
+I set the "only tick what you can point at" rule **forty-four minutes** before you pushed this, and it is already in your behaviour. That is the fastest any piece of feedback has landed with you, and it is the one that matters most, because everything else I tell you depends on being able to trust your own report of your own work.
+
+For the record: tick the ones you *have* done. Honest means accurate in both directions.
+
+---
+
+## ❌ What is still not done
+
+### 1. `box-sizing` — still absent, and it was item #1
+
+```
+$ grep -c "box-sizing" weeks/week-01/day-2/assignment/style.css
+0
+```
+
+Day 2's entire subject is the box model. Your card is still `width: 500px; padding: 30px; border: 1px` = **562px on screen**, and there is still nothing in the file that says so.
+
+You *proved on Day 3 and Day 5 that you understand this property* — you set `border-box` correctly on both, and on Day 3 you even widened the card to 570px to make the content fit honestly. So this is not a knowledge gap any more. It is just an unticked line on a list.
+
+```css
+*, *::before, *::after { box-sizing: border-box; }  /* padding + border count inside width */
+```
+
+### 2. The five questions are still blank
+
+`learn/NOTES.md` still has:
+```
+1.
+2.
+3.
+4.
+5.
+```
+
+**That block is worth 3 of the 10 marks** — the largest single chunk of the rubric. It is the reason this redo is 5.75 and not 7.5. The questions are in [`assignment/README.md`](assignment/README.md), they are published in advance, and answering them takes fifteen minutes.
+
+If you had answered these five questions and added one line of `box-sizing`, this would have been a 7.5 and Day 2 would be closed.
+
+### 3. 🐛 Your `:focus-visible` rule matches nothing
+
+```css
+.button:focus-visible { … }   /* ← a CLASS called "button" */
+```
+
+```html
+<button>Order Now</button>     <!-- ← no class attribute at all -->
+```
+
+`.button` with a dot means *"an element with `class="button"`"*. Your button has no class, so this rule can never apply. Tab to the button — nothing happens.
+
+**This is the Day 3 lesson again, from the other direction.** On Day 3 you tested `.card p` when your div was `class="pricing-card"`, and the rule silently never matched. Same mistake, same cause: **a dot means class, no dot means element.**
+
+```css
+.pricing-card button:focus-visible { … }   /* the <button> inside .pricing-card */
+```
+
+Credit where due: the *contents* of the rule are correct — `outline: 0.2rem solid rgb(0,0,0)` has a width **and** a style, which is the Day 5 fix applied here in advance. You fixed the property and then aimed it at the wrong element.
+
+### 4. The magic numbers are still there, on two elements
+
+```css
+.price  { margin-left: 350px; }
+button  { margin-left: 330px; }
+```
+
+You put `text-align: right` on `h2`, `ul` and `li` — good, that is the right tool. But `.price` and the button are `inline-block`, so `text-align` on *themselves* does nothing; it has to be on the **parent**:
+
+```css
+.pricing-card { text-align: right; }   /* then delete both margin-left values */
+```
+
+One line on the parent replaces both numbers, and it keeps working if the card is ever not 500px wide. Third time I have written this line out.
+
+### 5. Spacing scale, and the comment that still lies
+
+- Numbers in use: 30, 50, 350, 330, 20, 33, 7, 15, 22, 12, 27. Your own declared scale: 4 / 8 / 16 / 24 / 32 / 48.
+- Your header comment still says **"width and height ; 500px"** (there is no height any more) and **"relitive positions"** (you removed them all — well done — but the comment still advertises them).
+
+A comment describing code you deleted is actively misleading. Update it or delete it.
+
+---
+
+## 🏁 Verdict: 5.75/10 — still under the day pass mark of 6, **but your week passed**
+
+| | |
+| --- | --- |
+| Day 2 (this day) | **5.75** — remains the weakest day of the week |
+| **Week 1 average** | **(5.75 + 6 + 6 + 6.5 + 6.25) ÷ 5 = 6.1** |
+| **Week 1 gate (≥ 6.0)** | ✅ **PASSED** |
+
+**You have unlocked Week 02 — Flexbox & Grid.** You turned this around 44 minutes after the deadline was set, and that speed is what saved the week.
+
+### Carried into Week 2 — two items, twenty minutes
+
+Not blocking, but do them:
+
+- [ ] Add `box-sizing: border-box` to this file. You know how; it is one line.
+- [ ] Answer the five questions in `learn/NOTES.md`.
+
+If you do both, tell me and I will re-mark this day one final time. With the questions answered it is a 7+, and I would rather your record showed the day you actually understand than the day you rushed.
+
+**And note this:** flexbox — which you start on Monday — is the real answer to `margin-left: 350px`. Every alignment problem you have hand-tuned with pixels this week becomes `justify-content: flex-end`. You have earned that lesson the hard way, which is exactly why it will stick.

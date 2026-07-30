@@ -14,14 +14,13 @@
 
 ### 🔁 Redo first: **[Week 01 · Day 2 — Pricing card](weeks/week-01/day-2/)** — 5/10, see the redo list
 
-### ⏳ ACTION NEEDED by **Sat 1 Aug**: the [Day 2 redo](weeks/week-01/day-2/ASSESSMENT.md) decides whether Week 1 passes
+### ✅ Week 1 PASSED — average **6.1** · [week review →](weeks/week-01/WEEK-REVIEW.md)
 
-Week 1 average is **5.95** — the gate is 6.0. Fri 31 Jul & Sat 1 Aug are your catch-up days (rule 7).
-~1 hour of work: Day 2 redo, plus the short Day 3 and Day 5 fix lists. Full detail → **[Week 1 review](weeks/week-01/WEEK-REVIEW.md)**
+Day 2 redone on 30 July (5 → 5.75) the same day the deadline was set, which cleared the 6.0 gate.
 
-### ⬜ Then: **[Week 02 — Flexbox & Grid →](weeks/week-02/)**
+### ▶️ Next: **[Week 02 · Day 1 — The header, twice →](weeks/week-02/day-1/)** (Flexbox & Grid)
 
-_(D1 **6** ✅ · D2 **5** 🔁 · D3 **6** ✅ · D4 **6.5** ✅ · D5 **6.25** ✅ · Week average **5.95**)_
+_(D1 **6** · D2 **5.75** · D3 **6** · D4 **6.5** · D5 **6.25** · Week 1 average **6.1** ✅)_
 
 | I want to… | Go to |
 | --- | --- |
@@ -59,7 +58,7 @@ weeks/week-01/day-2/
 ### Phase 1 · CSS Mastery
 | Week | Topic | Days (click to open the assignment) | Status |
 | --- | --- | --- | --- |
-| [Week 01](weeks/week-01/) | CSS fundamentals, selectors & the box model | [1](weeks/week-01/day-1/) · [2](weeks/week-01/day-2/) · [3](weeks/week-01/day-3/) · [4](weeks/week-01/day-4/) · [5](weeks/week-01/day-5/) | 🟨 in progress |
+| [Week 01](weeks/week-01/) | CSS fundamentals, selectors & the box model | [1](weeks/week-01/day-1/) · [2](weeks/week-01/day-2/) · [3](weeks/week-01/day-3/) · [4](weeks/week-01/day-4/) · [5](weeks/week-01/day-5/) | ✅ passed 6.1 |
 | [Week 02](weeks/week-02/) | Flexbox & Grid | [1](weeks/week-02/day-1/) · [2](weeks/week-02/day-2/) · [3](weeks/week-02/day-3/) · [4](weeks/week-02/day-4/) · [5](weeks/week-02/day-5/) | ⬜ |
 | [Week 03](weeks/week-03/) | Responsive design & polish → **Phase 1 exam** | [1](weeks/week-03/day-1/) · [2](weeks/week-03/day-2/) · [3](weeks/week-03/day-3/) · [4](weeks/week-03/day-4/) · [5](weeks/week-03/day-5/) | ⬜ |
 
