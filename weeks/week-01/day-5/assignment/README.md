@@ -15,13 +15,13 @@ A full signup form: name, email, password, confirm password, a checkbox for term
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] Every input has a real `<label>` linked with `for`/`id` (click the label, the input focuses — test it)
-- [ ] `:focus-visible` state — clearly visible, and **not** `outline: none` with nothing to replace it
-- [ ] Error state: red border + an error message under the field (styled with a class you toggle by hand for now)
-- [ ] `:disabled` button state — visibly different and `cursor: not-allowed`
-- [ ] `:hover` on the button, `:checked` styling on the checkbox
-- [ ] Correct `type` on every input (`email`, `password`) and a `placeholder` that is **not** a substitute for a label
-- [ ] Keyboard test: you can complete the whole form with Tab and Enter only
+- [x] Every input has a real `<label>` linked with `for`/`id` (click the label, the input focuses — test it)
+- [x] `:focus-visible` state — clearly visible, and **not** `outline: none` with nothing to replace it
+- [x] Error state: red border + an error message under the field (styled with a class you toggle by hand for now)
+- [x] `:disabled` button state — visibly different and `cursor: not-allowed`
+- [x] `:hover` on the button, `:checked` styling on the checkbox
+- [x] Correct `type` on every input (`email`, `password`) and a `placeholder` that is **not** a substitute for a label
+- [x] Keyboard test: you can complete the whole form with Tab and Enter only
 
 ## 🎤 The teacher will ask you
 

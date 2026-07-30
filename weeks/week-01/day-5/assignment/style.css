@@ -1,0 +1,108 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    font-family: inter, 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+form {
+    width: 30rem;
+    margin: 4rem auto;
+    padding: 2rem;
+
+    background-color:azure;
+    border: 1.5px solid black;
+    border-radius: 8px;
+
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-family: monospace , serif , sans-serif;
+}
+
+label {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    display: block;
+
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+
+    width: 95%;
+    padding: 0.8rem;
+
+    border: 1px solid #bdbdbd;
+    border-radius: 0.5rem;
+
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: 0.3s;
+
+}
+
+input:focus {
+
+    border-color: skyblue;
+
+    outline: 0.2rem;
+
+    box-shadow: 0 0 0.4rem rgba(65,105,225,0.3);
+}
+
+input[type="checkbox"]{
+
+    accent-color: skyblue;
+     margin-right: 0.5rem;
+     margin-top: 0.8rem;
+}
+   
+button {
+    width: 95%;
+    padding: 0.7rem;
+    margin-top: 2rem;
+
+    color:black;
+
+    border: none;
+    border-radius: 0.5;
+
+    font-size: 1rem;
+    font-weight:600;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:disabled {
+
+    background-color: rgb(206, 218, 218);
+
+    cursor: not-allowed;
+
+    opacity: 0.6;
+}
+
+button:hover {
+    transform: translateY(-0.1rem);
+}
+
+.error {
+
+    border: 0.12rem solid red;
+}
+
+.error-message {
+
+    color: red;
+
+    font-size: 0.9rem;
+
+    margin-top: 0.4rem;
+}
