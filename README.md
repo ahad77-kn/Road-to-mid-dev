@@ -14,9 +14,11 @@
 
 ### 🔁 Redo first: **[Week 01 · Day 2 — Pricing card](weeks/week-01/day-2/)** — 5/10, see the redo list
 
-### ⬜ Then: **[Week 01 · Day 5 — Signup form states →](weeks/week-01/day-5/)**
+### ⚠️ Week 1 is at **5.95** — the 6.0 gate hinges on that redo. [Week review →](weeks/week-01/WEEK-REVIEW.md)
 
-_(D1 **6** ✅ · D2 **5** 🔁 · D3 **6** ✅ · D4 **6.5** ✅ · Running average: **5.9**)_
+### ⬜ Then: **[Week 02 — Flexbox & Grid →](weeks/week-02/)**
+
+_(D1 **6** ✅ · D2 **5** 🔁 · D3 **6** ✅ · D4 **6.5** ✅ · D5 **6.25** ✅ · Week average **5.95**)_
 
 | I want to… | Go to |
 | --- | --- |
@@ -24,6 +26,7 @@ _(D1 **6** ✅ · D2 **5** 🔁 · D3 **6** ✅ · D4 **6.5** ✅ · Running ave
 | Pick a week and see its plan | [🧭 The Road](#-the-road) below |
 | Know how I am marked, and the AI rule | [📏 GRADING.md](GRADING.md) |
 | See every score so far | [🏆 SCOREBOARD.md](SCOREBOARD.md) |
+| Read a week's end-of-week review | e.g. [Week 01 review](weeks/week-01/WEEK-REVIEW.md) |
 | Read deeper — state, auth, sessions, guards, APIs, security | [📚 RESOURCES.md](RESOURCES.md) |
 | The teacher's marking template | [📁 `_template/`](_template/) |
 

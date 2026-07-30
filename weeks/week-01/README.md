@@ -39,7 +39,14 @@
 | [**D2**](day-2/) | Pricing card — padding & margin only, no flexbox | [📄 open →](day-2/) | **5/10** 🔁 |
 | [**D3**](day-3/) | Break it 5 ways on purpose, then fix each | [📄 open →](day-3/) | **6/10** ✅ |
 | [**D4**](day-4/) | Typography article page — `rem` only | [📄 open →](day-4/) | **6.5/10** ✅ |
-| [**D5**](day-5/) | Signup form with focus, error and disabled states | [📄 open →](day-5/) | – |
+| [**D5**](day-5/) | Signup form with focus, error and disabled states | [📄 open →](day-5/) | **6.25/10** ✅ |
+
+---
+
+## 📋 Week complete — [read the WEEK REVIEW →](WEEK-REVIEW.md)
+
+**Average 5.95** — five hundredths below the 6.0 gate, entirely because the Day 2 redo was never done.
+The week is not closed: do the Day 2 redo and it passes at ~6.35.
 
 ---
 
