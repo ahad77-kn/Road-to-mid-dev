@@ -20,161 +20,73 @@ relitive positions;
 */
 
 .pricing-card {
-
     width: 500px;
-
-    height: 500px;
-
     padding: 30px;
-
     margin: 50px auto;
-
     border: 1px solid black;
-
     border-radius: 15px;
-
-
-
     background-image: url("burger.jpg");
-
     background-size: cover;
-
     background-position: center;
-
-
-
 }
-
-
 
 .pricing-card h2 {
-
     color: rgb(255, 156, 75);
-
     font-size: 33px;
-
     margin-bottom: 20px;
-
     text-align: right;
-
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
     -webkit-text-stroke: 2px black;
-
-    position: relative;
-
-    left: 22px;
-
-    top: 35px;
-
 }
 
-
-
-.price { font-size: 27px;
-
-     text-align: right; 
-
+.price { 
+    margin-left: 350px;
+    margin-top: 50px;
+    font-size: 27px;
      background-color: rgb(255, 156, 75);
-
      padding: 7px 15px;
-
-      border-radius: 8px;
-
-       display: inline-block;
-
-        position: relative; 
-
-        right: -350px; 
-
-        top: 40px; 
+     border-radius: 8px;
+    display: inline-block;
 
  }
 
-
-
-
-
 .pricing-card ul {
-
-    position: relative;
-
-    text-align: right;
-
     margin: 20px 0;
-
     padding-right: 10px;
-
-     list-style-type: square;
-
-      list-style-position: inside;
-
+    list-style-type: square;
+    list-style-position: inside;
     text-align: right;
-
-
-
 }
-
-    
-
-
 
 .pricing-card li {
-
     margin-bottom: 50px;
-
-    position: relative;
-
-    top: 30px;
-
-    left: 20px;
-
-    font-size: 18px;
-
     color: rgb(255, 156, 75);
-
     font-size: 22px;
-
     text-align: right;
-
 }
-
-
 
 .pricing-card button {
-
     padding: 12px 30px;
-
     margin-top: 20px;
-
+    margin-left: 330px;
     border: none;
-
     border-radius: 8px;
-
     cursor: pointer;
-
-    position: relative;
-
-    right: -350px;
-
-    top: 10px;
-
     font-weight: bold;
-
     font-size: 16px;
-
     background-color: rgb(255, 156, 75);
-
 }
 
-
-
 .pricing-card button:hover {
-
     background-color: black;
-
     color: white;
-
     transform: scale(1.2);
+}
 
+.button:focus-visible {
+    border-color: rgb(0, 0, 0);
+
+    outline: 0.2rem solid   rgb(0, 0, 0);
+
+    box-shadow: 0 0 0.4rem rgba(65,105,225,0.3);
 }

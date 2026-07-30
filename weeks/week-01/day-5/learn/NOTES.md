@@ -11,9 +11,9 @@ ai used for explaining me the topic and for learning from it that how will i sho
 
 -i learned about making sigup and login page ,forms.
 
--i learned (labels,inputs,more data types,placeholders,buttons,checkbox.)
+-i learned (labels,inputs,more data types,placeholders,buttons,checkbox)
 
--
+
 
 ## What I struggled with (mandatory — "nothing" is not allowed)
 

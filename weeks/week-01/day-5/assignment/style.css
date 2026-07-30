@@ -2,7 +2,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    font-family: inter, 'Franklin Gothic Medium', Arial, sans-serif;
+    font-family: inter, 'Franklin Gothic Medium';
 }
 
 form {
@@ -21,7 +21,7 @@ h1 {
     text-align: center;
     margin-bottom: 2rem;
     font-size: 2.5rem;
-    font-family: monospace , serif , sans-serif;
+    font-family: monospace ;
 }
 
 label {
@@ -36,11 +36,11 @@ input[type="text"],
 input[type="email"],
 input[type="password"] {
 
-    width: 95%;
+    width: 100%;
     padding: 0.8rem;
 
     border: 1px solid #bdbdbd;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 
     font-size: 1rem;
     box-sizing: border-box;
@@ -48,16 +48,16 @@ input[type="password"] {
 
 }
 
-input:focus {
+input:focus-visible {
 
     border-color: skyblue;
 
-    outline: 0.2rem;
+    outline: 0.2rem solid skyblue;
 
     box-shadow: 0 0 0.4rem rgba(65,105,225,0.3);
 }
 
-input[type="checkbox"]{
+input[type="checkbox"]:checked {
 
     accent-color: skyblue;
      margin-right: 0.5rem;
@@ -72,7 +72,7 @@ button {
     color:black;
 
     border: none;
-    border-radius: 0.5;
+    border-radius: 0.5rem;
 
     font-size: 1rem;
     font-weight:600;

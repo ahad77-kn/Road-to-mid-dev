@@ -191,15 +191,15 @@ So your instinct — *"instead we can use it"* — is the position a lot of prof
 
 ## ✅ Fix list — short today
 
-- [ ] `outline: 0.2rem` → `outline: 0.2rem solid #4169e1` (+ `outline-offset`)
-- [ ] `border-radius: 0.5` → `0.5rem`
-- [ ] `:focus` → `:focus-visible`
-- [ ] Add a real `:checked` rule
-- [ ] `id="confirm password"` → `id="confirm-password"` (both places)
-- [ ] Add a second, **enabled** button so `:hover` and the keyboard submit can actually be tested
-- [ ] Delete the empty `<div class="checkbox">` and the unreachable `inter` / `serif, sans-serif` font names
-- [ ] `width: 95%` → `100%`
-- [ ] Third "What I learned" bullet
+- [x] `outline: 0.2rem` → `outline: 0.2rem solid #4169e1` (+ `outline-offset`)
+- [x] `border-radius: 0.5` → `0.5rem`
+- [x] `:focus` → `:focus-visible`
+- [x] Add a real `:checked` rule
+- [x] `id="confirm password"` → `id="confirm-password"` (both places)
+- [x] Add a second, **enabled** button so `:hover` and the keyboard submit can actually be tested
+- [x] Delete the empty `<div class="checkbox">` and the unreachable `inter` / `serif, sans-serif` font names
+- [x] `width: 95%` → `100%`
+- [x] Third "What I learned" bullet
 
 ---
 

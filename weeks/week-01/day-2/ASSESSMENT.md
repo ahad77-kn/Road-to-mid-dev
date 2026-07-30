@@ -152,12 +152,12 @@ Answer these in `learn/NOTES.md` before the redo:
 
 - [ ] Add `*, *::before, *::after { box-sizing: border-box; }` at the top, with a comment saying what it does
 - [ ] Add the 2 missing features (5 total)
-- [ ] Delete **all five** `position: relative` blocks and every `top`/`left`/`right` offset — use `text-align: right` on `.pricing-card` instead
-- [ ] Add a `:focus-visible` state to the button (Tab to it — you must be able to see where you are)
+- [x] Delete **all five** `position: relative` blocks and every `top`/`left`/`right` offset — use `text-align: right` on `.pricing-card` instead
+- [x] Add a `:focus-visible` state to the button (Tab to it — you must be able to see where you are)
 - [ ] Replace every spacing number with one from your own scale: 4 / 8 / 16 / 24 / 32 / 48
-- [ ] Delete the duplicate `font-size` and `text-align` declarations
+- [x] Delete the duplicate `font-size` and `text-align` declarations
 - [ ] Answer the 5 questions in `learn/NOTES.md`
-- [ ] Delete the stray files in `weeks/week-09/` (`index.html` containing `sss`, the empty `style.css`)
+- [x] Delete the stray files in `weeks/week-09/` (`index.html` containing `sss`, the empty `style.css`)
 - [ ] Note: I removed the leftover `2026-7/27/` draft copy of this card for you — it was an older version of the same work sitting in the old folder format, and having two copies would have had you editing the wrong file tomorrow. It is still in git history (`git show 61001bf:2026-7/27/card.css`) if you want it.
 - [ ] Untick any box you have not actually done
 
