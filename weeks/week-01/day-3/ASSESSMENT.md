@@ -215,7 +215,26 @@ Then the same fixes carry into Day 3's card, since it is the same card.
 
 ---
 
-## ✅ Today's small fix list
+## ✅ FIXES DONE — 30 July 15:14, commit `0ebc7ab`
+
+You pushed these **40 minutes after reading this assessment**, and you did them right:
+
+| Fix | Done |
+| --- | --- |
+| `margin: 20px opx` → `20px 0px` | ✅ |
+| `box-sizing: content-box` → `border-box` | ✅ |
+| Duplicate `font-size: 18px` deleted | ✅ |
+| `width: 500px` → `570px` | ✅ **and this one impressed me** |
+
+That last change was not on the list. You read the arithmetic in section 3 above — 500 content + 60 padding + 10 border = 570 — and instead of switching `border-box` off again, you **gave the content the room it was actually asking for.** That is the correct engineering decision and you reached it by reading, not by guessing.
+
+The score stays at 6/10 because it reflects the work as submitted at the deadline. But this is exactly the follow-through I have been asking for, and it is the reason I am confident the Day 2 redo will score well. Keep this speed.
+
+*Still open on this file (not required, but worth doing when you next touch it): the `margin-left: 230px` magic numbers, and the header comment that still says "relitive positions".*
+
+---
+
+## Original fix list
 
 - [ ] Line 58: `opx` → `0`
 - [ ] `content-box` → `border-box`, then fix the content that overflows

@@ -45,17 +45,19 @@ You are one short session away from closing a week you have actually done well i
 
 Rule 7 of this repo: *"Day 6 & 7 are yours — finish incomplete work, redo anything marked 🔁, or rest."*
 
-You have not used them yet. **This is not an extension or a favour — it is the schedule.** But it is the last time the Day 2 redo gets asked for, so here it is in writing.
+**Update, 30 July 15:14 — you have already started.** Forty minutes after I posted the Day 3 assessment you pushed the fixes, and you did them properly: `opx` → `0`, `content-box` → `border-box`, duplicate `font-size` deleted. You also widened the card `500px` → `570px` — which is exactly the number in that assessment, and exactly the right decision. You did not switch the measuring system off, you gave the content the room it was asking for. **That is the best follow-through you have shown.**
+
+So one item is closed. Here is what is left, in writing, with a date.
 
 ### Deadline: **Saturday 1 August, end of day.** Assessed Sunday 2 August.
 
 | Priority | What | Time | Effect |
 | --- | --- | --- | --- |
 | **1** | [Day 2 redo](day-2/ASSESSMENT.md) — the 6 items | ~30 min | **This decides the week.** The new score replaces the 5. |
-| 2 | [Day 3 fixes](day-3/ASSESSMENT.md) — `opx` → `0`, `content-box` → `border-box`, duplicate `font-size` | ~10 min | Clears the oldest open defect in the repo |
+| ~~2~~ | ~~Day 3 fixes~~ | — | ✅ **done 30 Jul 15:14** |
 | 3 | [Day 5 fixes](day-5/ASSESSMENT.md) — the outline, the radius, `:focus-visible`, `:checked` | ~10 min | Closes the week clean |
 
-**About an hour, total.**
+**About forty minutes left, total.**
 
 ### What happens either way
 
@@ -63,6 +65,8 @@ You have not used them yet. **This is not an extension or a favour — it is the
 - **Nothing by Saturday** → week average stays **5.95**, below the 6.0 gate, and **Week 1 repeats**. You would redo Week 1's five assignments before starting flexbox.
 
 That is not a threat, it is arithmetic, and you are being told it three days early precisely so it does not happen. You did not miss a single day this week — do not lose the week to a card you built on the 27th.
+
+And on today's evidence you will not. You turned the Day 3 list around in under an hour. Do the same with Day 2.
 
 ### One new rule, starting Week 2
 
