@@ -5,7 +5,7 @@
 Every assignment is out of 10. Pass mark 6. Week average below 6 → the week repeats.
 Filled in by the teacher after each day is marked.
 
-**Running average:** **6.1** · **Days completed:** 5 / 125 · **Redos:** 1 completed (W01 D2: 5 → 5.75)
+**Running average:** **6.35** · **Days completed:** 5 / 125 · **Redos:** 1 completed (W01 D2: 5 → 5.75 → 7.0)
 
 **Week 1 ✅ PASSED** — Week 02 unlocked.
 
@@ -21,7 +21,7 @@ Filled in by the teacher after each day is marked.
 
 | Week | D1 | D2 | D3 | D4 | D5 | Avg | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [01](weeks/week-01/) — CSS fundamentals & box model | **6** | **5.75** 🔁 | **6** | **6.5** | **6.25** | **6.1** | ✅ [passed](weeks/week-01/WEEK-REVIEW.md) |
+| [01](weeks/week-01/) — CSS fundamentals & box model | **6** | **7.0** ✅ | **6** | **6.5** | **6.25** | **6.35** | ✅ [passed](weeks/week-01/WEEK-REVIEW.md) |
 | [02](weeks/week-02/) — Flexbox & Grid | – | – | – | – | – | – | ⬜ |
 | [03](weeks/week-03/) — Responsive & polish | – | – | – | – | – | – | ⬜ |
 | **Phase 1 exam** | | | | | | – | ⬜ |
@@ -97,7 +97,7 @@ Kept honest, not to punish — to see the trend. The goal is for the "self" colu
 
 | Week/Day | Reason | Redone on | New score |
 | --- | --- | --- | --- |
-| W01 D2 | box-sizing missing, 3 of 5 features, 5× position hacks, all test questions blank | 30 Jul, same day as the deadline | **5.75** (was 5) — box-sizing & the 5 questions still open |
+| W01 D2 | box-sizing missing, 3 of 5 features, 5× position hacks, all test questions blank | 30 Jul (code) + 2 Aug (questions) | **7.0** ✅ (was 5) — `box-sizing` still absent from the file |
 
 ---
 

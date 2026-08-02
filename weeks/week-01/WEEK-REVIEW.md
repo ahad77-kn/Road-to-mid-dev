@@ -2,7 +2,7 @@
 
 [← The Road](../../README.md) · [⬆ Week 01](README.md) · [🏆 Scoreboard](../../SCOREBOARD.md)
 
-**Student:** Muhammad Ahad · **Week:** 22–30 July 2026 · **Reviewed:** 30 July · **Result: ✅ PASSED (6.1)**
+**Student:** Muhammad Ahad · **Week:** 22–30 July 2026 · **Reviewed:** 30 July · **Result: ✅ PASSED (6.35)**
 
 ---
 
@@ -11,11 +11,11 @@
 | Day | Assignment | Score | |
 | --- | --- | --- | --- |
 | [D1](day-1/) | Business card | **6.0** | ✅ |
-| [D2](day-2/) | Pricing card, no flexbox | **5.75** | 🔁 redone 30 Jul (was 5.0) |
+| [D2](day-2/) | Pricing card, no flexbox | **7.0** | ✅ 5 → 5.75 → 7.0 (2 Aug) |
 | [D3](day-3/) | Break it 5 ways | **6.0** | ✅ |
 | [D4](day-4/) | Typography page, `rem` only | **6.5** | ✅ |
 | [D5](day-5/) | Signup form states | **6.25** | ✅ |
-| | **Week average** | **6.1** | ✅ **PASSED** |
+| | **Week average** | **6.35** | ✅ **PASSED** |
 
 **Attendance:** 5 of 5 days submitted, every one pushed the same day. No missed submissions.
 
@@ -23,7 +23,7 @@
 
 ## ✅ The gate — PASSED
 
-**Week average 6.1, against a 6.0 gate. Week 02 is unlocked.**
+**Week average 6.35, against a 6.0 gate. Week 02 is unlocked.**
 
 You closed it with about two hours to spare on a three-day deadline. Here is the sequence, because it is worth seeing written down:
 
@@ -35,10 +35,11 @@ You closed it with about two hours to spare on a three-day deadline. Here is the
 | 15:35 | Catch-up deadline set for Sat 1 Aug, plus the checklist-honesty rule |
 | **15:58** | You pushed the **Day 2 redo + 8 of 9 Day 5 fixes** — 23 min later |
 | 16:10 | Day 2 re-marked **5.75**, week average **6.1** ✅ |
+| **Sun 2 Aug 09:16** | You answered the five Day 2 questions unprompted → Day 2 **7.0**, week **6.35** |
 
 Three separate fix lists cleared in under two hours, on the day they were issued. That is the behaviour that passed this week — not the CSS.
 
-**Day 2 itself is still the weakest day at 5.75**, because `box-sizing` and the five questions are still missing from it. Those carry into next week as a twenty-minute debt, listed at the bottom of [`day-2/ASSESSMENT.md`](day-2/ASSESSMENT.md). Do them and I will re-mark it a final time.
+**Update, 2 August:** you came back on a Sunday and answered the five questions. Day 2 re-marked **7.0** — it is now a clean pass and no longer the weakest day of the week. One item is still open on it: `box-sizing` is still not in that file, and your Q5 answer had `content-box` and `border-box` swapped. See [`day-2/ASSESSMENT.md`](day-2/ASSESSMENT.md) — that property has now cost you marks on three separate days, so it is worth ten minutes.
 
 ## 🗓️ Your catch-up days — Friday 31 July & Saturday 1 August
 

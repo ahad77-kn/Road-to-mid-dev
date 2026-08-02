@@ -313,3 +313,84 @@ Not blocking, but do them:
 If you do both, tell me and I will re-mark this day one final time. With the questions answered it is a 7+, and I would rather your record showed the day you actually understand than the day you rushed.
 
 **And note this:** flexbox — which you start on Monday — is the real answer to `margin-left: 350px`. Every alignment problem you have hand-tuned with pixels this week becomes `justify-content: flex-end`. You have earned that lesson the hard way, which is exactly why it will stick.
+
+---
+---
+
+# 🔁 FINAL RE-MARK — 2 August, commit `d86c7d1`
+
+You came back on a **Sunday**, unprompted, to close a debt from nine days ago. Noted, and it counts.
+
+## Final score
+
+| # | Criterion | Max | Original | Redo (30 Jul) | **Final** |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Requirements met | 3 | 1.5 | 1.75 | **1.75** |
+| 2 | Code quality | 2 | 1 | 1.25 | **1.25** |
+| 3 | Understanding | 3 | 1 | 1.25 | **2.25** |
+| 4 | Process | 2 | 1.5 | 1.5 | **1.75** |
+| | **TOTAL** | **10** | 5 | 5.75 | **7.0 / 10** |
+
+## 🏁 Verdict: ✅ **PASS** — Day 2 is finally closed
+
+**5 → 5.75 → 7.0.** Week 1 average rises to **6.35**.
+
+I said the questions were worth 3 marks and that answering them made this a 7+. They were, and it is.
+
+---
+
+## Your answers
+
+| Q | |
+| --- | --- |
+| 1. padding vs margin | ✅ **Correct.** Padding inside, margin outside, and the background shows through the padding but not the margin. That last part is the bit most people get wrong. |
+| 2. `width: 100%` + `padding: 20px` | ✅ **Right mechanism**, missing the name. You said the padding is added on top of the full width — true. The *reason* is that the default is `content-box`. Name it next time and the answer is complete. |
+| 3. `margin: 0 auto` | ✅ **Correct**, and you named the condition — the element must have a width, and be a block. |
+| 4. block vs inline | ✅ **Correct.** `div`/`p` vs `span`/`a`, and block starts a new line. |
+| 5. `box-sizing` | ❌ **Backwards — see below.** |
+
+---
+
+## ⚠️ Q5 — you have the two definitions swapped, and this matters
+
+You wrote:
+
+> *"content-box makes the element remain in specified width when there is padding."*
+
+That is **`border-box`**. It is exactly inverted:
+
+| Value | `width: 500px` means… | Element on screen with 30px padding + 1px border |
+| --- | --- | --- |
+| **`content-box`** *(the browser default)* | 500px of **content**; padding and border are **added on top** | **562px** |
+| **`border-box`** | 500px **in total**, padding and border **included** | **500px** |
+
+**Memory hook:** *`border-box` = the width goes out to the border. `content-box` = the width only covers the content.*
+
+Here is why I am not letting this slide even though you passed:
+
+- **On 28 July you had it right.** Your Day 3 `bugs.md` says *"when I added `box-sizing: border-box` so it means the whole is equal to 500px"* — correct.
+- **On 30 July you applied it correctly twice** — `border-box` on Day 3, `border-box` on Day 5.
+- **On 2 August you have it backwards.**
+
+You knew this and lost it. That is normal — it is how memory works — and it is exactly what the questions are for: they catch a concept slipping *before* it costs you a day's marks in Week 6.
+
+**And it explains the one thing still missing:** `box-sizing` is *still* absent from this card's CSS. Not laziness — you had the definitions swapped, so adding it did not feel necessary.
+
+## Still open on this file
+
+Not blocking Week 2, but do them when you next open it:
+
+- [ ] `*, *::before, *::after { box-sizing: border-box; }` — then check the card in DevTools: 562px before, 500px after
+- [ ] `.button:focus-visible` → `.pricing-card button:focus-visible` (a dot means class; your button has no class)
+- [ ] `.pricing-card { text-align: right; }` instead of `margin-left: 350px` / `330px`
+- [ ] The header comment still says *"width and height ; 500px"* and *"relitive positions"* — both untrue now
+
+## One last thing
+
+> *"no questions cuz its not much deepeer topic"*
+
+You wrote this on 27 July too — and then got Q5 backwards on the topic in question. Nine days apart, same sentence, same subject.
+
+Box-sizing is a single CSS property, and it has now cost you marks on three separate days. **The topics that look shallow are usually the ones you have not hit the bottom of yet.** When the "one question I still have" box feels empty, that is a signal to go one level deeper, not a signal that you are done.
+
+Ask me something next time. Anything. The box is there because the question you have not thought to ask is worth more than the four you already answered.
