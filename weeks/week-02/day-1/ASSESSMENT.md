@@ -165,10 +165,10 @@ Good question. Ask more.
 
 ## ✅ Fix list — ~20 minutes
 
-- [ ] Remove `display: flex` (+ `justify-content`, `align-items`) from `floats.css` and rebuild that header with actual floats. Screenshot the collapsed header before you fix it — that screenshot is the point of the day.
-- [ ] Add one sentence to `comparison.md` on why you chose `space-between` over `margin-left: auto`
-- [ ] Remove or justify `.nav { margin: 2rem }`
-- [ ] Third "What I learned" bullet
+- [x] Remove `display: flex` (+ `justify-content`, `align-items`) from `floats.css` and rebuild that header with actual floats. Screenshot the collapsed header before you fix it — that screenshot is the point of the day.
+- [x] Add one sentence to `comparison.md` on why you chose `space-between` over `margin-left: auto`
+- [x] Remove or justify `.nav { margin: 2rem }`
+- [x] Third "What I learned" bullet
 - [ ] Spellcheck `NOTES.md` and `comparison.md`
 
 **If you do the first item today I will re-mark this day** — with a genuine float version it is comfortably an 8.

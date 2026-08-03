@@ -10,11 +10,9 @@ body {
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
     padding: 1rem;
+    height: 80px;
     border-bottom: 1px solid black;
 
 }
@@ -23,11 +21,12 @@ body {
     float: left;
     font-size: 2rem;
     font-weight: bold;
+    line-height: 48px;
 }
 
 .nav {
     float: right;
-    margin: 2rem;
+    line-height: 48px;
 }
 
 .nav a {
@@ -36,11 +35,14 @@ body {
     text-decoration: none;
     color: black;
     font-size: 1.5rem;
+    vertical-align: middle;
 }
 
 .search {
     float: right;  
     font-size: 1.5rem;
+    margin-left: 1.2rem;
+    line-height: 48px;
 }
 
 .header::after {
