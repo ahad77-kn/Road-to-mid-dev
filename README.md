@@ -12,8 +12,6 @@
 
 ## 👉 Start here
 
-### 🔁 Redo first: **[Week 01 · Day 2 — Pricing card](weeks/week-01/day-2/)** — 5/10, see the redo list
-
 ### ✅ Week 1 PASSED — average **6.35** · [week review →](weeks/week-01/WEEK-REVIEW.md)
 
 Day 2 went **5 → 5.75 → 7.0** across two redos and is now a clean pass.
@@ -61,7 +59,7 @@ weeks/week-01/day-2/
 | Week | Topic | Days (click to open the assignment) | Status |
 | --- | --- | --- | --- |
 | [Week 01](weeks/week-01/) | CSS fundamentals, selectors & the box model | [1](weeks/week-01/day-1/) · [2](weeks/week-01/day-2/) · [3](weeks/week-01/day-3/) · [4](weeks/week-01/day-4/) · [5](weeks/week-01/day-5/) | ✅ passed 6.35 |
-| [Week 02](weeks/week-02/) | Flexbox & Grid | [1](weeks/week-02/day-1/) · [2](weeks/week-02/day-2/) · [3](weeks/week-02/day-3/) · [4](weeks/week-02/day-4/) · [5](weeks/week-02/day-5/) | ⬜ |
+| [Week 02](weeks/week-02/) | Flexbox & Grid | [1](weeks/week-02/day-1/) · [2](weeks/week-02/day-2/) · [3](weeks/week-02/day-3/) · [4](weeks/week-02/day-4/) · [5](weeks/week-02/day-5/) | 🟨 D1 7.0 |
 | [Week 03](weeks/week-03/) | Responsive design & polish → **Phase 1 exam** | [1](weeks/week-03/day-1/) · [2](weeks/week-03/day-2/) · [3](weeks/week-03/day-3/) · [4](weeks/week-03/day-4/) · [5](weeks/week-03/day-5/) | ⬜ |
 
 ### Phase 2 · JavaScript, Seriously
