@@ -18,11 +18,11 @@ Part B — rebuild the identical header with Flexbox in `day-1/flex.html`.
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] Both versions in the folder, visually identical
-- [ ] `day-1/comparison.md`: at least 5 sentences on what flexbox removed — name the specific properties you no longer needed (`float`, `clear`, `vertical-align`, wrapper divs, `overflow: hidden` hacks)
-- [ ] Vertically centred nav links using `align-items`, not `line-height` or `padding` guesses
-- [ ] Space pushed between logo and nav using `justify-content` or `margin-left: auto` — explain which you chose and why
-- [ ] `gap` used for spacing between links, not `margin-right` on each
+- [x] Both versions in the folder, visually identical
+- [x] `day-1/comparison.md`: at least 5 sentences on what flexbox removed — name the specific properties you no longer needed (`float`, `clear`, `vertical-align`, wrapper divs, `overflow: hidden` hacks)
+- [x] Vertically centred nav links using `align-items`, not `line-height` or `padding` guesses
+- [x] Space pushed between logo and nav using `justify-content` or `margin-left: auto` — explain which you chose and why
+- [x] `gap` used for spacing between links, not `margin-right` on each
 
 ## 🎤 The teacher will ask you
 

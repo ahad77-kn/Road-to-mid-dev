@@ -1,0 +1,50 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem;
+    border-bottom: 1px solid black;
+
+}
+
+.logo {
+    float: left;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav {
+    float: right;
+    margin: 2rem;
+}
+
+.nav a {
+    display: inline-block;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.search {
+    float: right;  
+    font-size: 1.5rem;
+}
+
+.header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
