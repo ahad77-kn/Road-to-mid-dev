@@ -5,7 +5,7 @@
 Every assignment is out of 10. Pass mark 6. Week average below 6 → the week repeats.
 Filled in by the teacher after each day is marked.
 
-**Running average:** **6.46** · **Days completed:** 6 / 125 · **Redos:** 1 completed (W01 D2: 5 → 5.75 → 7.0)
+**Running average:** **6.71** · **Days completed:** 6 / 125 · **Best day:** W02 D1 (8.5) · **Redos:** 1 completed (W01 D2: 5 → 5.75 → 7.0)
 
 **Week 1 ✅ PASSED** — Week 02 unlocked.
 
@@ -22,7 +22,7 @@ Filled in by the teacher after each day is marked.
 | Week | D1 | D2 | D3 | D4 | D5 | Avg | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [01](weeks/week-01/) — CSS fundamentals & box model | **6** | **7.0** ✅ | **6** | **6.5** | **6.25** | **6.35** | ✅ [passed](weeks/week-01/WEEK-REVIEW.md) |
-| [02](weeks/week-02/) — Flexbox & Grid | **7.0** | – | – | – | – | – | 🟨 |
+| [02](weeks/week-02/) — Flexbox & Grid | **8.5** | – | – | – | – | – | 🟨 |
 | [03](weeks/week-03/) — Responsive & polish | – | – | – | – | – | – | ⬜ |
 | **Phase 1 exam** | | | | | | – | ⬜ |
 

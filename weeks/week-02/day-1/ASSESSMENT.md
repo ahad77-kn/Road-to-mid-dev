@@ -182,3 +182,96 @@ Last week's line was *"read your own file before you commit."* You have clearly 
 **Add one thing:** when a rule seems to have no effect, do not just leave it in and move on. Open DevTools, click the element, and look at the Styles panel. Your `float: left` would have shown up **struck through** with a note that it does not apply. That is the browser telling you, in plain sight, that the rule is dead.
 
 Struck-through rules in DevTools have now explained three separate things for you: `opx`, `outline: 0.2rem`, and today's floats. It is the single most useful panel in the browser.
+
+---
+---
+
+# 🔁 RE-MARK — 3 August, commits `1e7099e` + `90089ec`
+
+**Resubmitted:** 16:58 — **3½ hours after the assessment.** All five fix items done, and **every tick is accurate.**
+
+## Revised score
+
+| # | Criterion | Max | Was | **Now** |
+| --- | --- | --- | --- | --- |
+| 1 | Requirements met | 3 | 1.75 | **2.5** |
+| 2 | Code quality | 2 | 1.5 | **1.5** |
+| 3 | Understanding | 3 | 2 | **2.5** |
+| 4 | Process | 2 | 1.75 | **2.0** |
+| | **TOTAL** | **10** | 7.0 | **8.5 / 10** |
+
+## 🏁 ✅ **8.5 — your highest score by a full point and a half**
+
+I said a genuine float version made this "comfortably an 8". It does.
+
+---
+
+## 🎯 You did exactly what the day was designed to make you do
+
+You deleted the three flex lines, the layout fell apart, and then — look at what you reached for:
+
+```css
+.header  { height: 80px; }
+.logo    { line-height: 48px; }
+.nav     { line-height: 48px; }
+.search  { line-height: 48px; }
+.nav a   { vertical-align: middle; }
+```
+
+**`line-height` and `vertical-align`.** Those are the exact two tools I listed in the "you will discover" section, and you found them yourself by fighting the layout. That is the lesson landing the way it was meant to.
+
+And the arithmetic behind `48px` is genuinely good: header `80px`, minus `1rem` padding top and bottom = 32px, leaves **48px** of content height, so `line-height: 48px` centres the text in it. You did not guess that number — you computed it. **That is the first time you have derived a value instead of nudging one.**
+
+*(One pixel of pedantry: the header also has `border-bottom: 1px`, and with `box-sizing: border-box` that comes out of the 80px too — so the real content height is 47px, not 48. Nobody will ever see 1px. But the fact that you can now be *wrong by one pixel through reasoning* rather than *right by luck through guessing* is the whole difference.)*
+
+Your screenshot shows the broken intermediate state, exactly as asked. That file is the proof you did the work rather than reading about it.
+
+---
+
+## 🔍 One thing still differs between your two versions
+
+Compare the visual left-to-right order:
+
+| | Order on screen |
+| --- | --- |
+| **flex.html** | `DAWN` … `Home News Politics Sports` … `🔎 Search` |
+| **floats.html** | `DAWN` … `🔎 Search` … `Home News Politics Sports` |
+
+**Your nav and search are swapped in the float version** — and your own screenshot shows it.
+
+This is not a mistake, it is float behaviour, and it is the single best thing left to understand today:
+
+**Right-floated elements stack right-to-left in source order.** Your HTML is `logo → nav → search`. So `.nav` floats first and takes the far right; `.search` floats next and can only go to the *left* of it. In flexbox, source order is visual order. In floats, for right floats, **source order is reversed.**
+
+Two ways to fix it, and both are worth knowing:
+1. **Swap the HTML** so `search` comes before `nav`.
+2. Float `.search` right and let `.nav` sit beside it — which needs a different structure again.
+
+That the fix lives in the **HTML** and not the CSS is the point. Float layouts force your markup order to serve your visual design. Flexbox frees them from each other (`order`, `row-reverse`), and that is a big part of why the industry abandoned float layouts.
+
+So the *"both versions visually identical"* box is not quite true yet. Untick it or fix the order — either is fine, and after this week's honesty run I trust you to pick.
+
+---
+
+## ✅ Everything else on the list
+
+| Fix | |
+| --- | --- |
+| Rebuild `floats.css` with real floats + screenshot | ✅ |
+| Explain `space-between` vs `margin-left: auto` in `comparison.md` | ✅ point 7 — *"space-between gives equal space between items while margin-left auto puts the whole space to the left side"*. Correct, and in your own words. |
+| Remove `.nav { margin: 2rem }` | ✅ gone |
+| Third "What I learned" bullet | ✅ *"how float collapse at last…"* — and it is about what you actually discovered today, not a filler line |
+| Spellcheck | ✅ position, container, also learned, while, clearfix, horizontally — all six fixed |
+
+Two stragglers: `horizontlly` in Q1 (still missing an *a*) and `flex boc` in the new bullet. Not worth a mark, but you will meet both words a thousand more times.
+
+---
+
+## 📌 What changed today, and it is not CSS
+
+At 13:19 you submitted a day where a whole file did nothing and you did not know it.
+At 16:58 you submitted the same day rebuilt properly, with every claim on the checklist true.
+
+**3½ hours, five items, zero false ticks.** Two weeks ago a redo list sat untouched for three days.
+
+Keep the loop this tight and the scores take care of themselves. Next time, aim to close it *before* the first submission — that is the only step left.
