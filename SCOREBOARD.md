@@ -5,7 +5,7 @@
 Every assignment is out of 10. Pass mark 6. Week average below 6 → the week repeats.
 Filled in by the teacher after each day is marked.
 
-**Running average:** **6.35** · **Days completed:** 5 / 125 · **Redos:** 1 completed (W01 D2: 5 → 5.75 → 7.0)
+**Running average:** **6.46** · **Days completed:** 6 / 125 · **Redos:** 1 completed (W01 D2: 5 → 5.75 → 7.0)
 
 **Week 1 ✅ PASSED** — Week 02 unlocked.
 
@@ -22,7 +22,7 @@ Filled in by the teacher after each day is marked.
 | Week | D1 | D2 | D3 | D4 | D5 | Avg | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [01](weeks/week-01/) — CSS fundamentals & box model | **6** | **7.0** ✅ | **6** | **6.5** | **6.25** | **6.35** | ✅ [passed](weeks/week-01/WEEK-REVIEW.md) |
-| [02](weeks/week-02/) — Flexbox & Grid | – | – | – | – | – | – | ⬜ |
+| [02](weeks/week-02/) — Flexbox & Grid | **7.0** | – | – | – | – | – | 🟨 |
 | [03](weeks/week-03/) — Responsive & polish | – | – | – | – | – | – | ⬜ |
 | **Phase 1 exam** | | | | | | – | ⬜ |
 
@@ -90,6 +90,7 @@ Kept honest, not to punish — to see the trend. The goal is for the "self" colu
 | W01 D3 | yes — explained the task + `white-space: nowrap` | ✅ matches, and precisely worded | none — **this is how to declare** |
 | W01 D4 | yes — Google Fonts, which the reading list did not cover | ✅ matches; he also flagged the curriculum gap | none — gap was mine, now fixed |
 | W01 D5 | yes — explained the topic + the CSS error message | ✅ matches | none |
+| W02 D1 | yes — background reading on floats vs flexbox only | ✅ matches | none |
 
 ---
 

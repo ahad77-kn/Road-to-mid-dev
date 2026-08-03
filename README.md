@@ -18,7 +18,9 @@
 
 Day 2 went **5 → 5.75 → 7.0** across two redos and is now a clean pass.
 
-### ▶️ Next: **[Week 02 · Day 1 — The header, twice →](weeks/week-02/day-1/)** (Flexbox & Grid)
+### ▶️ Next: **[Week 02 · Day 2 — Card gallery →](weeks/week-02/day-2/)**
+
+_W02 D1 marked **7.0/10** ✅ — best day so far. One fix outstanding: the "floats" version is secretly flexbox — [see why](weeks/week-02/day-1/ASSESSMENT.md)._
 
 _(D1 **6** · D2 **7.0** · D3 **6** · D4 **6.5** · D5 **6.25** · Week 1 average **6.35** ✅)_
 
