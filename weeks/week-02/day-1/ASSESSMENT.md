@@ -169,7 +169,7 @@ Good question. Ask more.
 - [x] Add one sentence to `comparison.md` on why you chose `space-between` over `margin-left: auto`
 - [x] Remove or justify `.nav { margin: 2rem }`
 - [x] Third "What I learned" bullet
-- [ ] Spellcheck `NOTES.md` and `comparison.md`
+- [x] Spellcheck `NOTES.md` and `comparison.md`
 
 **If you do the first item today I will re-mark this day** — with a genuine float version it is comfortably an 8.
 
