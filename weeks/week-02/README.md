@@ -38,7 +38,7 @@
 | Day | Assignment | Open | Score |
 | --- | --- | --- | --- |
 | [**D1**](day-1/) | News-site header in Flexbox + a written comparison | [📄 open →](day-1/) | **8.5/10** ✅ |
-| [**D2**](day-2/) | Card gallery — 6 cards, wrapping, equal heights | [📄 open →](day-2/) | – |
+| [**D2**](day-2/) | Card gallery — 6 cards, wrapping, equal heights | [📄 open →](day-2/) | ✅ **8.5** [🧾](day-2/ASSESSMENT.md) |
 | [**D3**](day-3/) | Holy-grail layout in Grid | [📄 open →](day-3/) | – |
 | [**D4**](day-4/) | Photo gallery with spanning cells | [📄 open →](day-4/) | – |
 | [**D5**](day-5/) | YouTube home skeleton — Grid page + Flex components | [📄 open →](day-5/) | – |
