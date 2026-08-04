@@ -79,6 +79,29 @@ Filled in by the teacher after each day is marked.
 
 ---
 
+## 🐛🧪 Internship track — drill, test & environment
+
+New from **Week 02 Day 3**. Three scores a day instead of one, because building it, fixing
+it, and knowing it are three different skills. [Why](GRADING.md#-whats-new-from-w02-d3).
+
+| Week/Day | 🛠️ Build /10 | 🐛 Drill /5 | 🧪 Test /10 | Self-mark vs mine |
+| --- | --- | --- | --- | --- |
+| W02 D3 | – | – | – | – |
+| W02 D4 | – | – | – | – |
+| W02 D5 | – | – | – | – |
+
+**Week gates — all three must clear:** build avg ≥ 6.0 (W02) / ≥ 6.5 (W03+) · test avg ≥ 7.0 · drill avg ≥ 3.0
+
+### 🧰 Environment tests
+
+| Week | Covers | Score /10 |
+| --- | --- | --- |
+| [02](env/week-02/) | Terminal, files & Git basics | – |
+
+**Below 6 twice in a row → the week repeats.**
+
+---
+
 ## 🤖 AI declaration log
 
 Kept honest, not to punish — to see the trend. The goal is for the "self" column to grow over the 24 weeks.

@@ -29,6 +29,8 @@ _(D1 **6** · D2 **7.0** · D3 **6** · D4 **6.5** · D5 **6.25** · Week 1 aver
 | **Know exactly what to do today** | **[📅 DAYS.md — all 125 assignments, clickable](DAYS.md)** |
 | Pick a week and see its plan | [🧭 The Road](#-the-road) below |
 | Know how I am marked, and the AI rule | [📏 GRADING.md](GRADING.md) |
+| **The rules that never reset** | **[📌 STANDING-RULES.md](STANDING-RULES.md)** |
+| **Weekly test on terminal, Git & DevTools** | **[🧰 env/](env/)** |
 | See every score so far | [🏆 SCOREBOARD.md](SCOREBOARD.md) |
 | Read a week's end-of-week review | e.g. [Week 01 review](weeks/week-01/WEEK-REVIEW.md) |
 | Read deeper — state, auth, sessions, guards, APIs, security | [📚 RESOURCES.md](RESOURCES.md) |
