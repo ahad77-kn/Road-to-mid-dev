@@ -266,3 +266,87 @@ Then [**Day 3 — CSS Grid**](../day-3/), and bring today's question with you.
 **You stopped fighting the layout and started describing it.** Every number in this file is a *rule* — 300px basis, 320px cap, 2rem gap — and the browser worked out the rest, at eight different widths, without you checking any of them.
 
 What is left is not layout at all. It is the finishing layer: the right tag for the job, the right `object-fit`, the closing tag, the file size. **That layer is the difference between 8.5 and 10, and none of it is hard — it is just the last twenty minutes.**
+
+---
+
+## 🔄 Same-day fixes — 15:00, two hours after this was posted
+
+You turned the list around in two hours. **Score stays 8.5** — it was already a pass, and
+the policy is that 6+ keeps its mark. Logged here because the follow-through is the habit
+that matters.
+
+### ✅ Done, and done properly
+
+| Fix | What you did |
+| --- | --- |
+| `object-fit` | **`cover` → `contain`, and `width: 65%` → `100%`.** Exactly right. The jersey is whole now and it will stay whole for any image you drop in. The magic number is gone with it. |
+| Dead declaration | `background-color: #9f9f9f00` deleted |
+| `<br>` tags | all six removed |
+| `<html lang="en">` | added |
+| The eyebrow `<h3>` | removed |
+
+That is five of the list, including the one that actually changed what a user sees.
+
+### ⚠️ Three still open — and one is more interesting than it looks
+
+**1. You renamed the images. You did not convert them.**
+
+```
+gloves.png  →  gloves.jpg      1,200,875 bytes
+gloves.jpg                     1,200,875 bytes   ← identical
+```
+
+I checked the file contents, not the names:
+
+```
+$ file images/gloves.jpg
+images/gloves.jpg: PNG image data, 1000 x 1000, 8-bit/color RGBA
+```
+
+**Every one of those six files is still a PNG.** The SHA-256 of `gloves.png` before and
+`gloves.jpg` after are the same hash — not one byte changed. The folder is still 2.9 MB.
+
+This is worth more than the marks attached to it, so sit with it for a second:
+
+> **A file's extension is a label, not the thing itself.** It is a hint to your operating
+> system about which icon to draw and which app to open. The actual format lives in the
+> first few bytes of the file — PNG files begin with the bytes `89 50 4E 47`, and every
+> browser and image tool reads *those*, not the name.
+
+Renaming `.png` to `.jpg` is like writing "SUGAR" on a jar of salt. The label changed;
+the contents did not; and the first person to use it gets a surprise.
+
+**To actually convert:** open it in Preview → File → Export → Format: JPEG → Quality ~70
+→ Save. Or resize to 400px first, which matters more than the format here. Then run
+`file images/*.jpg` and check it says `JPEG image data` before you commit.
+
+**This is exactly what tomorrow's [debug drill](../day-3/drill/) is for** — the difference
+between a change that looks right and a change that *is* right, and how you verify which
+one you made.
+
+**2. Removing the `<br>` deleted the space with it — five times.**
+
+```html
+<p>A pure quality jersey for football players.Contains shirt and a short.</p>
+```
+
+`players.Contains` — no space. The `<br>` was providing the visual gap, and when it went,
+nothing replaced it. Same in all six cards (five are visible; check them all).
+
+This is a good small lesson about the shape of a fix: **you removed the thing I flagged
+and did not re-read the result.** Sixty seconds of looking at the rendered page would have
+caught it. It is the same "last five minutes" gap, just wearing new clothes.
+
+**3. The price is still `<h3>RS.4999</h3>`** — six of them. Still `.price` on a `<p>` or a
+`<span>`. And `<meta charset="utf-8">`, the viewport tag, and `button:focus-visible` are
+all still missing.
+
+### 📌 One thing to know before tomorrow
+
+From **Week 02 Day 3**, all three of those are on the [standing rules list](../../../STANDING-RULES.md)
+— S2 (head tags), S3 (focus-visible), S6 (headings), S8 (200 KB assets). They cost marks
+automatically, in any file, with no reminder in the brief.
+
+**Nothing is being backdated. This day keeps its 8.5.** But the same four items in
+tomorrow's assignment would be **−1.0** before the work is even looked at. Twenty minutes
+tonight is worth a mark tomorrow.
