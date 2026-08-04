@@ -15,11 +15,11 @@
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] Cards wrap to the next row when the screen narrows (`flex-wrap`)
-- [ ] **All cards the same height** in a row, even with different text lengths — and the button sits flush at the bottom of every card
-- [ ] Even gaps using `gap`, never `margin` hacks on children
-- [ ] `flex: 1 1 300px` style sizing — explain in a comment what each of the three values does
-- [ ] The last row does **not** stretch weirdly when it has fewer cards — solve it and explain how
+- [x] Cards wrap to the next row when the screen narrows (`flex-wrap`)
+- [x] **All cards the same height** in a row, even with different text lengths — and the button sits flush at the bottom of every card
+- [x] Even gaps using `gap`, never `margin` hacks on children
+- [x] `flex: 1 1 300px` style sizing — explain in a comment what each of the three values does
+- [x] The last row does **not** stretch weirdly when it has fewer cards — solve it and explain how
 
 ## 🎤 The teacher will ask you
 

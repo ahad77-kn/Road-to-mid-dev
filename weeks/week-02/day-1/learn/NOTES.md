@@ -13,7 +13,7 @@
 
 -also learned the most important topic about flexbox and its topics like justify-content,align-items,gap etc.
 
--how float collapse at last so i learned that how flex boc is good and easy and even more efficient for use instead of float. 
+-how float collapse at last so i learned that how flex box is good and easy and even more efficient for use instead of float. 
 
 ## What I struggled with (mandatory — "nothing" is not allowed)
 
@@ -26,7 +26,7 @@
 ## The teacher's questions — my answers, from memory
 
 1. What is the main axis? What happens to justify-content when you set flex-direction: column?
-Ans. Main axis is the direction where flex items are arranged if default then by row or if changed then by column,when we set justify-content in column then the items will be set vertically not horizontlly.
+Ans. Main axis is the direction where flex items are arranged if default then by row or if changed then by column,when we set justify-content in column then the items will be set vertically not horizontally.
 
 2. What does margin-left: auto do inside a flex container, and why?
 Ans.margin-left:auto takes all the space of left side and push the items to the right side.
