@@ -16,11 +16,11 @@ The classic page skeleton: header across the top, left sidebar, main content, ri
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] Built with `grid-template-areas` — the CSS must be visually readable as an ASCII picture of the page
-- [ ] `grid-template-columns` using `fr` units and at least one `minmax()`
-- [ ] Footer stays at the bottom even when the content is short (`min-height: 100vh` on the grid + a row that grows)
-- [ ] `gap` for all spacing
-- [ ] `day-3/why-grid.md`: 3 sentences on why this layout is painful in Flexbox and natural in Grid
+- [x] Built with `grid-template-areas` — the CSS must be visually readable as an ASCII picture of the page
+- [x] `grid-template-columns` using `fr` units and at least one `minmax()`
+- [x] Footer stays at the bottom even when the content is short (`min-height: 100vh` on the grid + a row that grows)
+- [x] `gap` for all spacing
+- [x] `day-3/why-grid.md`: 3 sentences on why this layout is painful in Flexbox and natural in Grid
 
 ## 🎤 The teacher will ask you
 

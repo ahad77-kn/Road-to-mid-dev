@@ -19,8 +19,12 @@ relitive positions;
    rgb(255, 156, 75)
 */
 
+* {
+    box-sizing: border-box;
+}
+
 .pricing-card {
-    width: 500px;
+    width: 600px;
     padding: 30px;
     margin: 50px auto;
     border: 1px solid black;
@@ -68,7 +72,7 @@ relitive positions;
 .pricing-card button {
     padding: 12px 30px;
     margin-top: 20px;
-    margin-left: 330px;
+    margin-left: 350px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
