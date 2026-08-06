@@ -15,11 +15,11 @@ An Instagram-explore-style gallery: a grid of images where some cells span 2 col
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] `grid-template-columns: repeat(4, 1fr)` (or similar) plus `grid-column: span 2` / `grid-row: span 2` on selected items
-- [ ] Images fill their cell without distortion — `object-fit: cover` with a fixed cell aspect ratio (`aspect-ratio`)
-- [ ] No gaps or holes left in the grid (understand `grid-auto-flow: dense`, use it if you need it, explain in a comment)
-- [ ] A hover effect on tiles that does not shift the layout (scale/opacity, not width/margin)
-- [ ] Use placeholder images from [picsum.photos](https://picsum.photos/)
+- [x] `grid-template-columns: repeat(4, 1fr)` (or similar) plus `grid-column: span 2` / `grid-row: span 2` on selected items
+- [x] Images fill their cell without distortion — `object-fit: cover` with a fixed cell aspect ratio (`aspect-ratio`)
+- [x] No gaps or holes left in the grid (understand `grid-auto-flow: dense`, use it if you need it, explain in a comment)
+- [x] A hover effect on tiles that does not shift the layout (scale/opacity, not width/margin)
+- [x] Use placeholder images from [picsum.photos](https://picsum.photos/)
 
 ## 🎤 The teacher will ask you
 

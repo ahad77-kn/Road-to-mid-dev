@@ -1,9 +1,9 @@
 # Notes — Week 02 Day 3: Holy grail in Grid
 
-**Date:** ____-__-__
-**Time spent:** learning ___ min · building ___ min
+**Date:** 2026-08-05
+**Time spent:** learning 10am - 12pm · building 12pm - 4pm
 
-**AI used?** yes / no — what for: _______________
+**AI used?** yes ✅/ no — what for: used for learning and explainig me every attribute and element of grid used here,why ued ,its purpose,where to use etc.
 > Mandatory. Explaining a concept = fine, full marks. Writing your code = say so.
 > Not saying so = 0/10. → [the rule](../../../../GRADING.md)
 

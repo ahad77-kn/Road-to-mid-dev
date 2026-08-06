@@ -12,11 +12,9 @@
 | --- | --- | --- | --- |
 | 📖 | **[`learn/`](learn/)** | 1 hr | read the material, then write `learn/NOTES.md` |
 | 🛠️ | **[`assignment/`](assignment/)** | 2½ hr | build it — the files you must hand in are listed there |
-| 🐛 | **[`drill/`](drill/)** | 45 min | fix code you did not write, and explain each bug |
-| 🧪 | **[`test/`](test/)** | 15–20 min | closed book. No editor, no browser, no AI |
 | ✅ | **ship** | 30 min | the [ship checklist](../../../STANDING-RULES.md), then `NOTES.md` |
 
-**Scored:** ⬜ assignment – / 10 · drill – / 5 · test – / 10 · [how marking works](../../../GRADING.md)
+**Scored:** ⬜ assignment – / 10 ·[how marking works](../../../GRADING.md)
 
 ## 📌 Before you commit — the ship checklist
 
