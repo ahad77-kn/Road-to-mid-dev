@@ -20,10 +20,10 @@
 
 Every day, same six. [Full list and why](../../../STANDING-RULES.md).
 
-- [ ] `<html lang="en">`, `<meta charset="utf-8">`, viewport, closing `</html>`
-- [ ] `box-sizing: border-box` at the top of the stylesheet
+- [x] `<html lang="en">`, `<meta charset="utf-8">`, viewport, closing `</html>`
+- [x] `box-sizing: border-box` at the top of the stylesheet
 - [ ] Every interactive element has a visible `:focus-visible`
-- [ ] Every `<img>` has a real `alt`
+- [x] Every `<img>` has a real `alt`
 - [ ] No asset over 200 KB — photos are JPG or WebP
 - [ ] DevTools → Styles: **zero strike-throughs, zero ⚠️**
 
