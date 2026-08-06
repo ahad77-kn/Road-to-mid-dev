@@ -3,7 +3,7 @@
 **Date:** 2026-08-06
 **Time spent:** learning 10:30am-11:30am · building 12pm-2pm and then filling notes and answering questions.
 
-**AI used?** yes ✅/ no — what for: for learning purpose like whz we use,where and when the attributes and elements etc.
+**AI used?** yes ✅/ no — what for: for learning purpose like why we use,where and when the attributes and elements etc.
 > Mandatory. Explaining a concept = fine, full marks. Writing your code = say so.
 > Not saying so = 0/10. → [the rule](../../../../GRADING.md)
 
@@ -21,7 +21,7 @@
 
 ## How I solved it (or: still stuck, will ask)
 
--i tried to solve itbut still stuck.
+-i tried to solve itbut still stuck.showed in screenshot.
 
 ## The teacher's questions — my answers, from memory
 
