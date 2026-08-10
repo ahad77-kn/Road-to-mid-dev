@@ -12,22 +12,20 @@
 | --- | --- | --- | --- |
 | 📖 | **[`learn/`](learn/)** | 1 hr | read the material, then write `learn/NOTES.md` |
 | 🛠️ | **[`assignment/`](assignment/)** | 2½ hr | build it — the files you must hand in are listed there |
-| 🐛 | **[`drill/`](drill/)** | 45 min | fix code you did not write, and explain each bug |
-| 🧪 | **[`test/`](test/)** | 15–20 min | closed book. No editor, no browser, no AI |
-| ✅ | **ship** | 30 min | the [ship checklist](../../../STANDING-RULES.md), then `NOTES.md` |
+ then `NOTES.md` |
 
-**Scored:** ⬜ assignment – / 10 · drill – / 5 · test – / 10 · [how marking works](../../../GRADING.md)
+**Scored:** ⬜ assignment – / 10 · [how marking works](../../../GRADING.md)
 
 ## 📌 Before you commit — the ship checklist
 
 Every day, same six. [Full list and why](../../../STANDING-RULES.md).
 
-- [ ] `<html lang="en">`, `<meta charset="utf-8">`, viewport, closing `</html>`
-- [ ] `box-sizing: border-box` at the top of the stylesheet
-- [ ] Every interactive element has a visible `:focus-visible`
-- [ ] Every `<img>` has a real `alt`
-- [ ] No asset over 200 KB — photos are JPG or WebP
-- [ ] DevTools → Styles: **zero strike-throughs, zero ⚠️**
+- [x] `<html lang="en">`, `<meta charset="utf-8">`, viewport, closing `</html>`
+- [x] `box-sizing: border-box` at the top of the stylesheet
+- [x] Every interactive element has a visible `:focus-visible`
+- [x] Every `<img>` has a real `alt`
+- [x] No asset over 200 KB — photos are JPG or WebP
+- [x] DevTools → Styles: **zero strike-throughs, zero ⚠️**
 
 ## 📤 Submit — the same day
 
