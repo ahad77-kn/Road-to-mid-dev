@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--
+    width=device-width:
+    Make the page width equal to the device's screen width.
+
+    initial-scale=1:
+    Start the page at normal 100% zoom.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive News & Videos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page">
+
+        <!-- HEADER -->
+        <header class="header">
+
+            <div class="logo">
+                THE DAILY
+            </div>
+
+            <!--
+            details/summary gives us a CSS-only
+            mobile navigation menu.
+            -->
+            <details class="mobile-nav">
+                <summary>Menu</summary>
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">News</a>
+                    <a href="#">Politics</a>
+                    <a href="#">Sports</a>
+                </nav>
+            </details>
+
+            <!-- Desktop navigation -->
+            <nav class="desktop-nav">
+                <a href="#">Home</a>
+                <a href="#">News</a>
+                <a href="#">Politics</a>
+                <a href="#">Sports</a>
+            </nav>
+            <div class="search">
+                Search
+            </div>
+        </header>
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <a href="#">
+                <span class="icon">⌂</span>
+                <span class="label">Home</span>
+            </a>
+            <a href="#">
+                <span class="icon">▶</span>
+                <span class="label">Videos</span>
+            </a>
+            <a href="#">
+                <span class="icon">★</span>
+                <span class="label">Trending</span>
+            </a>
+            <a href="#">
+                <span class="icon">●</span>
+                <span class="label">Subscriptions</span>
+            </a>
+            <a href="#">
+                <span class="icon">♥</span>
+                <span class="label">Liked</span>
+            </a>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="main">
+            <h1>Latest Videos</h1>
+            <div class="video-grid">
+                <article class="card">
+                    <div class="thumbnail"></div>
+                    <div class="video-info">
+                        <div class="avatar"></div>
+                        <div>
+                            <h2>Learning CSS Grid</h2>
+                            <p>Web Academy</p>
+                            <p>120K views · 2 days ago</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="thumbnail"></div>
+                    <div class="video-info">
+                        <div class="avatar"></div>
+                        <div>
+                            <h2>Flexbox for Beginners</h2>
+                            <p>Code School</p>
+                            <p>85K views · 4 days ago</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="thumbnail"></div>
+                    <div class="video-info">
+                        <div class="avatar"></div>
+                        <div>
+                            <h2>Responsive Web Design</h2>
+                            <p>Frontend Lab</p>
+                            <p>200K views · 1 week ago</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="thumbnail"></div>
+                    <div class="video-info">
+                        <div class="avatar"></div>
+                        <div>
+                            <h2>HTML Beginner Guide</h2>
+                            <p>Learn Web</p>
+                            <p>90K views · 3 days ago</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="thumbnail"></div>
+                    <div class="video-info">
+                        <div class="avatar"></div>
+                        <div>
+                            <h2>Understanding CSS Units</h2>
+                            <p>CSS Daily</p>
+                            <p>76K views · 5 days ago</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="thumbnail"></div>
+                    <div class="video-info">
+                        <div class="avatar"></div>
+                        <div>
+                            <h2>How Grid Actually Works</h2>
+                            <p>Dev Channel</p>
+                            <p>150K views · 1 week ago</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="thumbnail"></div>
+
+                    <div class="video-info">
+                        <div class="avatar"></div>
+
+                        <div>
+                            <h2>CSS Layout Mistakes</h2>
+                            <p>Frontend Daily</p>
+                            <p>110K views · 2 weeks ago</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="thumbnail"></div>
+                    <div class="video-info">
+                        <div class="avatar"></div>
+                        <div>
+                            <h2>Build Your First Website</h2>
+                            <p>Code World</p>
+                            <p>300K views · 1 month ago</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
