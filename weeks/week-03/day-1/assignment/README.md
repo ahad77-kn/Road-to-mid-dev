@@ -15,13 +15,13 @@ Take the YouTube skeleton and news header from Week 2 into `day-1/` and make the
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] `<meta name="viewport" content="width=device-width, initial-scale=1">` — and you can explain what each part does
-- [ ] **Mobile-first CSS**: base styles are the phone layout, `min-width` media queries add the desktop layout. Not the reverse.
-- [ ] Sidebar collapses to icons or disappears below 768px
-- [ ] Nav collapses to a simple stacked menu (CSS only — no JS yet; a `<details>`/`<summary>` is a legitimate trick)
-- [ ] Breakpoints chosen because *your content* breaks there, not copied from Bootstrap — justify each one in a comment
-- [ ] **No horizontal scrollbar at 320px.** Test it. This is a hard fail if it scrolls sideways.
-- [ ] Tested at 320, 375, 768, 1024, 1440px in DevTools device mode
+- [x] `<meta name="viewport" content="width=device-width, initial-scale=1">` — and you can explain what each part does
+- [x] **Mobile-first CSS**: base styles are the phone layout, `min-width` media queries add the desktop layout. Not the reverse.
+- [x] Sidebar collapses to icons or disappears below 768px
+- [x] Nav collapses to a simple stacked menu (CSS only — no JS yet; a `<details>`/`<summary>` is a legitimate trick)
+- [x] Breakpoints chosen because *your content* breaks there, not copied from Bootstrap — justify each one in a comment
+- [x] **No horizontal scrollbar at 320px.** Test it. This is a hard fail if it scrolls sideways.
+- [x] Tested at 320, 375, 768, 1024, 1440px in DevTools device mode
 
 ## 🎤 The teacher will ask you
 
