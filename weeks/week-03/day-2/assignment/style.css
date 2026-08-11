@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+}
+
+/* conatiner never become wider then 1100px */
+
+.container {
+    width: min(1100px, 100% - 2rem);
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+/* fluid heading */
+
+.h1 {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/*
+The important part of the assignment:
+
+auto-fit:
+    Create as many columns as can fit.
+
+minmax:
+    Each column can be between a minimum
+    and maximum size.
+
+min(280px, 100%):
+    The column normally wants to be at least
+    280px, but it can shrink to 100% of the
+    available container width.
+
+1fr:
+    After the minimum size is satisfied,
+    columns share the remaining space.
+*/
+
+.cards {
+    display: grid;
+    grid-template-columns: 
+    repeat(
+        autofit,
+        minmax(min(280px, 100%), 1fr)
+    );
+    gap: 1.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+.card h2 {
+    font-size: 1.3rem;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+.card strong {
+    font-size: 1.2rem;
+}
+
+.card button {
+    padding: 0.8rem;
+    border: 0;
+    border-radius: 6px;
+    background: #222;
+    color: white;
+    cursor: pointer;
+}
