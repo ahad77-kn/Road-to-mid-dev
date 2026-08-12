@@ -15,13 +15,13 @@ Add interaction feedback to every interactive element in the landing page. **Sub
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] `transition` on buttons, links, cards, inputs — 150–250ms, with a real easing function (`ease-out`, not `linear`)
-- [ ] **Only** `transform` and `opacity` are animated — never `width`, `height`, `top`, `margin`. Explain why in a comment.
-- [ ] A `:hover` lift on cards using `transform: translateY(-4px)` + shadow
-- [ ] A focus state that is *also* animated and keyboard-visible
-- [ ] `@media (prefers-reduced-motion: reduce)` block that disables the motion
-- [ ] One `@keyframes` animation — a loading skeleton or spinner
-- [ ] No layout shift when hovering anything. Check in DevTools.
+- [x] `transition` on buttons, links, cards, inputs — 150–250ms, with a real easing function (`ease-out`, not `linear`)
+- [x] **Only** `transform` and `opacity` are animated — never `width`, `height`, `top`, `margin`. Explain why in a comment.
+- [x] A `:hover` lift on cards using `transform: translateY(-4px)` + shadow
+- [x] A focus state that is *also* animated and keyboard-visible
+- [x] `@media (prefers-reduced-motion: reduce)` block that disables the motion
+- [x] One `@keyframes` animation — a loading skeleton or spinner
+- [x] No layout shift when hovering anything. Check in DevTools.
 
 ## 🎤 The teacher will ask you
 
