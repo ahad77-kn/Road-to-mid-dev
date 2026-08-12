@@ -72,6 +72,11 @@ body {
     text-decoration: none;
 }
 
+.mobile-nav a:focus-visible {
+    outline: 3px solid blue;
+    outline-offset: 3px;
+}
+
 /* Hide desktop navigation on phone */
 
 .desktop-nav {
@@ -235,7 +240,7 @@ Bootstrap breakpoint copied blindly.
     .video-grid {
 
         grid-template-columns:
-            repeat(2, minmax(280px, 1fr));
+            repeat(2, minmax(min(280px, 100%) 1fr));
     }
 }
 

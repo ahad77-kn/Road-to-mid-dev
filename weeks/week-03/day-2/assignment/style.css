@@ -92,3 +92,8 @@ min(280px, 100%):
     color: white;
     cursor: pointer;
 }
+
+.cards:focus-visible {
+    outline: 3px solid blue;
+    outline-offset: 3px;
+}

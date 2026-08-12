@@ -50,10 +50,10 @@
 
 ## ✅ End-of-week check
 
-- [ ] You reach for Grid or Flexbox by instinct now, and can justify the choice
+- [x] You reach for Grid or Flexbox by instinct now, and can justify the choice
 - [ ] You have not written `float` or `position: absolute` for layout once this week
-- [ ] `gap` is your default spacing tool between siblings
-- [ ] You can read a screenshot of a page and say aloud which regions are grid and which are flex
-- [ ] `justify-*` vs `align-*` no longer needs a guess
+- [x] `gap` is your default spacing tool between siblings
+- [x] You can read a screenshot of a page and say aloud which regions are grid and which are flex
+- [x] `justify-*` vs `align-*` no longer needs a guess
 
 Next week the same layouts have to survive a 360px phone screen. Build this week's work knowing that is coming.

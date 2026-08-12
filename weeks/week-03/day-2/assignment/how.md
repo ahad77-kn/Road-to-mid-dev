@@ -1,17 +1,13 @@
 # How This Layout Changes Without Media Queries
 
-The card layout changes automatically because CSS Grid uses auto-fit and minmax().
+1. I used CSS Grid to make the cards responsive without writing any media queries.
 
-auto-fit tells Grid to fit as many columns as possible into the available space.
+`auto-fit` tells the browser to fit as many columns available space.
 
-minmax(min(280px, 100%), 1fr) tells each column that it normally wants to be at least 280px wide, but it can become 100% wide when the container is too narrow.
+`minmax()` is to control the size of each column.
 
-At a wide desktop size, several cards can fit in one row.
+For example, on a large screen several cards can fit in one row. As I make the browser smaller, the number of columns decreases automatically until there is only one card per row on a phone.
 
-As the browser becomes narrower, there is no longer enough space for as many 280px columns, so Grid automatically moves cards onto new rows.
+The `min()` part is important because a 280px minimum could be too wide on a small screen and cause horizontal scrolling. `min(280px, 100%)` makes sure the column cannot be wider than the available space.
 
-Eventually, on a phone, only one card fits per row.
-
-The min() prevents the 280px minimum from being larger than the available screen width, which prevents horizontal scrolling on a 320px phone.
-
-No media queries are needed because Grid calculates the number of columns from the available space.
+So the layout changes automatically because Grid checks how much space is available and decides how many columns can fit. No media queries are needed.

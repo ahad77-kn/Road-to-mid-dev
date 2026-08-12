@@ -29,8 +29,7 @@ changing the page layout. Animating width, height, margin
  a,
  input,
  .card {
-    transition: 200ms ease-out;
-    opacity: 200ms ease-out;
+    transition: 200ms ease-out, opacity 200ms ease-out;
  }
 
  .header {
@@ -38,6 +37,7 @@ changing the page layout. Animating width, height, margin
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+    flex-wrap: wrap;
     padding: 1rem 5%;
     background: white;
     border-bottom: 1px solid #ddd;
@@ -50,6 +50,7 @@ changing the page layout. Animating width, height, margin
  .nav {
     display: flex;
     gap: 1.5rem;
+    flex-wrap: wrap;
  }
 
  .nav a:hover,

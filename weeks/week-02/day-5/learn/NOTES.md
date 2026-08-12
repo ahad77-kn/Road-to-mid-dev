@@ -26,20 +26,15 @@
 ## The teacher's questions — my answers, from memory
 
 1. Give one layout that is genuinely easier in Flexbox, and one genuinely easier in Grid. Say why.
-ans. Flexbox: a navigation bar because it arranges items naturally in one row; Grid: a page layout with header, sidebar, main, and footer because it controls rows and columns together.
-
+ans. flex box navigation bar is best for one dimensional layout while grid page layout is best forrow and columns.
 2. What does repeat(auto-fill, minmax(280px, 1fr)) do as the screen widens? Difference from auto-fit?
-ans. It creates as many columns of at least 280px as can fit, and each column grows to share the space; auto-fit collapses empty columns, while auto-fill keeps the available column slots.
-
+ans. auto fill creates as many tracks as fit while auto fit collapes empty tracks so items expand.
 3. Can an element be both a grid item and a flex container? What does that mean in practice?
-ans. Yes; it can be positioned by the parent Grid while using display: flex to arrange its own children.
-
+ans. yes it can be grid item externally and flex container internally.
 4. How does overflow: auto interact with a grid track's height?
-ans. If the content becomes larger than the grid item's available height, overflow: auto adds a scrollbar instead of letting the content overflow.
-
+ans. overflow auto adds scrolling when content exceeds the grids track avalible height.
 5. Prove it: resize the browser from 1400px to 700px and narrate what the grid is doing at each break.
-ans. At 1400px more 280px cards fit in each row; as the width decreases, fewer cards fit, so Grid automatically removes columns and moves cards to new rows while keeping each card at least 280px wide.
-
+ans. 1400px: More columns fit → 1024px: fewer columns → 700px: fewer columns again as space decreases.
 ## One question I still have
 
 -do i have to remember every word of these long codes by heart or may i try to understand and learn then use it.s

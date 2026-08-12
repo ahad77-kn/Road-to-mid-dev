@@ -16,11 +16,11 @@ The Week-2 card gallery: 1 column on a phone, 2 on a tablet, 3+ on desktop — a
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] `grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr))` — and you can explain every part of it, including why the inner `min()` is there
-- [ ] Fluid typography with `clamp()` on headings
-- [ ] Images with `max-width: 100%` and `height: auto`
-- [ ] Container width managed with `width: min(1100px, 100% - 2rem)` or similar — no fixed `px` widths
-- [ ] `day-2/how.md`: explain in your own words how the layout knows to change without any media query
+- [x] `grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr))` — and you can explain every part of it, including why the inner `min()` is there
+- [x] Fluid typography with `clamp()` on headings
+- [x] Images with `max-width: 100%` and `height: auto`
+- [x] Container width managed with `width: min(1100px, 100% - 2rem)` or similar — no fixed `px` widths
+- [x] `day-2/how.md`: explain in your own words how the layout knows to change without any media query
 
 ## 🎤 The teacher will ask you
 

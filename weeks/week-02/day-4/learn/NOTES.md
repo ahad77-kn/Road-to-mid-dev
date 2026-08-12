@@ -43,3 +43,7 @@ ans. Open DevTools → Elements → Layout → Grid Overlay, click the grid over
 ## One question I still have
 
 -in a website will there be use of all these things like float,grid,flexbox etc i guess yes.....
+
+## reason of test and drill
+
+-in every day there is one or two topics i learn them and then making assignment and notes ,so for just every day small topics there is no need of drill and test ,these should be for as a whole.
