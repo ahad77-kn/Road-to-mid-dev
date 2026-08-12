@@ -16,11 +16,11 @@
 
 Day 2 went **5 → 5.75 → 7.0** across two redos and is now a clean pass.
 
-### ▶️ Next: **[Week 02 · Day 3 — CSS Grid holy-grail layout →](weeks/week-02/day-3/)**
+### ▶️ Next: **[Week 03 · Day 4 — Build the portfolio →](weeks/week-03/day-4/)**
 
-_W02 D2: **8.5** ✅ — **best first submission yet**, and the first day where all five checklist boxes were ticked *and* all five checked out. [Read why](weeks/week-02/day-2/ASSESSMENT.md)._
+_**6 days marked 12 Aug.** W2 passed at 7.55; W3 is at **6.33 against a 6.5 gate**. ⚠️ **[Read the state of play](STATE-OF-PLAY.md)** — AI use escalated, Understanding marks collapsed, and 4 drill/test folders were deleted._
 
-_(W02: D1 **8.5** · D2 **8.5** — running average **6.96**)_
+_(W02: 8.5 · 8.5 · 8.25 · 7.0 · 5.5 🔁 → **7.55** ✅ · W03 so far: 6.0 · 7.0 · 6.0 → **6.33** ⚠️)_
 
 _(D1 **6** · D2 **7.0** · D3 **6** · D4 **6.5** · D5 **6.25** · Week 1 average **6.35** ✅)_
 
@@ -30,6 +30,7 @@ _(D1 **6** · D2 **7.0** · D3 **6** · D4 **6.5** · D5 **6.25** · Week 1 aver
 | Pick a week and see its plan | [🧭 The Road](#-the-road) below |
 | Know how I am marked, and the AI rule | [📏 GRADING.md](GRADING.md) |
 | **The rules that never reset** | **[📌 STANDING-RULES.md](STANDING-RULES.md)** |
+| **Where you stand right now** | **[📊 STATE-OF-PLAY.md](STATE-OF-PLAY.md)** |
 | **Weekly test on terminal, Git & DevTools** | **[🧰 env/](env/)** |
 | See every score so far | [🏆 SCOREBOARD.md](SCOREBOARD.md) |
 | Read a week's end-of-week review | e.g. [Week 01 review](weeks/week-01/WEEK-REVIEW.md) |

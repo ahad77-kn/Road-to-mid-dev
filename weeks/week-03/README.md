@@ -30,11 +30,13 @@
 
 ## 🗓️ The week at a glance
 
+> ⚠️ **Week 3 is at 6.33 against a 6.5 gate** with two days left. [State of play](../../STATE-OF-PLAY.md)
+
 | Day | Assignment | Open | Score |
 | --- | --- | --- | --- |
-| [**D1**](day-1/) | Make the Week-2 landing/header fully responsive | [📄 open →](day-1/) | – |
-| [**D2**](day-2/) | Responsive gallery with **zero** media queries | [📄 open →](day-2/) | – |
-| [**D3**](day-3/) | Transitions, hover & motion — subtle, not circus | [📄 open →](day-3/) | – |
+| [**D1**](day-1/) | Make the Week-2 landing/header fully responsive | [📄 open →](day-1/) | **6.0** ✅ [🧾](day-1/ASSESSMENT.md) |
+| [**D2**](day-2/) | Responsive gallery with **zero** media queries | [📄 open →](day-2/) | **7.0** ✅ [🧾](day-2/ASSESSMENT.md) |
+| [**D3**](day-3/) | Transitions, hover & motion — subtle, not circus | [📄 open →](day-3/) | **6.0** ✅ [🧾](day-3/ASSESSMENT.md) |
 | [**D4**](day-4/) | Phase project part 1 — portfolio structure & content | [📄 open →](day-4/) | – |
 | [**D5**](day-5/) | Phase project part 2 — responsive, accessible, clean | [📄 open →](day-5/) | – |
 | — | **Phase 1 exam** (3 hrs, closed notes) | [📄 exam →](exam/) | – |

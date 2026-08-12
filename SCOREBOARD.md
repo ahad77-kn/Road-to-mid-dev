@@ -5,7 +5,9 @@
 Every assignment is out of 10. Pass mark 6. Week average below 6 → the week repeats.
 Filled in by the teacher after each day is marked.
 
-**Running average:** **6.96** · **Days completed:** 7 / 125 · **Best day:** W02 D2 (8.5, first submission) · **Redos:** 1 completed (W01 D2: 5 → 5.75 → 7.0)
+**Running average:** **6.89** · **Days completed:** 13 / 125 · **Best day:** W02 D1 & D2 (8.5) · **Redos:** 1 completed, **1 open (W02 D5, 5.5)**
+
+> ⚠️ **[Read the state of play](STATE-OF-PLAY.md)** — six days marked 12 Aug. AI use escalated and Understanding marks collapsed; four drill/test folders were deleted.
 
 **Week 1 ✅ PASSED** — Week 02 unlocked.
 
@@ -22,8 +24,8 @@ Filled in by the teacher after each day is marked.
 | Week | D1 | D2 | D3 | D4 | D5 | Avg | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [01](weeks/week-01/) — CSS fundamentals & box model | **6** | **7.0** ✅ | **6** | **6.5** | **6.25** | **6.35** | ✅ [passed](weeks/week-01/WEEK-REVIEW.md) |
-| [02](weeks/week-02/) — Flexbox & Grid | **8.5** | **8.5** | – | – | – | **8.5** | 🟨 |
-| [03](weeks/week-03/) — Responsive & polish | – | – | – | – | – | – | ⬜ |
+| [02](weeks/week-02/) — Flexbox & Grid | **8.5** | **8.5** | **8.25** | **7.0** | **5.5** 🔁 | **7.55** | ✅ passed |
+| [03](weeks/week-03/) — Responsive & polish | **6.0** | **7.0** | **6.0** | – | – | **6.33** | ⚠️ under 6.5 gate |
 | **Phase 1 exam** | | | | | | – | ⬜ |
 
 ## Phase 2 · JavaScript
@@ -86,9 +88,9 @@ it, and knowing it are three different skills. [Why](GRADING.md#-whats-new-from-
 
 | Week/Day | 🛠️ Build /10 | 🐛 Drill /5 | 🧪 Test /10 | Self-mark vs mine |
 | --- | --- | --- | --- | --- |
-| W02 D3 | – | – | – | – |
-| W02 D4 | – | – | – | – |
-| W02 D5 | – | – | – | – |
+| W02 D3 | 8.25 | **3.0** | **7.0** (capped) | not self-marked |
+| W02 D4 | 7.0 | **0** ❌ deleted | **0** ❌ deleted | – |
+| W02 D5 | 5.5 🔁 | **0** ❌ deleted | **0** ❌ deleted | – |
 
 **Week gates — all three must clear:** build avg ≥ 6.0 (W02) / ≥ 6.5 (W03+) · test avg ≥ 7.0 · drill avg ≥ 3.0
 
@@ -115,6 +117,12 @@ Kept honest, not to punish — to see the trend. The goal is for the "self" colu
 | W01 D5 | yes — explained the topic + the CSS error message | ✅ matches | none |
 | W02 D1 | yes — background reading on floats vs flexbox only | ✅ matches | none |
 | W02 D2 | yes — explained the topic + showed an example of how cards look | ✅ matches — code is unmistakably his | none |
+| W02 D3 | yes — "got help of ai to solve it" (drill) | ⚠️ drill rules exclude AI finding bugs | drill 4.5 → **3.0**; test → **7.0** |
+| W02 D4 | yes — "why we use, where and when" | ✅ matches | none |
+| **W02 D5** | yes — **"so long and tricky so i got hel from ai"** | ⚠️ answers not in his voice | **Understanding 0.5 / 3** |
+| **W03 D1** | yes — **"learned every step, element and attribute from it"** | ⚠️ answers not in his voice | **Understanding 1.25 / 3** |
+| W03 D2 | yes — "for understanding the assignment and how.md" | ⚠️ `how.md` not in his voice | Understanding 1.25 / 3 |
+| W03 D3 | yes — "at end when i stuck i got help from ai" | ✅ answers back in his own voice | none |
 
 ---
 
