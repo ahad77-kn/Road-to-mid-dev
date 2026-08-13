@@ -17,12 +17,12 @@ Start your real portfolio site — this is the Phase 1 deliverable and the first
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] Real content — your actual name, your actual projects. No lorem ipsum.
-- [ ] Semantic HTML throughout: `<header> <nav> <main> <section> <article> <footer>` — and a heading order that never skips a level
-- [ ] Every image has meaningful `alt` text (decorative images get `alt=""` — know the difference)
-- [ ] Organised files: `index.html`, `css/style.css`, `images/`, `README.md`
-- [ ] CSS custom properties for the colour palette and spacing scale, defined once in `:root`
-- [ ] BEM-style class names, consistently
+- [x] Real content — your actual name, your actual projects. No lorem ipsum.
+- [x] Semantic HTML throughout: `<header> <nav> <main> <section> <article> <footer>` — and a heading order that never skips a level
+- [x] Every image has meaningful `alt` text (decorative images get `alt=""` — know the difference)
+- [x] Organised files: `index.html`, `css/style.css`, `images/`, `README.md`
+- [x] CSS custom properties for the colour palette and spacing scale, defined once in `:root`
+- [x] BEM-style class names, consistently
 
 ## 🎤 The teacher will ask you
 

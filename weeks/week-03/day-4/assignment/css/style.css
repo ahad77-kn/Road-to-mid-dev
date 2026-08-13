@@ -1,0 +1,310 @@
+:root {
+
+    /* i wrote colors and sizes with tags or ids so i can use 
+    them easily in whole code */
+
+    /* Colours */
+
+    --color-dark: #222;
+    --color-text: #444;
+    --color-light: #f5f5f5;
+    --color-white: #fff;
+    --color-accent: #2563eb;
+    --color-border: #ddd;
+
+    /* Spacing */
+
+    --space-small: 0.5rem;
+    --space-medium: 1rem;
+    --space-large: 2rem;
+    --space-xl: 4rem;
+}
+
+/*====it is basics====*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: var(--color-text);
+    background: var(--color-light);
+    line-height: 1.6;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*====it is header====*/
+
+.header {
+    background: var(--color-dark);
+    color: var(--color-white);
+}
+
+.header__nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-medium);
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: var(--space-medium) 0;
+}
+
+.header__logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.header__links {
+    display: flex;
+    gap: var(--space-large);
+}
+
+.header__links a:hover {
+    color: #aaa;
+}
+
+/*====it is hero section====*/
+
+.hero {
+    text-align: center;
+    padding: 6rem 1rem;
+}
+
+.hero__small-text {
+    color: var(--color-accent);
+    font-weight: bold;
+}
+
+.hero__title {
+
+    margin: var(--space-medium) 0;
+    color: var(--color-dark);
+    font-size: clamp(2rem, 6vw, 4rem);
+    line-height: 1.1;
+}
+
+.hero__text {
+    max-width: 600px;
+    margin: 0 auto var(--space-large);
+}
+
+.hero__button {
+
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    background: var(--color-accent);
+    color: var(--color-white);
+    border-radius: 6px;;
+}
+
+.hero__button:hover {
+    opacity: 0.8;
+}
+
+/*====it is about====*/
+
+.about {
+    padding: var(--space-xl) 5%;
+    background: var(--color-white);
+}
+
+.about__title,
+.skills__title,
+.projects__title,
+.contact__title {
+
+    margin-bottom: var(--space-large);
+    color: var(--color-dark);
+    font-size: 2rem;
+}
+
+.about text {
+    max-width: 700px;
+}
+
+/*====skills portion====*/
+
+.skills {
+    padding: var(--space-xl) 5%;
+}
+
+.skills__grid {
+    display: grid;
+    grid-template-columns:
+        repeat(4, 1fr);
+    gap: var(--space-medium);
+}
+
+.skill-card {
+    padding: var(--space-large);
+    background: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+}
+
+.skill-card__title {
+    margin-top: 0;
+    color: var(--color-dark);
+}
+
+/*====projects portion====*/
+
+.projects {
+    padding: var(--space-xl) 5%;
+    background: var(--color-white);
+}
+
+.projects__intro {
+    margin-bottom: var(--space-large);
+}
+
+.projects__grid {
+    display: grid;
+    grid-template-columns:
+        repeat(3, 1fr);
+    gap: var(--space-large);
+}
+
+
+.project-card {
+    overflow: hidden;
+    background: var(--color-light);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+}
+
+.project-card__image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-card__content {
+    padding: var(--space-medium);
+}
+
+.project-card__title {
+    margin-top: 0;
+    color: var(--color-dark);
+}
+
+/*====contact portion====*/
+
+.contact {
+    padding: var(--space-xl) 5%;
+}
+
+.contact__text {
+    margin-bottom: var(--space-large);
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-medium);
+    max-width: 600px;
+}
+
+.contact__field {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-small);
+}
+
+.contact__label {
+    font-weight: bold;
+}
+
+.contact__input {
+    padding: 0.75rem;
+
+    border: 1px solid #aaa;
+
+    border-radius: 5px;
+}
+
+.contact__input:focus-visible {
+    outline: 2px solid var(--color-accent);
+}
+
+.contact__button {
+    align-self: flex-start;
+    padding: 0.75rem 1.5rem;
+    border: 0;
+    border-radius: 5px;
+    background: var(--color-accent);
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.contact__button:hover {
+    opacity: 0.8;
+}
+
+/*====footer area====*/
+
+
+.footer {
+    padding: var(--space-large);
+    background: var(--color-dark);
+    color: var(--color-white);
+    text-align: center;
+}
+
+.footer__text {
+    margin: 0;
+}
+
+/*====simple responsive layout====*/
+
+@media (max-width: 800px) {
+
+    .skills__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header__nav {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .skills__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projects__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .header__links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: var(--space-medium);
+    }
+
+}
