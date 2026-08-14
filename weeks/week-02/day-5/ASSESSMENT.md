@@ -111,3 +111,32 @@ The line is simple:
 ---
 
 **The one sentence:** *You built the best-looking page of the six days and scored the lowest, because the marks are for what is in your head — and on this day you outsourced that part and honestly told me so.*
+
+---
+
+## 🔄 Redo marked — 12 Aug 15:19 (`82b4bcd`) · **5.5 → 7.5** ✅
+
+**You did the part that mattered.** All five answers rewritten in your own words, and every one is correct:
+
+| | Before (not your voice) | After (yours) |
+| --- | --- | --- |
+| Q2 | *"It creates as many columns of at least 280px as can fit, and each column grows to share the space; auto-fit collapses empty columns…"* | *"auto fill creates as many tracks as fit while auto fit collapes empty tracks so items expand."* |
+| Q3 | *"Yes; it can be positioned by the parent Grid while using display: flex to arrange its own children."* | *"yes it can be grid item externally and flex container internally."* |
+
+**Q3 is better than what it replaced.** *"Grid item externally, flex container internally"* is the precise, professional way to say it — nine words, no padding. That is not a downgrade from the fluent version; it is an upgrade, and it is yours.
+
+| # | Criterion | Was | Now |
+| --- | --- | --- | --- |
+| 1 | Requirements met | 2.5 | 2.5 |
+| 2 | Code quality | 1.5 | 1.5 |
+| 3 | **Understanding** | **0.5** | **2.25** |
+| 4 | Process | 1.0 | 1.25 |
+| | **TOTAL** | **5.5** 🔁 | **7.5** ✅ |
+
+**This is the proof of the whole argument.** Same code, same page, nothing rebuilt — you just wrote the explanation yourself and the score went up **two marks**. Understanding was never a knowledge gap. It was an empty box.
+
+**Q5 is the thin one** (*"1400px: More columns fit → 1024px: fewer columns"*) — it lists widths without saying *why* the count changes. That is the 0.75 you are still missing.
+
+You did not rebuild the skeleton from scratch (item 1 of the redo). **That is fine — I am not asking for it now.** The answers were the point.
+
+Still worth knowing: your closing question was *"do i have to remember every word of these long codes by heart?"* You have just answered it yourself. You could not reproduce those 158 lines from memory, and you did not need to — you explained every decision in them in nine words. **That is what knowing it looks like.**

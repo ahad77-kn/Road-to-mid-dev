@@ -41,7 +41,7 @@
 | [**D2**](day-2/) | Card gallery — 6 cards, wrapping, equal heights | [📄 open →](day-2/) | **8.5** ✅ [🧾](day-2/ASSESSMENT.md) | – | – |
 | [**D3**](day-3/) | Holy-grail layout in Grid | [📄 open →](day-3/) | **8.25** ✅ [🧾](day-3/ASSESSMENT.md) | **3.0** | **7.0** |
 | [**D4**](day-4/) | Photo gallery with spanning cells | [📄 open →](day-4/) | **7.0** ✅ [🧾](day-4/ASSESSMENT.md) | **0** ❌ | **0** ❌ |
-| [**D5**](day-5/) | YouTube home skeleton — Grid page + Flex components | [📄 open →](day-5/) | **5.5** 🔁 [🧾](day-5/ASSESSMENT.md) | **0** ❌ | **0** ❌ |
+| [**D5**](day-5/) | YouTube home skeleton — Grid page + Flex components | [📄 open →](day-5/) | **7.5** ✅ [🧾](day-5/ASSESSMENT.md) | **0** ❌ | **0** ❌ |
 
 > 🆕 **From D3 the day is 5½ hours and three scores** — build, fix, and know it.
 > Plus [environment test 01](../../env/week-02/) on Day 5. [What changed and why](../../GRADING.md#-whats-new-from-w02-d3).

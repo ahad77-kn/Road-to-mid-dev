@@ -91,3 +91,37 @@ Your own Q4 answer says this correctly. Trust it.
 ---
 
 **The one sentence:** *The best CSS you have written, described in someone else's words — and the words are the only reason this is a 7 and not a 9.*
+
+---
+
+## 🔄 Fix pass — 12 Aug 15:19 (`82b4bcd`) · **7.0 → 8.0** ✅
+
+I said the `how.md` rewrite was worth about 1.5 marks. It was — here is the payment.
+
+**✅ `how.md`, in your voice now:**
+
+> *"`auto-fit` tells the browser to fit as many columns available space."*
+
+Slightly broken English, completely correct, and clearly written by you. The `min()` paragraph is genuinely well explained: *"a 280px minimum could be too wide on a small screen and cause horizontal scrolling."* **That is the failure mode stated exactly.**
+
+**✅ All five boxes ticked** — every one was already true. Good.
+
+| # | Criterion | Was | Now |
+| --- | --- | --- | --- |
+| 3 | **Understanding** | 1.25 | **2.5** |
+| 4 | Process | 1.5 | **1.75** |
+| | **TOTAL** | **7.0** | **8.0** ✅ |
+
+### ⚠️ One thing to know about the focus rule
+
+```css
+.cards:focus-visible { outline: 3px solid blue; outline-offset: 3px; }
+```
+
+`.cards` is a `<section>`. Sections cannot receive keyboard focus, so this rule can never fire.
+
+And here is the thing — **I checked, and this page has no focusable elements at all.** No `<a>`, no `<button>`, no `<input>`. So there was genuinely nothing to apply S3 to.
+
+**The right answer was one line in NOTES:** *"no links or buttons on this page, so no focus styles needed."* That scores full marks and takes ten seconds. Adding a rule that cannot run scores nothing and takes longer.
+
+**S3 is waived for this page** — the deduction is removed, which is part of why this is now an 8.0.

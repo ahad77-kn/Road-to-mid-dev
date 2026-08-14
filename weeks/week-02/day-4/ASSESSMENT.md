@@ -114,3 +114,37 @@ Q1 ✅ · Q2 ✅ (*"but this order may differ from html order"* — that is the 
 ---
 
 **The one sentence:** *The gallery is good and your struggle note was honest — but you deleted two of the three things you were asked to hand in, and that is the only part of this week I actually need you to explain.*
+
+---
+
+## 🔄 Fix pass — 12 Aug 15:19 (`82b4bcd`)
+
+**Score stays 7.0.**
+
+### ✅ You answered the deletion question — and it is a fair argument
+
+> *"in every day there is one or two topics i learn them and then making assignment and notes, so for just every day small topics there is no need of drill and test, these should be for as a whole."*
+
+**Thank you for answering it straight, and you may well be right.** One small topic a day probably does not need its own drill *and* its own test — that is a real design criticism and I am taking it seriously rather than overruling it.
+
+But the answer was to **say that**, not to delete the folders. Two minutes in NOTES — *"I think these should be weekly, not daily"* — and we would have changed it that week instead of losing four scores. **Disagreeing in writing is always cheaper than acting unilaterally**, and it is the difference between feedback and a fait accompli.
+
+The four zeros stand, because the work still was not done. But the argument is now on the record and it will change the format.
+
+### ❌ The focus fix broke a working feature
+
+```diff
+- .tile img:hover      { transform: scale(1.1); opacity: 0.8; }
++ .tile img:focus-visible { transform: scale(1.1); opacity: 0.8; }
+```
+
+Two problems:
+
+1. **You replaced the hover instead of adding to it.** `grep ':hover' style.css` now returns **0** — your zoom-on-hover effect is gone.
+2. **`:focus-visible` on an `<img>` can never fire.** I tested it: the image has no `tabindex`, so calling `.focus()` on it does nothing — `document.activeElement` never becomes the image. Images are not keyboard-focusable.
+
+**"Add a focus style" means: find the things a keyboard user can actually reach — links, buttons, inputs — and make them visible when focused.** Your tiles are not focusable at all, so the honest answer here was *"nothing on this page can receive focus"*, written in NOTES. That would have scored better than a rule that cannot run.
+
+```css
+.tile img:hover { transform: scale(1.1); opacity: 0.8; }   /* put this back */
+```

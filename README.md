@@ -16,11 +16,11 @@
 
 Day 2 went **5 → 5.75 → 7.0** across two redos and is now a clean pass.
 
-### ▶️ Next: **[Week 03 · Day 4 — Build the portfolio →](weeks/week-03/day-4/)**
+### ▶️ Next: **[Week 03 · Day 5 — Finish & deploy the portfolio →](weeks/week-03/day-5/)**
 
-_**6 days marked 12 Aug.** W2 passed at 7.55; W3 is at **6.33 against a 6.5 gate**. ⚠️ **[Read the state of play](STATE-OF-PLAY.md)** — AI use escalated, Understanding marks collapsed, and 4 drill/test folders were deleted._
+_**14 Aug:** fix pass lifted three days (+4.0). W2 passed at **7.95**; W3 at **7.19**, above the 6.5 gate with one day left. 📊 **[State of play](STATE-OF-PLAY.md)**._
 
-_(W02: 8.5 · 8.5 · 8.25 · 7.0 · 5.5 🔁 → **7.55** ✅ · W03 so far: 6.0 · 7.0 · 6.0 → **6.33** ⚠️)_
+_(W02: 8.5 · 8.5 · 8.25 · 7.0 · 7.5 → **7.95** ✅ · W03: 6.0 · 8.0 · 7.0 · 7.75 → **7.19** ✅)_
 
 _(D1 **6** · D2 **7.0** · D3 **6** · D4 **6.5** · D5 **6.25** · Week 1 average **6.35** ✅)_
 

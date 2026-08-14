@@ -95,3 +95,45 @@ Your Q4 is the exception and it is a good one: *"fixed widths, large images and 
 ---
 
 **The one sentence:** *You solved the hard width and missed the easy one, because you tested the number in the brief instead of the whole range — and the fix is a technique you had already mastered by the following morning.*
+
+---
+
+## 🔄 Fix pass — 12 Aug 15:19 (`82b4bcd`) · **stays 6.0** — read this one carefully
+
+**The 768px overflow is gone.** I re-tested at 320, 480, 768, 900 and 1200: no horizontal scroll anywhere.
+
+**But it is gone because the two-column layout is gone.**
+
+```css
+grid-template-columns: repeat(2, minmax(min(280px, 100%) 1fr));
+                                                          ↑ missing comma
+```
+
+`minmax()` takes **two comma-separated** arguments. I handed both versions to the browser's own CSS parser:
+
+```js
+el.style.gridTemplateColumns = 'repeat(2, minmax(min(280px, 100%) 1fr))'   // yours
+→ ""                                    ← REJECTED, declaration discarded
+
+el.style.gridTemplateColumns = 'repeat(2, minmax(min(280px, 100%), 1fr))'  // correct
+→ "repeat(2, minmax(min(280px, 100%), 1fr))"
+```
+
+So the whole declaration is thrown away, the 768px block does nothing, and `.video-grid` falls back to the base `1fr`. Measured at 800px wide:
+
+```
+grid-template-columns:  588px      ← ONE column
+cards per row:          1          ← you intended 2
+```
+
+**Between 768px and 1023px your video grid is now a single column.** Above 1024px the other breakpoint still works, so it looks fine on your laptop. On a tablet it is broken, and nothing warns you.
+
+### This is the lesson, and it is bigger than the comma
+
+**The symptom disappeared because the feature disappeared.** You checked "is there still a scrollbar?", saw no, and stopped. But the goal was never *"no scrollbar"* — it was *"two columns that fit"*. A deleted layout has no scrollbar either.
+
+**When you fix something, verify the thing you wanted, not the absence of the thing you did not want.** At 800px the check was: *do I see two cards side by side?*
+
+And it is the fifth silent-invalid-CSS incident ([S9](../../../STANDING-RULES.md)): `margin: 20px opx`, `outline: 0.2rem`, `border-radius: 0.5`, `opacity: 200ms ease-out`, now this. **All five would have shown a strike-through in DevTools → Styles.** Sixty seconds, every commit.
+
+**Fix:** add the comma. Then load it at 800px and count the cards.

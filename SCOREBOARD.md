@@ -5,9 +5,9 @@
 Every assignment is out of 10. Pass mark 6. Week average below 6 → the week repeats.
 Filled in by the teacher after each day is marked.
 
-**Running average:** **6.89** · **Days completed:** 13 / 125 · **Best day:** W02 D1 & D2 (8.5) · **Redos:** 1 completed, **1 open (W02 D5, 5.5)**
+**Running average:** **7.44** · **Days completed:** 14 / 125 · **Best day:** W02 D1 & D2 (8.5) · **Redos:** 2 completed (W02 D5: 5.5 → **7.5**)
 
-> ⚠️ **[Read the state of play](STATE-OF-PLAY.md)** — six days marked 12 Aug. AI use escalated and Understanding marks collapsed; four drill/test folders were deleted.
+> 📊 **[Read the state of play](STATE-OF-PLAY.md)** — 14 Aug: fix pass lifted 3 days (+4.0 total), but 5 of 6 fixes changed the wording rather than the behaviour.
 
 **Week 1 ✅ PASSED** — Week 02 unlocked.
 
@@ -24,8 +24,8 @@ Filled in by the teacher after each day is marked.
 | Week | D1 | D2 | D3 | D4 | D5 | Avg | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [01](weeks/week-01/) — CSS fundamentals & box model | **6** | **7.0** ✅ | **6** | **6.5** | **6.25** | **6.35** | ✅ [passed](weeks/week-01/WEEK-REVIEW.md) |
-| [02](weeks/week-02/) — Flexbox & Grid | **8.5** | **8.5** | **8.25** | **7.0** | **5.5** 🔁 | **7.55** | ✅ passed |
-| [03](weeks/week-03/) — Responsive & polish | **6.0** | **7.0** | **6.0** | – | – | **6.33** | ⚠️ under 6.5 gate |
+| [02](weeks/week-02/) — Flexbox & Grid | **8.5** | **8.5** | **8.25** | **7.0** | **7.5** ✅ | **7.95** | ✅ passed |
+| [03](weeks/week-03/) — Responsive & polish | **6.0** | **8.0** | **7.0** | **7.75** | – | **7.19** | ✅ above gate |
 | **Phase 1 exam** | | | | | | – | ⬜ |
 
 ## Phase 2 · JavaScript
@@ -123,6 +123,7 @@ Kept honest, not to punish — to see the trend. The goal is for the "self" colu
 | **W03 D1** | yes — **"learned every step, element and attribute from it"** | ⚠️ answers not in his voice | **Understanding 1.25 / 3** |
 | W03 D2 | yes — "for understanding the assignment and how.md" | ⚠️ `how.md` not in his voice | Understanding 1.25 / 3 |
 | W03 D3 | yes — "at end when i stuck i got help from ai" | ✅ answers back in his own voice | none |
+| W03 D4 | yes — "just for learning new properties (BEM, root colors/spacing)" | ✅ Q1/Q3/Q5 clearly his voice | none |
 
 ---
 

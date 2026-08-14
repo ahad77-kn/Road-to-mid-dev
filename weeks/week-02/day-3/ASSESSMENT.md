@@ -109,3 +109,34 @@ That is honest and I would rather have it than a fake 10. But the daily test is 
 ---
 
 **The one sentence:** *This is your best-run day of the six — the only one where you did every block, and the drill visibly made the assignment better within the hour. The problem is what happened on the days after it.*
+
+---
+
+## 🔄 Fix pass — 12 Aug 15:19 (`82b4bcd`)
+
+**Score stays 8.25** (6+ keeps its mark). But both fixes have problems.
+
+### ⚠️ You added the viewport tag by deleting the charset tag
+
+```diff
+- <meta charset="UTF-8">
++ <meta name="viewport" content="width=device-width, initial-scale=1">
+```
+
+`grep charset index.html` now returns **0**. You traded one [S2](../../../STANDING-RULES.md) break for another — the page still breaks the same rule, just differently. **Both tags belong there.** Add the charset back.
+
+### ⚠️ The focus style has no visible effect
+
+```css
+.nav a:focus-visible { transition: ease-in; }
+```
+
+This parses, so it passes a search for `focus-visible` — but it changes **nothing a user can see**. The whole point of a focus style is that a keyboard user can tell where they are on the page. Tab to that link and nothing happens.
+
+```css
+.nav a:focus-visible { outline: 3px solid #2563eb; outline-offset: 3px; }
+```
+
+**Test it the only way that counts: press Tab and look.**
+
+See the [state of play](../../../STATE-OF-PLAY.md) — the same thing happened on four other fixes.

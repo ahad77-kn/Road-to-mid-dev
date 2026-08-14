@@ -13,7 +13,7 @@ Start your real portfolio site — this is the Phase 1 deliverable and the first
 | `index.html` | the page markup |
 | `css/style.css` | styles, with the palette and scale in `:root` |
 | `images/` | your images, correctly sized |
-| `README.md` | what this is |
+| `PROJECT.md` | what this is — **not** `README.md`, that name is this brief |
 
 ## ✅ Done when — this is the checklist you are marked against
 

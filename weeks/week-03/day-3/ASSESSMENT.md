@@ -115,3 +115,40 @@ Q5 ⚠️ you described the DevTools steps without saying what you saw. **Actual
 ---
 
 **The one sentence:** *You wrote your first accessibility feature and closed a four-day standing rule on the same day you shipped a comment that your own code contradicts — read the file after you write it, in the browser, not in the editor.*
+
+---
+
+## 🔄 Fix pass — 12 Aug 15:19 (`82b4bcd`) · **6.0 → 7.0** ✅
+
+Two of the three fixes landed.
+
+**✅ `flex-wrap: wrap` on `.header` and `.nav`** — the 320px overflow is **gone**. Re-tested: `scrollWidth 320, clientWidth 320`, zero overflowing elements. That was 137px of horizontal scroll and it is fixed properly.
+
+**⚠️ The transition is half-fixed:**
+
+```css
+transition: 200ms ease-out, opacity 200ms ease-out;
+```
+
+You added the property name to the **second** half and not the first. I read the computed value back from the browser:
+
+```
+transition-property:  "all, opacity"
+```
+
+**Still `all`.** The first segment has a duration and an easing but no property, so it still falls back to `all` — the exact thing your comment above it says you avoided. You are now transitioning everything *and* opacity twice.
+
+```css
+transition: transform 200ms ease-out, opacity 200ms ease-out;
+```
+
+**One word — `transform` — in front of the first `200ms`.** That is the entire remaining fix.
+
+| # | Criterion | Was | Now |
+| --- | --- | --- | --- |
+| 1 | Requirements met | 2.0 | **2.5** |
+| 2 | Code quality | 1.0 | **1.5** |
+| | Standing rules (S9) | −0.5 | **−0.25** |
+| | **TOTAL** | **6.0** | **7.0** ✅ |
+
+Add the one word and this becomes an 8.
