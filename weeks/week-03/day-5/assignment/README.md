@@ -17,13 +17,13 @@ Finish the portfolio to a shippable standard.
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] Fully responsive: 320px → 1920px, no horizontal scroll at any width
-- [ ] Keyboard navigable end to end, with a visible focus state everywhere
-- [ ] Colour contrast passes AA (check in DevTools → Accessibility, or [WebAIM contrast checker](https://webaim.org/resources/contrastchecker/))
-- [ ] Lighthouse run in DevTools: **Accessibility ≥ 90**. Screenshot the report into the folder.
-- [ ] CSS organised into commented sections; no dead rules; no `!important`
-- [ ] A `README.md` in the project folder: what it is, how to run it, a screenshot
-- [ ] Deployed on GitHub Pages, link in the README
+- [x] Fully responsive: 320px → 1920px, no horizontal scroll at any width
+- [x] Keyboard navigable end to end, with a visible focus state everywhere
+- [x] Colour contrast passes AA (check in DevTools → Accessibility, or [WebAIM contrast checker](https://webaim.org/resources/contrastchecker/))
+- [x] Lighthouse run in DevTools: **Accessibility ≥ 90**. Screenshot the report into the folder.
+- [x] CSS organised into commented sections; no dead rules; no `!important`
+- [x] A `README.md` in the project folder: what it is, how to run it, a screenshot
+- [x] Deployed on GitHub Pages, link in the README
 
 ## 🎤 The teacher will ask you
 
