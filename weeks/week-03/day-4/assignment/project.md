@@ -28,3 +28,5 @@ my profile contains that projects which i learned and created from week 1 to wee
 - Grid Image Gallery
 - YouTube Homepage
 - Responsive Card Gallery
+
+- skip images sizes this time and day 5 they wil be ok in upcomming assignments.
