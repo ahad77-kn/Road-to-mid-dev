@@ -25,10 +25,10 @@ Five small programs in `day-1/`, one file each, each printing labelled output wi
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] `const` by default; `let` only where the value genuinely changes; **no `var` anywhere** — and you can say why
-- [ ] Descriptive names — `totalPrice`, not `t` or `x`
-- [ ] Template literals for all output, not `+` concatenation
-- [ ] `day-1/notes.md` answering: what surprised you about `typeof null`?
+- [x] `const` by default; `let` only where the value genuinely changes; **no `var` anywhere** — and you can say why
+- [x] Descriptive names — `totalPrice`, not `t` or `x`
+- [x] Template literals for all output, not `+` concatenation
+- [x] `day-1/notes.md` answering: what surprised you about `typeof null`?
 
 ## 🎤 The teacher will ask you
 
