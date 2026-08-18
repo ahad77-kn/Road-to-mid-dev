@@ -1,10 +1,12 @@
-let firstNumber = 10;
-let secondNumber = 20;
+// Swap with a third variable
+let firstValue = 10;
+let secondValue = 20;
 
-console.log(`Before swap: firstNumber = ${firstNumber}, secondNumber = ${secondNumber}`);
+const temporaryValue = firstValue;
+firstValue = secondValue;
+secondValue = temporaryValue;
 
-firstNumber = firstNumber + secondNumber;
-secondNumber = firstNumber - secondNumber;
-firstNumber = firstNumber - secondNumber;
+console.log(`With third variable: firstValue = ${firstValue}, secondValue = ${secondValue}`);
 
-console.log(`After swap without third variable: firstNumber = ${firstNumber}, secondNumber = ${secondNumber}`);
+// In real code, I would use a third variable because it is easier to understand.
+// It is also safer and makes the code easier for another developer to read.

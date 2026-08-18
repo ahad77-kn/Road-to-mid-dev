@@ -43,3 +43,11 @@ be child and price will be CHILD_PRICE else if the age is greator or equal to
 60 so it will be SENIOR_PRICE else other will be ADULT_PRICE and 
 it will check if it is saturday or sunday it will weekend discount
 else other will default days. */
+
+/*
+Test results:
+Age 10, Monday -> $8.00
+Age 20, Saturday -> $10.00
+Age 65, Sunday -> $7.00
+Age 30, Wednesday -> $12.00
+*/

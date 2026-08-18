@@ -34,3 +34,11 @@ console.log(`Number: ${number}`);
 console.log(`Even/Odd: ${evenOdd}`);
 console.log(`Sign: ${sign}`);
 console.log(`Prime: ${primeStatus}`);
+
+/*
+Test results:
+17 -> odd, positive, prime
+12 -> even, positive, not prime
+-4 -> even, negative, not prime
+0 -> even, zero, not prime
+*/

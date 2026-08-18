@@ -36,10 +36,8 @@ Download or clone the project and open `index.html` in a web browser.
 
 GitHub Pages:
 
-PASTE YOUR GITHUB PAGES LINK HERE
+https://github.com/ahad77-kn/Road-to-mid-dev/tree/main/weeks/week-03/day-5
 
 ## Screenshot
 
-Add a screenshot of the finished portfolio here:
-
-`portfolio-screenshot.png`
+![alt text](images/portofolio-screenshot.png)

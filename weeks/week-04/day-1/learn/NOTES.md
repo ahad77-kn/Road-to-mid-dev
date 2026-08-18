@@ -9,11 +9,11 @@
 
 ## What I learned (own words, min 3)
 
--learned variables
+-learned variables,if/else conditions.
 
--learn about js
+-learn about js,const and if values ,inwchich conts is for value which cannot be cahnged and if for value can be changed.
 
--hello world of js
+-learned about the "typeof null" which gives object instead of its value is null.
 
 
 ## What I struggled with (mandatory — "nothing" is not allowed)
