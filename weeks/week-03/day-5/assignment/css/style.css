@@ -180,6 +180,9 @@ textarea:focus-visible {
     color: var(--color-dark);
 }
 
+.skill-card__text {
+     color: var(--color-dark);
+}
 .projects {
     width: 90%;
     max-width: 1100px;

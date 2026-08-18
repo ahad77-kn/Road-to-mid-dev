@@ -36,7 +36,7 @@ Download or clone the project and open `index.html` in a web browser.
 
 GitHub Pages:
 
-https://github.com/ahad77-kn/Road-to-mid-dev/tree/main/weeks/week-03/day-5
+https://ahad77-kn.github.io/Road-to-mid-dev/weeks/week-03/day-5/assignment/
 
 ## Screenshot
 

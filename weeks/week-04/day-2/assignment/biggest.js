@@ -1,18 +1,18 @@
-const firstnumber = 25;
-const secondnumber = 40;
-const thirdnumber = 15;
+const firstNumber = 25;
+const secondNumber = 40;
+const thirdNumber = 15;
 
-let biggestnumber;
+let biggestNumber;
 
-if (firstnumber >= secondnumber && firstnumber >= thirdnumber ) {
+if (firstNumber >= secondNumber && firstNumber >= thirdNumber ) {
     biggestnumber = firstnumber;
-} else if (secondnumber >= firstnumber && secondnumber >= thirdnumber) {
-    biggestnumber = secondnumber;
+} else if (secondNumber >= firstNumber && secondNumber >= thirdNumber) {
+    biggestNumber = secondNumber;
 } else {
-    biggestnumber = thirdnumber ;
+    biggestNumber = thirdNumber ;
 }
 
-console.log(`Biggest number: ${biggestnumber}`);
+console.log(`Biggest Number: ${biggestNumber}`);
 
 /* in the test will check if the first number is 
 greator or equal to second number and third number then 

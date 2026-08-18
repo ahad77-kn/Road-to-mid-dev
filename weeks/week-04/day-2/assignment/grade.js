@@ -15,7 +15,7 @@ if ( marks >= MARKS_A ) {
 } else if (marks >= MARKS_D) {
     grade = "D";
 } else {
-    grade = "f";
+    grade = "F";
 }
 
 console.log(`Marks: ${marks}`);

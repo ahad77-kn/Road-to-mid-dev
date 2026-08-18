@@ -11,7 +11,7 @@
 
 -learned variables,if/else conditions.
 
--learn about js,const and if values ,inwchich conts is for value which cannot be cahnged and if for value can be changed.
+-learn about js,const and let values ,inwchich conts is for value which cannot be cahnged and if for value can be changed.
 
 -learned about the "typeof null" which gives object instead of its value is null.
 

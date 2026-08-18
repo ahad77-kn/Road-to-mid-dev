@@ -1,7 +1,7 @@
 const username = "ahadkn"
 const password = "123456"
 
-function checklogin () {
+function checkLogin () {
     if (username === "") {
         return "missing username";
     }
@@ -11,7 +11,7 @@ function checklogin () {
     return "welcome";
 }
 
-console.log(checklogin());
+console.log(checkLogin());
 
 /*
 Test results:
