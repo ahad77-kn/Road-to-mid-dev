@@ -5,11 +5,13 @@
 Every assignment is out of 10. Pass mark 6. Week average below 6 → the week repeats.
 Filled in by the teacher after each day is marked.
 
-**Running average:** **7.44** · **Days completed:** 14 / 125 · **Best day:** W02 D1 & D2 (8.5) · **Redos:** 2 completed (W02 D5: 5.5 → **7.5**)
+**Running average:** **6.88** · **Days completed:** 17 / 125 · **Best day:** W02 D1 & D2 (8.5) · **Redos:** 2 completed (W02 D5: 5.5 → **7.5**) · **2 open** (W03 D5, W04 D2)
 
-> 📊 **[Read the state of play](STATE-OF-PLAY.md)** — 14 Aug: fix pass lifted 3 days (+4.0 total), but 5 of 6 fixes changed the wording rather than the behaviour.
+> 📊 **[Read the state of play](STATE-OF-PLAY.md)** — 18 Aug: portfolio is **live**, JavaScript has started. Two redos open, both caused by shipping code that was never run.
 
-**Week 1 ✅ PASSED** — Week 02 unlocked.
+**Week 1 ✅ PASSED** · **Week 2 ✅ PASSED** · **Week 3 ✅ PASSED** — Phase 2 (JavaScript) unlocked.
+
+🌐 **Live portfolio:** <https://ahad77-kn.github.io/Road-to-mid-dev/weeks/week-03/day-5/assignment/>
 
 ---
 
@@ -25,14 +27,14 @@ Filled in by the teacher after each day is marked.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [01](weeks/week-01/) — CSS fundamentals & box model | **6** | **7.0** ✅ | **6** | **6.5** | **6.25** | **6.35** | ✅ [passed](weeks/week-01/WEEK-REVIEW.md) |
 | [02](weeks/week-02/) — Flexbox & Grid | **8.5** | **8.5** | **8.25** | **7.0** | **7.5** ✅ | **7.95** | ✅ passed |
-| [03](weeks/week-03/) — Responsive & polish | **6.0** | **8.0** | **7.0** | **7.75** | – | **7.19** | ✅ above gate |
+| [03](weeks/week-03/) — Responsive & polish | **6.0** | **8.0** | **7.0** | **7.75** | **4.5** 🔁 | **6.65** | ✅ passed (gate 6.5) |
 | **Phase 1 exam** | | | | | | – | ⬜ |
 
 ## Phase 2 · JavaScript
 
 | Week | D1 | D2 | D3 | D4 | D5 | Avg | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [04](weeks/week-04/) — Language fundamentals | – | – | – | – | – | – | ⬜ |
+| [04](weeks/week-04/) — Language fundamentals | **7.25** | **5.0** 🔁 | – | – | – | **6.13** | 🟡 D2 redo open |
 | [05](weeks/week-05/) — Arrays & objects | – | – | – | – | – | – | ⬜ |
 | [06](weeks/week-06/) — The DOM | – | – | – | – | – | – | ⬜ |
 | [07](weeks/week-07/) — Events & forms | – | – | – | – | – | – | ⬜ |
@@ -124,6 +126,9 @@ Kept honest, not to punish — to see the trend. The goal is for the "self" colu
 | W03 D2 | yes — "for understanding the assignment and how.md" | ⚠️ `how.md` not in his voice | Understanding 1.25 / 3 |
 | W03 D3 | yes — "at end when i stuck i got help from ai" | ✅ answers back in his own voice | none |
 | W03 D4 | yes — "just for learning new properties (BEM, root colors/spacing)" | ✅ Q1/Q3/Q5 clearly his voice | none |
+| W03 D5 | yes — "for learning about the light house and how to test my page there" | ⚠️ declaration is narrower than the work — Q1–Q4 not in his voice | Understanding 1.5 / 3 |
+| W04 D1 | yes — **"about whole assignment... because i was not getting up"** | ✅ precise and complete; answers correct but not his voice | Understanding 1.5 / 3 |
+| W04 D2 | yes — "for understanding the assignment" | ⚠️ answers go beyond understanding the brief | Understanding 1.75 / 3 |
 
 ---
 
@@ -132,6 +137,8 @@ Kept honest, not to punish — to see the trend. The goal is for the "self" colu
 | Week/Day | Reason | Redone on | New score |
 | --- | --- | --- | --- |
 | W01 D2 | box-sizing missing, 3 of 5 features, 5× position hacks, all test questions blank | 30 Jul (code) + 2 Aug (questions) | **7.0** ✅ (was 5) — `box-sizing` still absent from the file |
+| **W03 D5** | 11 dead CSS rules — stylesheet renamed to BEM, HTML never renamed to match; hero and skills sections unstyled on the live site | ⬜ open | – (was **4.5**) |
+| **W04 D2** | 3 of 6 programs crash — two case-mismatched identifiers and `=` used for `>=` | ⬜ open | – (was **5.0**) |
 
 ---
 

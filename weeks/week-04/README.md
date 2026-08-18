@@ -29,7 +29,18 @@
 
 **How to study this week:** open the JS.info page on the left, your editor on the right. **Type every example. Then change a value and predict the output before you run it.** Reading code teaches nothing; predicting it teaches everything.
 
-**Where to run it:** `node day-1/grades.js` in the terminal, or the Chrome DevTools Console. Both are fine.
+### ▶️ How to run a `.js` file — read this before Day 1
+
+**No HTML. No browser. No setup.** Open the terminal, go into the day's assignment folder, and run the file by name:
+
+```bash
+cd weeks/week-04/day-1/assignment
+node bmi.js
+```
+
+`node` is already on your machine. The output appears in the terminal. Chrome DevTools → Console works too and is handy for one-liners, but for a whole file `node` is the one to use.
+
+**Run the file after every change you make.** Write a line, run it, read what came back. When it errors, the message names the file and the line number — that is the fastest teacher you have. **That write → run → read → fix loop is programming.** Everything else is typing.
 
 ---
 
@@ -37,8 +48,8 @@
 
 | Day | Assignment | Open | Score |
 | --- | --- | --- | --- |
-| [**D1**](day-1/) | Variables, types & 5 tiny programs | [📄 open →](day-1/) | – |
-| [**D2**](day-2/) | Conditionals — 6 decision programs | [📄 open →](day-2/) | – |
+| [**D1**](day-1/) | Variables, types & 5 tiny programs | [📄 open →](day-1/) | **7.25** ✅ [assessment](day-1/ASSESSMENT.md) |
+| [**D2**](day-2/) | Conditionals — 6 decision programs | [📄 open →](day-2/) | **5.0** 🔁 [assessment](day-2/ASSESSMENT.md) |
 | [**D3**](day-3/) | Loop drills — sums, reversals, FizzBuzz, patterns | [📄 open →](day-3/) | – |
 | [**D4**](day-4/) | Functions — parameters, returns, scope | [📄 open →](day-4/) | – |
 | [**D5**](day-5/) | Refactor everything from D1–D3 into functions | [📄 open →](day-5/) | – |

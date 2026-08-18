@@ -136,3 +136,36 @@ Q2, Q4 ⚠️ noticeably more polished than the rest. Q4's Sass point is correct
 ---
 
 **The one sentence:** *Semantically this is the cleanest page you have built — one h1, no skipped levels, labelled inputs, real alt text — and it is carrying two megabytes of screenshot into the one page where load time actually decides whether anyone sees your work.*
+
+---
+
+## 🔄 Fix pass — 16 Aug 16:43 (`001ca79`) · **score stays 7.75**
+
+**2 of 5 done, and one of them was declared rather than skipped quietly.**
+
+| # | Fix | Status |
+| --- | --- | --- |
+| 1 | Resize the five images | ❌ **not done — but declared** |
+| 2 | `about_title` → `about__title`, `hero_button` → `hero__button` | ✅ **done** |
+| 3 | Rename `RREADME.md` → `PROJECT.md` | ✅ done (as `project.md`) |
+| 4 | Crop the browser chrome out of the first screenshot | ❌ not done |
+| 5 | `object-fit: cover` on all five | ❌ not done |
+
+### ✅ The BEM fix is correct
+
+```diff
+- <a class="hero_button" href="#projects">
++ <a class="hero__button" href="#projects">
+- <h2 class="about_title">
++ <h2 class="about__title">
+```
+
+Both renamed, and the CSS already had `.hero__button` and `.about__title` waiting for them — so these two rules went from dead to live. **That is the right way round: rename in both files, then look at the page.** Remember that sentence when you read the [Day 5 assessment](../day-5/ASSESSMENT.md).
+
+### ✅ You declared the skip instead of hiding it
+
+> *"skip images sizes this time and day 5 they wil be ok in upcomming assignments."*
+
+**This is the behaviour I asked for after the deleted-folders week** — disagree or defer *in writing*, where I can see it. It costs you nothing here and Day 4's score is unchanged.
+
+It does not carry to Day 5, though, and for one reason: on Day 5 you deployed. The moment those 2.8 MB went onto the public internet they stopped being a style note and became the load time of the page you will send to employers. Charged there, not here.
