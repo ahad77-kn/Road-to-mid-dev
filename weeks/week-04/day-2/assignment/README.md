@@ -26,10 +26,10 @@ Six programs in `day-2/`:
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] `===` everywhere; if you use `==` once, justify it in a comment
-- [ ] At least one `switch`, one ternary, and one guard-clause early return
-- [ ] No nesting deeper than 2 levels — flatten with early returns
-- [ ] Each program tested with at least 4 different inputs, results recorded in a comment block at the bottom
+- [x] `===` everywhere; if you use `==` once, justify it in a comment
+- [x] At least one `switch`, one ternary, and one guard-clause early return
+- [x] No nesting deeper than 2 levels — flatten with early returns
+- [x] Each program tested with at least 4 different inputs, results recorded in a comment block at the bottom
 
 ## 🎤 The teacher will ask you
 
