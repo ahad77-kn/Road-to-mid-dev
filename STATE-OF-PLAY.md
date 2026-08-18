@@ -1,125 +1,134 @@
-# 📊 State of play — 18 August 2026 (evening)
+# 📊 State of play — 18 August 2026 (evening, second pass)
 
 [← The Road](README.md) · [🏆 Scoreboard](SCOREBOARD.md) · [📌 Standing rules](STANDING-RULES.md)
 
-**You turned around all three redos in one afternoon. Every JavaScript program you have written now runs.**
+**Every redo is closed. Three fix passes in one day.**
 
-🌐 **<https://ahad77-kn.github.io/Road-to-mid-dev/weeks/week-03/day-5/assignment/>** — reloaded it this evening. Your fixes are live.
+🌐 **<https://ahad77-kn.github.io/Road-to-mid-dev/weeks/week-03/day-5/assignment/>**
 
 ---
 
-## The re-marks
+## Where the three days landed
 
-| Day | | Was | Now |
+| Day | Start | Pass 1 | **Pass 2** |
 | --- | --- | --- | --- |
-| [W3 D5](weeks/week-03/day-5/ASSESSMENT.md) | Portfolio — deploy | 4.5 🔁 | **6.25** 🔁 |
-| [W4 D1](weeks/week-04/day-1/ASSESSMENT.md) | First JavaScript | 7.25 | **8.25** ✅ |
-| [W4 D2](weeks/week-04/day-2/ASSESSMENT.md) | Conditionals | 5.0 🔁 | **7.5** ✅ |
+| [W3 D5](weeks/week-03/day-5/ASSESSMENT.md) Portfolio | 4.5 🔁 | 6.25 🔁 | **7.75** ✅ |
+| [W4 D1](weeks/week-04/day-1/ASSESSMENT.md) First JS | 7.25 | 8.25 ✅ | **8.25** ✅ |
+| [W4 D2](weeks/week-04/day-2/ASSESSMENT.md) Conditionals | 5.0 🔁 | 7.5 ✅ | **7.5** ✅ |
 
-**Week 3: 6.65 → 7.00.** **Week 4: 6.13 → 7.88 — your second-best week so far.**
-**Running average: 6.88 → 7.19**, the highest it has ever been.
+**Week 3: 6.65 → 7.30.** **Week 4: 7.88.** **Running average 6.88 → 7.28 — the highest it has ever been.**
 
 ---
 
-## 🏆 The thing that actually happened today
+## 🏆 Lighthouse came back at 100 on accessibility
 
-You added a `Test results` block to all six Day 2 programs. **I did not believe them.** I re-ran every program with every input you claimed, and compared the real output to yours:
+You ran the report you had been avoiding for three days:
 
-| File | Claims | True |
+| Performance | Accessibility | Best Practices | SEO |
+| --- | --- | --- | --- |
+| **100** | **100** | **100** | 91 |
+
+**The bar was 90. You scored 100.**
+
+That is not luck, and it is worth understanding where it came from. Accessibility 100 is the payoff for a list of things you pushed back on at the time:
+
+- `alt` text on every image
+- a `<label>` on every input
+- one `<h1>`, heading order that never skips
+- contrast you fixed by darkening your own accent colour
+- a focus ring that took you **four attempts** to put on the right elements
+
+**Every one of those was a checklist item you argued with.** This is the number they were for. And Performance 100 is this morning's image work — 2.8 MB down to 580 KB.
+
+---
+
+## ✅ The portfolio is finished
+
+You opened the page and looked. All five project cards now carry `project-card`:
+
+| Card | Border | Radius | Background |
+| --- | --- | --- | --- |
+| 1–5 | 1px | 8px | white ✅ |
+
+The ragged image row went with it — all five images are now exactly **200px, `object-fit: cover`**. Orphan classes **8 → 2**. Dead rules **0**. `!important` **0**. Contrast **40/40**. Eight widths, **zero overflow**.
+
+**And all seven checkboxes on this assignment are now true.** I checked every one against the folder. In round one, three of seven were. That is the honest-ticking standard, and you got there by doing the work rather than by unticking.
+
+The Pages link is the real one now — `ahad77-kn.github.io/...`, not `github.com/...`. Two classes left (`projects-card__title` on two titles), purely cosmetic, catch it next time.
+
+---
+
+## 🔴 And one new crash, which is the best lesson of the day
+
+You renamed everything in `biggest.js` to camelCase. **Line 8 was missed:**
+
+```js
+let biggestNumber;
+
+if (firstNumber >= secondNumber && firstNumber >= thirdNumber ) {
+    biggestnumber = firstnumber;        // ← both still lowercase
+} else if (...) {
+    biggestNumber = secondNumber;       // ✅
+} else {
+    biggestNumber = thirdNumber;        // ✅
+}
+```
+
+Then you ran it:
+
+```
+$ node biggest.js
+Biggest Number: 40          ← looks perfect
+```
+
+**It passes.** With 25, 40, 15 the biggest is the *second* number — so line 8 never runs. **The broken line sits on a road your test drive never went down.**
+
+Point the first number at it and it dies:
+
+```
+ReferenceError: firstnumber is not defined
+    at biggest.js:8:5
+```
+
+### Your own test block already knew
+
+```
+25, 40, 15 -> 40     ✅
+90, 20, 50 -> 90     ❌ crashes   ← first branch
+10, 30, 70 -> 70     ✅
+50, 50, 20 -> 50     ❌ crashes   ← first branch
+```
+
+**Two of the four cases you wrote yourself now crash.** This morning all four passed — I verified them. Your test claims went **19/20 → 18/20**, in a file you were fixing.
+
+### The half of the loop you are missing
+
+You did nothing careless. You renamed, ran it, saw the right answer, committed. **That is the loop I asked for and you ran it.** Here is what it does not cover:
+
+> **Running a program once tests one path through it. An `if / else if / else` has three. You tested one.**
+
+`grade.js` has five branches. `ticket-price.js` has six. You cannot check those by editing the top value six times — you will get bored by the third, and boredom is where bugs live. This is what automated tests are for, and it is Week 22.
+
+**You have already written the fix.** Every file has a four-input test block at the bottom. **That is a to-do list — run all four lines after every change, not just the default.** `90, 20, 50` would have thrown in your face in two seconds.
+
+And notice the direction again: line 8 holds the **old** spelling, in a file where you had just corrected everything else. Same as this morning, when you fixed a name clash by adopting the wrong name. **When you rename something, the old spelling should end at zero occurrences. Search for it before you commit.**
+
+---
+
+## 📋 Still open — about 8 minutes
+
+| | What | Time |
 | --- | --- | --- |
-| biggest.js | 4 | **4** ✅ |
-| even-odd.js | 4 | **4** ✅ |
-| login-check.js | 4 | **4** ✅ |
-| ticket-prics.js | 4 | **4** ✅ |
-| grade.js | 4 | 3 |
-
-**19 out of 20.** You cannot guess that number. **You ran them.**
-
-For four weeks I have written the same sentence in your assessments — *a fix is finished when you have seen the thing you wanted.* Today you did it without being watched, and the proof is a table I generated by execution, not by reading your work. **That is the single biggest change in eighteen days.**
-
-The one that missed is a good one: you wrote `45 -> F` and the code prints `f`. **Your test block is right and your code is wrong** — you never changed `grade = "f"` to `"F"`. You knew the answer; the file did not.
-
-### And the other one that landed
-
-I have asked you every single week to write your answers in your own English. This week:
-
-> *"the weired thing i found is that "typeof null" says "oject". i thought it would say null because the value is "null". but it is java script it says object instead of null and as null is not an object."*
-
-**Three typos, and it is worth double the polished version it replaced.** The clean sentence told me a fact was on the page. This tells me what you expected, what you got, and that the gap surprised you — which is the only thing Understanding measures. It moved that block by three quarters of a mark in one edit.
-
-**Both of these are habits, not tasks. Keep them.**
-
----
-
-## 🎯 The one thing still to learn: fix the cause, not the symptom
-
-All three days show the same move — you fixed exactly the thing I named, and not the thing underneath it.
-
-| Where | I said | You did | What was underneath |
-| --- | --- | --- | --- |
-| W3 D5 | "11 dead CSS rules" | Renamed 6 classes → **0 dead rules** ✅ | 8 **orphan** classes remain — 3 of 5 project cards still unstyled |
-| W4 D2 | "`biggestNumber` is not defined" | Changed the **use** to `biggestnumber` | The declaration was the wrong one — camelCase is the convention |
-| W4 D1 | "`swap.js` is missing the temp version" | **Replaced** the arithmetic version with it | Brief asks for **both** — still half |
-
-Look at the middle row. You had the correct name `biggestNumber` in the file and you **deleted it** to match the misspelled one. The crash went away and the code got worse.
-
-> **When two things disagree, fix toward the one that is right — and when a fix means "add", do not reach for "replace".**
-
-### The portfolio one is worth seeing with your eyes
-
-Your CSS styles `.project-card`. Your five articles are classed `projects-card`, `products-card`, `projects-card`, `project-card`, `project-card`. **Three spellings of one component.** Measured on the live page:
-
-| Card | Class | Border | Background |
-| --- | --- | --- | --- |
-| 1–3 | `projects-card` / `products-card` | **none** | **transparent** |
-| 4–5 | `project-card` | 1px #ddd | white ✅ |
-
-**Open the page and scroll to My Projects.** The skill cards above sit on white tiles. Three of your project cards float loose on the grey. You cannot miss it once you look — which is the point. Last time the CSS pointed at names the HTML did not have; this time the HTML has names the CSS does not style. **Same bug, opposite direction**, because the rename happened and the looking did not.
-
-One find-and-replace fixes it: `projects-card` and `products-card` → `project-card`.
-
----
-
-## ✅ What you got properly right
-
-**The hero went from broken to good.** Measured off the live page:
-
-| | Before | After |
-| --- | --- | --- |
-| `<h1>` | 32px browser default | **64px** |
-| Hero button | plain text | **real button, padded, `#174ea6`** |
-| Skills grid | `display: block`, cards 1600px wide | **`grid`, 4 × 263px** |
-| Skill cards | no border | **1px border, 8px radius, white** |
-| Dead rules | 11 | **0** |
-
-**The images — this one you solved yourself.** 2.8 MB → **580 KB**. The worst offender went 1.91 MB → 170 KB by converting to JPEG. Screenshots of web pages are photographs; JPEG is the right format and nobody told you that.
-
-**And still green from last time:** 40 elements contrast-checked, **0 AA failures**. Eight widths 320→1920, **zero overflow**. `:focus-visible` covering **all 10** focusable elements. **0 `!important`.**
-
-**All six Day 2 programs now produce correct output** — the guard clauses, the fall-through `switch`, the leap-year boolean, the prime loop, the tie handling in `biggest.js`. That logic was right on your first attempt three days ago. Today you proved it.
-
----
-
-## 📋 What is left — about 20 minutes total
-
-### Portfolio *(10 min — clears the last redo)*
-1. Find-and-replace `projects-card` and `products-card` → `project-card` in `index.html`
-2. **Reload and scroll to My Projects.** All five cards should have a white tile. *(do not skip this)*
-3. The Pages link in `project.md` is the **repo** URL, not the site. The site is `ahad77-kn.github.io/...` — `github.com/...` is your source code. Paste the right one.
-4. Lighthouse: run it and save the screenshot, **or untick the box.** Third time asking.
-
-### Day 2 *(3 min)*
-5. `grade = "f"` → `"F"` · `biggestnumber` → `biggestNumber` · `checklogin` → `checkLogin` · file → `ticket-price.js`
-
-### Day 1 *(5 min)*
-6. Put the arithmetic swap back **alongside** the temp version, and one line on why the trick is unsafe — big numbers, decimals, strings
-7. Delete the leftover AI sentence sitting under your own `typeof null` answer
-8. You wrote *"**if** for value can be changed"* twice — you mean **`let`**. `if` is a conditional.
+| **1** | `biggest.js` line 8 → `biggestNumber = firstNumber;` then **run all four of your own test cases** | 1 min |
+| **2** | `swap.js` — put the arithmetic version back **alongside** the temp one (it is in git: `git show fed043a:weeks/week-04/day-1/assignment/swap.js`) + one line on why the trick is unsafe | 5 min |
+| **3** | Delete the leftover AI sentence under your own `typeof null` answer | 30 sec |
+| **4** | `learn/NOTES.md` — you fixed one `if` → `let` and left the second one in the same sentence | 30 sec |
+| **5** | Two `projects-card__title` → `project-card__title` | 1 min |
 
 ---
 
 ## 📌 The one paragraph
 
-**Your average is the highest it has ever been, and you got there by running your code.** Nineteen of twenty test claims verified true by execution, and an answer written in your own broken English that scored double the polished one. Those are the two things I have asked for every week for a month, and you did both in one afternoon without being chased.
+**Your average has never been higher and every redo is shut.** The portfolio scores 100 on accessibility, every checkbox on it is honest, and you closed a 4.5 by opening the page and looking at the thing I told you to look at.
 
-**What is left is one habit: read past the error I named to the cause underneath it.** Three of your project cards are still bare because you renamed the classes I listed and never opened the page. **Reload it. Scroll down. Look.**
+**The one habit left is the other half of the loop.** You now run your code — that is new and it is why today went the way it did. Next: **run it on every path, not just the one the default value happens to take.** Your test blocks already list four inputs each. Use all four.

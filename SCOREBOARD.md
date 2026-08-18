@@ -5,9 +5,9 @@
 Every assignment is out of 10. Pass mark 6. Week average below 6 → the week repeats.
 Filled in by the teacher after each day is marked.
 
-**Running average:** **7.19** · **Days completed:** 17 / 125 · **Best day:** W02 D1 & D2 (8.5) · **Redos:** 4 completed (W02 D5: 5.5 → **7.5** · W04 D2: 5.0 → **7.5** · W04 D1: 7.25 → **8.25**) · **1 open** (W03 D5: 4.5 → **6.25**)
+**Running average:** **7.28** · **Days completed:** 17 / 125 · **Best day:** W02 D1 & D2 (8.5) · **Redos:** 4 completed, **0 open** (W02 D5: 5.5 → **7.5** · W03 D5: 4.5 → **7.75** · W04 D2: 5.0 → **7.5** · W04 D1: 7.25 → **8.25**)
 
-> 📊 **[Read the state of play](STATE-OF-PLAY.md)** — 18 Aug (evening): all three redos returned the same day. **Every JS program now runs**, 19 of 20 test claims verified true, dead rules 11 → 0. One 10-minute pass left on the portfolio.
+> 📊 **[Read the state of play](STATE-OF-PLAY.md)** — 18 Aug (evening): **all redos closed.** Portfolio scores **Lighthouse Accessibility 100**; every checkbox on it is now true. One new latent crash in `biggest.js` — a rename tested on one branch out of three.
 
 **Week 1 ✅ PASSED** · **Week 2 ✅ PASSED** · **Week 3 ✅ PASSED** — Phase 2 (JavaScript) unlocked.
 
@@ -27,7 +27,7 @@ Filled in by the teacher after each day is marked.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [01](weeks/week-01/) — CSS fundamentals & box model | **6** | **7.0** ✅ | **6** | **6.5** | **6.25** | **6.35** | ✅ [passed](weeks/week-01/WEEK-REVIEW.md) |
 | [02](weeks/week-02/) — Flexbox & Grid | **8.5** | **8.5** | **8.25** | **7.0** | **7.5** ✅ | **7.95** | ✅ passed |
-| [03](weeks/week-03/) — Responsive & polish | **6.0** | **8.0** | **7.0** | **7.75** | **6.25** 🔁 | **7.00** | ✅ passed (gate 6.5) |
+| [03](weeks/week-03/) — Responsive & polish | **6.0** | **8.0** | **7.0** | **7.75** | **7.75** ✅ | **7.30** | ✅ passed (gate 6.5) |
 | **Phase 1 exam** | | | | | | – | ⬜ |
 
 ## Phase 2 · JavaScript
@@ -137,7 +137,7 @@ Kept honest, not to punish — to see the trend. The goal is for the "self" colu
 | Week/Day | Reason | Redone on | New score |
 | --- | --- | --- | --- |
 | W01 D2 | box-sizing missing, 3 of 5 features, 5× position hacks, all test questions blank | 30 Jul (code) + 2 Aug (questions) | **7.0** ✅ (was 5) — `box-sizing` still absent from the file |
-| **W03 D5** | 11 dead CSS rules — stylesheet renamed to BEM, HTML never renamed to match; hero and skills sections unstyled on the live site | 18 Aug (`86bc924`) | **6.25** 🔁 (was 4.5) — dead rules 11→0, images 2.8 MB→580 KB; **still open**: 8 orphan classes leave 3 of 5 project cards unstyled, Pages link wrong, no Lighthouse report |
+| **W03 D5** | 11 dead CSS rules — stylesheet renamed to BEM, HTML never renamed to match; hero and skills sections unstyled on the live site | 18 Aug (`86bc924` + `db3da49`) | **7.75** ✅ (was 4.5) — two passes: dead rules 11→0, images 2.8 MB→580 KB, all 5 project cards styled, **Lighthouse Accessibility 100**, all 7 checkboxes true |
 | **W04 D2** | 3 of 6 programs crash — two case-mismatched identifiers and `=` used for `>=` | 18 Aug (`86bc924`) | **7.5** ✅ (was 5.0) — all six run; 19 of 20 claimed test results verified true by re-execution |
 | W04 D1 | `swap.js` half done, notes three fragments, answers not in his own voice | 18 Aug (`86bc924`) | **8.25** ✅ (was 7.25) — `typeof null` rewritten in his own words, first time the voice note landed |
 

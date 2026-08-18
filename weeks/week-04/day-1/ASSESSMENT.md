@@ -244,3 +244,28 @@ That is the sentence the question was fishing for.
 4. `if` → `let` in both notes files *(30 sec)*
 
 **The one sentence:** *You took the note I have repeated every week for a month and actually did it — the `typeof null` answer is unmistakably yours and it moved Understanding by three quarters of a mark — and `swap.js` is still half an assignment, just the other half.*
+
+---
+
+# 🔄 Second fix pass — 18 Aug (`db3da49`) · **8.25 → 8.25** (unchanged)
+
+One of the four items, and only half of that one.
+
+| Item | Status |
+| --- | --- |
+| `if` → `let` in `notes.md` | ✅ done |
+| `if` → `let` in `learn/NOTES.md` | 🟡 **half** — you fixed `"const and let values"` and left `"and **if** for value can be changed"` in the same sentence |
+| Delete the leftover AI sentence under your own `typeof null` answer | ❌ still there |
+| `swap.js` — arithmetic version back alongside the temp one, + why the trick is unsafe | ❌ untouched |
+
+**Same pattern as `biggest.js` today: a rename applied to some occurrences and not all.** In `NOTES.md` the word `if` appears twice in one sentence and you changed the first one. Read the whole line after you edit it.
+
+The AI sentence is still sitting directly under your own answer:
+
+> *"This is a historical behavior in JavaScript. Even though `null` is not actually an object..."*
+
+Your version is above it and is worth more. **Delete the polished one** — keeping both makes it look like you are hedging, and it is the sentence that costs you Understanding marks every week.
+
+And `swap.js` still has only the third-variable version. The brief asks for **both**. Your arithmetic version is in git history — `git show fed043a:weeks/week-04/day-1/assignment/swap.js` will print it. Paste it back above, label the two, and add one line on why the trick is unsafe (big numbers overflow, decimals lose precision, and it cannot swap strings). **That is 3/3 on requirements and it is five minutes.**
+
+**Score unchanged at 8.25** — nothing got worse, and three of four items are still open.

@@ -332,3 +332,114 @@ Still not it. **`price`** — p-r-i-c-e.
 4. Rename the file to `ticket-price.js`. *(30 sec)*
 
 **The one sentence:** *Half your submission went from crashing to correct in one pass, you verified nineteen of twenty test claims by actually running them, and the only marks left on the table are four names spelled the way you first typed them.*
+
+---
+
+# 🔄 Second fix pass — 18 Aug (`db3da49`) · **7.5 → 7.5** (unchanged)
+
+| # | Criterion | Max | Round 1 | Round 2 | **Now** |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Requirements met | 3 | 1.5 | 2.75 | **2.5** |
+| 2 | Code quality | 2 | 0.75 | 1.25 | **1.75** |
+| 3 | Understanding | 3 | 1.75 | 1.75 | **1.75** |
+| 4 | Process | 2 | 1.25 | 1.75 | **1.5** |
+| | **TOTAL** | **10** | 5.0 | 7.5 | **7.5** |
+
+**Your score did not move, and the reason is the most useful thing I can show you all week.** Everything on the list got done. And the cleanup introduced a new crash.
+
+---
+
+## ✅ Everything I asked for
+
+| | |
+| --- | --- |
+| `grade = "f"` → `"F"` | ✅ verified: 45 → `F` |
+| `checklogin` → `checkLogin` | ✅ |
+| `ticket-prics.js` → `ticket-price.js` | ✅ spelled right |
+| camelCase throughout | ✅ |
+
+I dumped every identifier across all six files. `firstNumber`, `secondNumber`, `thirdNumber`, `biggestNumber`, `checkLogin`, `evenOdd`, `primeStatus`, `isLeapYear` — all camelCase. `MARKS_A`, `CHILD_PRICE`, `WEEKEND_DISCOUNT` — all SCREAMING_SNAKE. **That is the convention, correctly applied, with no exceptions.** Code quality 1.25 → 1.75.
+
+---
+
+## 🔴 And here is what the rename did
+
+`biggest.js` line 8:
+
+```js
+const firstNumber = 25;
+const secondNumber = 40;
+const thirdNumber = 15;
+
+let biggestNumber;
+
+if (firstNumber >= secondNumber && firstNumber >= thirdNumber ) {
+    biggestnumber = firstnumber;        // ← line 8. BOTH still lowercase.
+} else if (secondNumber >= firstNumber && secondNumber >= thirdNumber) {
+    biggestNumber = secondNumber;       // ✅ renamed
+} else {
+    biggestNumber = thirdNumber;        // ✅ renamed
+}
+```
+
+**You renamed the declarations and two of the three branches.** Line 8 was missed.
+
+Now run it:
+
+```
+$ node biggest.js
+Biggest Number: 40          ← looks perfect
+```
+
+**It passes.** Because with 25, 40, 15 the biggest is the *second* number, so line 8 never executes. **The broken line is on a road the test drive never went down.**
+
+Point the first number at it:
+
+```
+$ node biggest.js            # firstNumber = 90, secondNumber = 20, thirdNumber = 50
+ReferenceError: firstnumber is not defined
+    at Object.<anonymous> (biggest.js:8:5)
+```
+
+### Your own test block already told you
+
+```
+Test results:
+25, 40, 15 -> 40     ✅ true
+90, 20, 50 -> 90     ❌ crashes  ← first branch
+10, 30, 70 -> 70     ✅ true
+50, 50, 20 -> 50     ❌ crashes  ← first branch
+```
+
+**Two of your four documented test cases now crash.** This morning all four passed — I checked them. You wrote those four lines yourself, and both of the ones that exercise line 8 are now false.
+
+**Your test claims went 19/20 → 18/20, and the file that regressed is one you were fixing.**
+
+---
+
+## 🎯 This is the lesson, and it is a real one
+
+You did not do anything careless. You did a rename, you ran the file, you saw the right answer, you committed. **That is the loop I have been asking you for, and you ran it.**
+
+The loop is not enough on its own. Here is the missing half:
+
+> **Running a program once tests one path through it. An `if/else if/else` has three paths. You tested one.**
+
+This is what "code coverage" means and it is why every professional codebase has automated tests. Your `grade.js` has five branches; `ticket-price.js` has six. You cannot check them by changing the value at the top six times — you will get bored by the third one, and boredom is where bugs live.
+
+**You already wrote the fix for this.** You have a test block at the bottom of every file listing four inputs. It is a to-do list. **Run every line of it after every change** — not the default value, the list. If you had, `90, 20, 50` would have thrown in your face in two seconds.
+
+**That is why Process went 1.75 → 1.5.** Not for the bug — for running one input when you had four written down.
+
+### And notice which way the letters went, again
+
+Line 8 is `biggestnumber = firstnumber` — **the old, wrong spelling**, in a file where you had just corrected everything else. Same instinct as this morning, when you fixed `biggestNumber` by lowercasing the use instead of fixing the declaration. **When you are renaming, the old spelling should end up at zero occurrences.** Search the file for it before you commit.
+
+---
+
+## ▶️ To fix — 60 seconds
+
+1. Line 8 → `biggestNumber = firstNumber;`
+2. **Run all four of your own test cases**, not just the one at the top. Paste what you actually see.
+
+**The one sentence:** *Every name, the filename and the capital F are all correct now — and a rename you tested once left a crash on the one branch your test never took, which is exactly why running a program is not the same as testing it.*

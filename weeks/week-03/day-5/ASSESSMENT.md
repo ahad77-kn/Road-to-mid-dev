@@ -407,3 +407,85 @@ When someone asks for your portfolio, they want the second one. Paste it into `p
 5. Add a `.skill-card__text` rule or remove the class *(1 min)*
 
 **The one sentence:** *The hero, the skills grid and the images all went from broken to genuinely good and the dead-rule count is zero — and three of your five project cards still render with no card around them, because you fixed the mismatch I described instead of opening the page and looking at it.*
+
+---
+
+# 🔄 Second fix pass — 18 Aug (`db3da49`) · **6.25 → 7.75** ✅ **REDO CLOSED**
+
+| # | Criterion | Max | Round 1 | Round 2 | **Now** |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Requirements met | 3 | 1.75 | 2.25 | **2.75** |
+| 2 | Code quality | 2 | 0.75 | 1.25 | **1.75** |
+| 3 | Understanding | 3 | 1.5 | 1.5 | **1.5** |
+| 4 | Process | 2 | 1.25 | 1.5 | **1.75** |
+| | Standing rules | | −0.75 | −0.25 | **0** |
+| | **TOTAL** | **10** | 4.5 | 6.25 | **7.75** |
+
+**4.5 → 6.25 → 7.75 in one day.** This one is done.
+
+---
+
+## ✅ You opened the page and looked
+
+All five project cards now carry `project-card`. Measured on the live DOM:
+
+| Card | Class | Border | Radius | Background |
+| --- | --- | --- | --- | --- |
+| 1 | `project-card` | 1px | 8px | white ✅ |
+| 2 | `project-card` | 1px | 8px | white ✅ |
+| 3 | `project-card` | 1px | 8px | white ✅ |
+| 4 | `project-card` | 1px | 8px | white ✅ |
+| 5 | `project-card` | 1px | 8px | white ✅ |
+
+**Five for five.** And the ragged image row went with it — every project image is now exactly **200px, `object-fit: cover`**. Previously the first one was 216px and stretched. The row is level.
+
+Orphan classes: **8 → 2**. Dead rules: still **0**. `!important`: still **0**.
+
+---
+
+## 🏆 Lighthouse — and this is a better number than I asked for
+
+You ran it and put the report in the folder. I opened it:
+
+| | |
+| --- | --- |
+| Performance | **100** |
+| **Accessibility** | **100** |
+| Best Practices | **100** |
+| SEO | 91 |
+
+**The bar was 90 on Accessibility. You scored 100.**
+
+That is not luck. Accessibility 100 is the direct payoff for work you did across three weeks and mostly did not enjoy: `alt` text on every image, a `<label>` on every input, one `<h1>` and a heading order that never skips, contrast you fixed by darkening your own accent colour, and a focus ring that took you four attempts to place correctly. **Every one of those was a checklist item you pushed back on at the time.** This is what they were for.
+
+Perfect 100 on Performance is the image work from this morning — 2.8 MB down to 580 KB.
+
+---
+
+## ✅ The rest of the list
+
+| | |
+| --- | --- |
+| GitHub Pages link | ✅ `ahad77-kn.github.io/...` — the site, not the repo |
+| Lighthouse screenshot | ✅ `screenshots/lighthouse.png` |
+| `.skill-card__text` rule | ✅ added |
+| Screenshots foldered | ✅ `screenshots/`, and `portfolio.png` spelled right |
+
+**And every checkbox on this assignment is now true.** I re-checked all seven against the folder — responsive, keyboard, contrast, Lighthouse, no dead rules, README, deployed. Seven for seven, first time on this assignment. Round one it was three.
+
+---
+
+## 🟡 Two classes left, and they are cosmetic
+
+| Orphan | Elements | Effect |
+| --- | --- | --- |
+| `projects-card__title` | 2 | those two titles render `#444` instead of `#222` |
+| `project-card__text` | 5 | no rule exists — inherits body colour, looks fine |
+
+Cards 1 and 2 have titles in a slightly lighter grey than cards 3–5. Side by side you can see it. **Same `projects-` vs `project-` slip, two survivors out of fifteen.** Fix the two and add a `.project-card__text` rule (or drop the class) and the sheet is spotless.
+
+Not worth a redo. Catch it next time you touch the file.
+
+---
+
+**The one sentence:** *You went back, opened the page, scrolled to the section I told you to look at, and fixed what you saw — and the Lighthouse report you were avoiding came back at 100 on accessibility because three weeks of checklist items you argued with were all doing their job.*
