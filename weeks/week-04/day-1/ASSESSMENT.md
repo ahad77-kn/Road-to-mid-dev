@@ -165,3 +165,82 @@ Correct — and it is the same sentence as your answer to Q3, which is the same 
 ---
 
 **The one sentence:** *Your first ever JavaScript runs clean on all five programs with the best variable discipline you have shown in fourteen days — and the only marks missing are the half of `swap.js` you skipped and the explanations you let something else write for you.*
+
+---
+
+# 🔄 Re-mark — 18 Aug (`86bc924`) · **7.25 → 8.25** ✅
+
+| # | Criterion | Max | Was | Now |
+| --- | --- | --- | --- | --- |
+| 1 | Requirements met | 3 | 2.25 | **2.25** |
+| 2 | Code quality | 2 | 2.0 | **2.0** |
+| 3 | Understanding | 3 | 1.5 | **2.25** |
+| 4 | Process | 2 | 1.5 | **1.75** |
+| | **TOTAL** | **10** | 7.25 | **8.25** |
+
+---
+
+## 🏆 You wrote it in your own voice, and it is worth more. Exactly as promised.
+
+I asked you to rewrite the `typeof null` answer badly, on purpose, in your English. You did:
+
+> *"the weired thing i found is that "typeof null" says "oject". i thought it would say null because the value is "null". but it is java script it says object instead of null and as null is not an object."*
+
+**Three typos, and it is worth double the polished version.**
+
+Read why. The polished sentence — *"This is a historical behavior in JavaScript"* — tells me a fact is on the page. Yours tells me **what you expected, what you got, and that the gap surprised you.** That is what the Understanding block is measuring. I cannot mark knowledge I cannot see, and I can see yours now.
+
+Every week for a month I have written a version of this note. **This is the week it landed.** Do not go back.
+
+One thing to tidy: the polished AI sentence is still sitting directly underneath yours. Delete it — yours says the same thing and scores higher.
+
+### And `learn/NOTES.md` is real now
+
+| Before | After |
+| --- | --- |
+| `-learned variables` | `-learned variables, if/else conditions.` |
+| `-learn about js` | `-learn about js, const and if values, in wchich conts is for value which cannot be cahnged and if for value can be changed.` |
+| `-hello world of js` | `-learned about the "typeof null" which gives object instead of its value is null.` |
+
+Actual content, in your words. That is the standard.
+
+**One correction, and it matters:** you wrote *"**if** for value can be changed"* — twice, here and in `notes.md`. You mean **`let`**. `if` is a conditional, `let` is a declaration; they are unrelated. The idea underneath is completely right (`const` cannot be reassigned, `let` can) — it is the label that slipped. Worth fixing so it does not set in.
+
+---
+
+## 🟡 `swap.js` — you did the other half this time
+
+```js
+const temporaryValue = firstValue;
+firstValue = secondValue;
+secondValue = temporaryValue;
+```
+
+Correct, and `temporaryValue` is a better name than the `temp` I showed you. Runs clean: `firstValue = 20, secondValue = 10`. And the explanation is there and it is yours:
+
+> *"In real code, I would use a third variable because it is easier to understand. It is also safer and makes the code easier for another developer to read."*
+
+**But you deleted the arithmetic version to make room for it.** The brief asks for **both**:
+
+> swap two variables' values **without** a third variable, **then again with one**
+
+Last time you had the trick and no temp version. Now you have the temp version and no trick. **Both times, half.** Put the arithmetic one back above it — it was already written and working — and this is 3/3.
+
+Same move as `biggest.js` on Day 2, where you fixed a name clash by deleting the correct name. **Watch for that: when a fix means "add", do not reach for "replace."**
+
+And your reason is right but stops early. *"Safer"* — say why:
+
+> *"the trick only works on numbers, and with big numbers or decimals you dont get your values back exactly. the third variable works on strings too."*
+
+That is the sentence the question was fishing for.
+
+---
+
+## ▶️ To finish — 5 minutes
+
+1. Put the arithmetic swap back above the temp version, keep both, label them *(3 min)*
+2. One line on **why** the trick is unsafe — big numbers, decimals, strings *(1 min)*
+3. Delete the leftover AI sentence under your `typeof null` answer *(30 sec)*
+4. `if` → `let` in both notes files *(30 sec)*
+
+**The one sentence:** *You took the note I have repeated every week for a month and actually did it — the `typeof null` answer is unmistakably yours and it moved Understanding by three quarters of a mark — and `swap.js` is still half an assignment, just the other half.*

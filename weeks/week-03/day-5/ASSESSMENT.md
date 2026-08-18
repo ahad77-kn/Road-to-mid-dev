@@ -269,3 +269,141 @@ projects-card__image / __content / __title / __text  →  project-card__…
 ---
 
 **The one sentence:** *You deployed a real site, fixed every contrast failure on it, and wrote your first focus ring that actually works — then shipped a stylesheet written for class names your HTML does not have, so the first thing a visitor sees is an unstyled hero and a heading stuck to the edge of the screen.*
+
+---
+
+# 🔄 Re-mark — 18 Aug (`86bc924`) · **4.5 → 6.25** 🔁
+
+| # | Criterion | Max | Was | Now |
+| --- | --- | --- | --- | --- |
+| 1 | Requirements met | 3 | 1.75 | **2.25** |
+| 2 | Code quality | 2 | 0.75 | **1.25** |
+| 3 | Understanding | 3 | 1.5 | **1.5** |
+| 4 | Process | 2 | 1.25 | **1.5** |
+| | Standing rules (S10 — Lighthouse box) | | −0.75 | **−0.25** |
+| | **TOTAL** | **10** | 4.5 | **6.25** |
+
+**Still a redo, and it is now about ten minutes of work.** Read the last section.
+
+---
+
+## ✅ Dead rules: 11 → **0**. I re-ran the sweep.
+
+I audited all 57 style rules against the live DOM again:
+
+| | Before | After |
+| --- | --- | --- |
+| Style rules | 59 | 57 |
+| **Dead rules** | **11** | **0** ✅ |
+| `!important` | 0 | 0 ✅ |
+
+And the four things I measured as broken are all fixed — these are computed values off the live page, not a reading of your CSS:
+
+| What | Before | After |
+| --- | --- | --- |
+| `<h1>` font size | 32px (browser default) | **64px** ✅ |
+| Hero button | plain text | **inline-block, `#174ea6`, 12px 20px padding** ✅ |
+| Skills grid `display` | `block` | **`grid`, 4 × 263px** ✅ |
+| Skill cards | no border, 1600px wide | **1px border, 8px radius, white, 263px** ✅ |
+
+The hero is the part of the page a visitor sees first, and it went from broken to genuinely good. **That is the fix that mattered most and you got it.**
+
+### And the images — this one you did properly
+
+| | Before | After |
+| --- | --- | --- |
+| `grid-gallery` | **1.91 MB** `.png` | **170 KB** `.jpg` |
+| Whole folder | **2.8 MB** | **580 KB** ✅ |
+
+You converted all five to JPEG. **An 11× reduction on the worst one.** Screenshots of web pages are photographs of colour gradients — JPEG is the right format and PNG was costing you two and a half megabytes on a public site. You worked that out and applied it across the set.
+
+### Still verified green, unchanged
+
+40 text elements checked for contrast → **0 AA failures.** Eight widths from 320 to 1920 → **zero overflow.** The `:focus-visible` rule covers **all 10** focusable elements.
+
+---
+
+## 🔴 The same bug is still there — it just changed costume
+
+Your "no dead rules" checkbox is **now honest**. But look at what I found when I swept the *other* direction — class names in your HTML that no CSS rule targets:
+
+| Orphan class | Elements |
+| --- | --- |
+| `projects-card` | 2 |
+| `projects-card__content` | 4 |
+| `projects-card__title` | 4 |
+| `projects-card__text` | 3 |
+| `products-card` | 1 |
+| `projects-card__image` | 1 |
+| `project-card__text` | 2 |
+| `skill-card__text` | 4 |
+
+**8 orphan classes on 21 elements.**
+
+Your CSS styles `.project-card` — **singular**. Your five project articles are classed `projects-card`, `products-card`, `projects-card`, `project-card`, `project-card`. **Three different spellings for one component.**
+
+Here is what that does, measured on the live page:
+
+| Card | Class | Border | Radius | Background |
+| --- | --- | --- | --- | --- |
+| 1 | `projects-card` | **none** | **0px** | **transparent** |
+| 2 | `products-card` | **none** | **0px** | **transparent** |
+| 3 | `projects-card` | **none** | **0px** | **transparent** |
+| 4 | `project-card` | 1px #ddd | 8px | white ✅ |
+| 5 | `project-card` | 1px #ddd | 8px | white ✅ |
+
+**Three of your five project cards render with no card around them.** Scroll to My Projects and compare it with My Skills directly above — the skill cards sit on white tiles with borders, the project cards float loose on the grey. It is visible in one glance.
+
+**This is the identical bug to the eleven dead rules.** Last time the CSS pointed at names the HTML did not have. This time the HTML has names the CSS does not style. Same mismatch, opposite direction — which is exactly what happens when you fix the *symptom I named* instead of *looking at the page*.
+
+I told you: rename the classes, **then look at the page.** The renaming happened. The looking did not — because three unstyled cards is not something you can miss once you scroll down.
+
+### The fix is one find-and-replace
+
+In `index.html`, replace **`projects-card`** → **`project-card`** and **`products-card`** → **`project-card`**. Fifteen occurrences. Then add a `.skill-card__text` rule, or drop the class.
+
+*(Careful: `projects`, `projects__grid`, `projects__title` and `projects__intro` are the **section**, and they are correct. Only the `-card` ones are wrong.)*
+
+---
+
+## 🟡 The GitHub Pages link is not the GitHub Pages link
+
+```
+GitHub Pages:
+https://github.com/ahad77-kn/Road-to-mid-dev/tree/main/weeks/week-03/day-5
+```
+
+That is the **source code** on github.com — a folder listing of your files. It is not your website.
+
+**This is your website:**
+
+```
+https://ahad77-kn.github.io/Road-to-mid-dev/weeks/week-03/day-5/assignment/
+```
+
+I loaded it: **HTTP 200**, and it is serving today's version — I checked for `hero__title` in the deployed HTML and it is there. **Your fixes are live.**
+
+Learn the difference, because it comes up constantly:
+
+| | |
+| --- | --- |
+| `github.com/user/repo` | the code — for developers |
+| `user.github.io/repo` | the running site — for everyone else |
+
+When someone asks for your portfolio, they want the second one. Paste it into `project.md`.
+
+**And the Lighthouse box is still ticked with no report in the folder.** There is no `lighthouse.png`. That is the third time on this assignment, and it is the whole reason there is still a standing-rules charge. Run it (DevTools → Lighthouse → Accessibility), screenshot it, drop it in — **or untick the box.** Either one closes it.
+
+✅ The screenshot you did add — `images/portofolio-screenshot.png`, wired into `project.md` — is real and displays. *(Spelling: `portfolio`.)*
+
+---
+
+## ▶️ To finish — 10 minutes, and this becomes about an 8
+
+1. **Find-and-replace `projects-card` and `products-card` → `project-card`** in `index.html` *(2 min)*
+2. **Reload and scroll to My Projects.** All five cards should have a white tile and a border. **Do not skip this step — it is the entire lesson of this assignment.** *(1 min)*
+3. **Paste the real Pages URL** into `project.md` *(1 min)*
+4. **Run Lighthouse, save the screenshot** — or untick the box *(5 min)*
+5. Add a `.skill-card__text` rule or remove the class *(1 min)*
+
+**The one sentence:** *The hero, the skills grid and the images all went from broken to genuinely good and the dead-rule count is zero — and three of your five project cards still render with no card around them, because you fixed the mismatch I described instead of opening the page and looking at it.*

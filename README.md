@@ -18,7 +18,7 @@ Day 2 went **5 → 5.75 → 7.0** across two redos and is now a clean pass.
 
 ### ▶️ Next: **[Week 03 · Day 5 — Finish & deploy the portfolio →](weeks/week-03/day-5/)**
 
-_**18 Aug:** **Phase 1 complete** — W3 passed at **6.65**, portfolio [live on GitHub Pages](https://ahad77-kn.github.io/Road-to-mid-dev/weeks/week-03/day-5/assignment/). JavaScript started: W4 D1 **7.25**, D2 **5.0** 🔁. Two redos open, both from code that was never run. 📊 **[State of play](STATE-OF-PLAY.md)**._
+_**18 Aug (evening):** all three redos returned same-day. W4 D1 **7.25 → 8.25**, D2 **5.0 → 7.5**, W3 D5 **4.5 → 6.25**. Every JS program runs; **19 of 20 test claims verified true by re-execution**; dead CSS rules **11 → 0**. Running average **7.19**, the highest yet. Portfolio [live](https://ahad77-kn.github.io/Road-to-mid-dev/weeks/week-03/day-5/assignment/). 📊 **[State of play](STATE-OF-PLAY.md)**._
 
 _(W02: 8.5 · 8.5 · 8.25 · 7.0 · 7.5 → **7.95** ✅ · W03: 6.0 · 8.0 · 7.0 · 7.75 → **7.19** ✅)_
 

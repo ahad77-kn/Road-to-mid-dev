@@ -38,7 +38,7 @@
 | [**D2**](day-2/) | Responsive gallery with **zero** media queries | [📄 open →](day-2/) | **8.0** ✅ [🧾](day-2/ASSESSMENT.md) |
 | [**D3**](day-3/) | Transitions, hover & motion — subtle, not circus | [📄 open →](day-3/) | **7.0** ✅ [🧾](day-3/ASSESSMENT.md) |
 | [**D4**](day-4/) | Phase project part 1 — portfolio structure & content | [📄 open →](day-4/) | **7.75** ✅ [🧾](day-4/ASSESSMENT.md) |
-| [**D5**](day-5/) | Phase project part 2 — responsive, accessible, clean | [📄 open →](day-5/) | **4.5** 🔁 [assessment](day-5/ASSESSMENT.md) |
+| [**D5**](day-5/) | Phase project part 2 — responsive, accessible, clean | [📄 open →](day-5/) | **6.25** 🔁 [assessment](day-5/ASSESSMENT.md) |
 | — | **Phase 1 exam** (3 hrs, closed notes) | [📄 exam →](exam/) | – |
 
 ---

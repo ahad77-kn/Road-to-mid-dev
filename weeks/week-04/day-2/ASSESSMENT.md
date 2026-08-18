@@ -225,3 +225,110 @@ Nothing there is *wrong* — `-0` is falsy. But `-0` is the same value as `0` fo
 ---
 
 **The one sentence:** *Your conditional logic is sound — the guard clauses, the fall-through switch, the leap-year rule and the prime loop are all correct on the first try — and half of it never ran because nobody ever told you to type `node grade.js`.*
+
+---
+
+# 🔄 Re-mark — 18 Aug (`86bc924`) · **5.0 → 7.5** ✅
+
+**Turned around the same day.** All six run. Here is the proof, same command as before:
+
+```
+node biggest.js      ✓  Biggest number: 40
+node even-odd.js     ✓  Number: 17 · odd · positive · prime
+node grade.js        ✓  Marks: 75 · Grade: B
+node leap-year.js    ✓  2024 is a leap year.
+node login-check.js  ✓  welcome
+node ticket-prics.js ✓  Age: 20 · Saturday · $10.00
+```
+
+| # | Criterion | Max | Was | Now |
+| --- | --- | --- | --- | --- |
+| 1 | Requirements met | 3 | 1.5 | **2.75** |
+| 2 | Code quality | 2 | 0.75 | **1.25** |
+| 3 | Understanding | 3 | 1.75 | **1.75** |
+| 4 | Process | 2 | 1.25 | **1.75** |
+| | Standing rules (S10) | | −0.25 | **0** |
+| | **TOTAL** | **10** | 5.0 | **7.5** |
+
+---
+
+## 🏅 The test blocks — I checked all twenty claims
+
+You added a `Test results` block to every file. **I did not take them at face value.** I re-ran each program with each of your claimed inputs substituted in, and compared to your claimed output:
+
+| File | Claims | Verified true |
+| --- | --- | --- |
+| biggest.js | 4 | **4** ✅ |
+| even-odd.js | 4 | **4** ✅ |
+| login-check.js | 4 | **4** ✅ |
+| ticket-prics.js | 4 | **4** ✅ |
+| grade.js | 4 | 3 |
+
+**19 out of 20.** That is not a number you can get by guessing — **you actually ran them.** After three weeks of me writing "a fix is finished when you have seen the thing you wanted", this is the day you did it. It is the single biggest behaviour change in eighteen days and it is why Process goes to 1.75.
+
+### The one that slipped, and it is a good catch
+
+```
+Your block:  45 -> F
+Actual:      45 -> f
+```
+
+Your code still says `grade = "f"` — lowercase, fix #6 on the list, not done. So for that one input you wrote **what you knew was correct** rather than what the terminal printed.
+
+**And notice what that proves: you knew it should be a capital F.** Your test block is right and your code is wrong. Change `"f"` to `"F"` and the block becomes true.
+
+---
+
+## 🟡 You fixed the crashes in the wrong direction
+
+Both case-mismatch bugs are gone. But look at *how*:
+
+```js
+// biggest.js — you changed the USE to match the declaration
+let biggestnumber;
+console.log(`Biggest number: ${biggestnumber}`);   // was biggestNumber
+
+// login-check.js — same move
+function checklogin () { ... }
+console.log(checklogin());                          // was checkLogin
+```
+
+The program runs, so the bug is gone. But `biggestnumber`, `checklogin`, `firstnumber`, `secondnumber` are **not camelCase**, and the checklist asks for descriptive, conventional names. You had the correct name in the file and you deleted it to match the wrong one.
+
+**The right direction was to fix the declaration:**
+
+```js
+let biggestNumber;                    // ← rename here
+function checkLogin () { ... }        // ← and here
+```
+
+Every JavaScript codebase you will ever join uses `camelCase` for variables and functions. `biggestnumber` is readable; `biggestNumber` is what the next developer expects. **When two names disagree, rename toward the convention, not away from it.** That is 30 seconds of work and it is the difference between 1.25 and 2.0 on code quality.
+
+### And the filename, third time
+
+| | |
+| --- | --- |
+| Brief asks for | `ticket-price.js` |
+| Round 1 | `ticket-ptics.js` |
+| Round 2 | `ticket-prics.js` |
+
+Still not it. **`price`** — p-r-i-c-e.
+
+---
+
+## ✅ What is now genuinely right
+
+`grade.js` is correct — all three `=` are `>=`, and I verified the boundaries: 80→A, 75→B, 60→C, 45→f. Your guard clauses in `login-check.js` return the right string for all four cases including both failure paths. `biggest.js` handles the tie (50, 50, 20 → 50) correctly. The `switch` fall-through still prices weekends properly at all four ages.
+
+**Every one of the six programs now does what the brief asked.** The logic was never the problem — it was right on the first attempt, three days ago. Today you proved it.
+
+---
+
+## ▶️ To finish this one — 3 minutes
+
+1. `grade = "f"` → `"F"`. Run it with 45. *(30 sec)*
+2. `biggestnumber` → `biggestNumber`, `firstnumber`/`secondnumber`/`thirdnumber` → camelCase. Run it. *(1 min)*
+3. `checklogin` → `checkLogin`. Run it. *(30 sec)*
+4. Rename the file to `ticket-price.js`. *(30 sec)*
+
+**The one sentence:** *Half your submission went from crashing to correct in one pass, you verified nineteen of twenty test claims by actually running them, and the only marks left on the table are four names spelled the way you first typed them.*
