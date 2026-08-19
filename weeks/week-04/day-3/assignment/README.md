@@ -26,10 +26,10 @@ Ten drills in `day-3/`, one file or one clearly labelled section each:
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] Use all three: `for`, `while`, and `for...of` — at least once each
-- [ ] `break` used once and `continue` used once, each with a comment on why
-- [ ] No copy-paste between drills — type each one
-- [ ] `day-3/notes.md`: which drill took the longest, and what finally made it click
+- [x] Use all three: `for`, `while`, and `for...of` — at least once each
+- [x] `break` used once and `continue` used once, each with a comment on why
+- [x] No copy-paste between drills — type each one
+- [x] `day-3/notes.md`: which drill took the longest, and what finally made it click
 
 ## 🎤 The teacher will ask you
 

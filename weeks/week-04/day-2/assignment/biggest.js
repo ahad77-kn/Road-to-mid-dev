@@ -5,7 +5,7 @@ const thirdNumber = 15;
 let biggestNumber;
 
 if (firstNumber >= secondNumber && firstNumber >= thirdNumber ) {
-    biggestnumber = firstnumber;
+    biggestNumber = firstnumber;
 } else if (secondNumber >= firstNumber && secondNumber >= thirdNumber) {
     biggestNumber = secondNumber;
 } else {
