@@ -17,11 +17,11 @@ In `day-4/functions.js`, write and test at least 10 functions:
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] Every function **returns** a value — none of them `console.log` inside. Logging happens only where you call them.
-- [ ] One default parameter used
-- [ ] One function written three ways — declaration, function expression, arrow — with a comment on the differences
-- [ ] Each function called with at least 3 test inputs, including an edge case (0, empty string, negative)
-- [ ] `day-4/scope.md`: demonstrate a variable that is not visible outside its function, and explain why
+- [x] Every function **returns** a value — none of them `console.log` inside. Logging happens only where you call them.
+- [x] One default parameter used
+- [x] One function written three ways — declaration, function expression, arrow — with a comment on the differences
+- [x] Each function called with at least 3 test inputs, including an edge case (0, empty string, negative)
+- [x] `day-4/scope.md`: demonstrate a variable that is not visible outside its function, and explain why
 
 ## 🎤 The teacher will ask you
 
