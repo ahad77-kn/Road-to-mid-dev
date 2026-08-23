@@ -18,11 +18,11 @@ Take every drill from Days 1–3 and rewrite them as clean, reusable functions i
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] No loose code outside functions except the calls in `main.js`
-- [ ] No function longer than 15 lines — split anything bigger
-- [ ] Every function does exactly **one** thing, and its name says what
-- [ ] A one-line comment above each function: what goes in, what comes out
-- [ ] `day-5/refactor-notes.md`: three things that got clearly better, and one function you struggled to name (and why naming was hard)
+- [x] No loose code outside functions except the calls in `main.js`
+- [x] No function longer than 15 lines — split anything bigger
+- [x] Every function does exactly **one** thing, and its name says what
+- [x] A one-line comment above each function: what goes in, what comes out
+- [x] `day-5/refactor-notes.md`: three things that got clearly better, and one function you struggled to name (and why naming was hard)
 
 ## 🎤 The teacher will ask you
 
