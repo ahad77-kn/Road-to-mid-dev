@@ -21,11 +21,11 @@ Rewrite all ten of yesterday's drills using array methods, in `day-2/`, then add
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] Side-by-side: `day-2/comparison.md` showing the loop version and the method version of 3 drills, with a line on which reads better and why
-- [ ] At least 3 uses of `reduce`, one of which reduces to an **object**, not a number
-- [ ] One chained expression using `.filter().map().sort()` together
-- [ ] Arrow functions throughout
-- [ ] No `for` loop anywhere in this folder
+- [x] Side-by-side: `day-2/comparison.md` showing the loop version and the method version of 3 drills, with a line on which reads better and why
+- [x] At least 3 uses of `reduce`, one of which reduces to an **object**, not a number
+- [x] One chained expression using `.filter().map().sort()` together
+- [x] Arrow functions throughout
+- [x] No `for` loop anywhere in this folder
 
 ## 🎤 The teacher will ask you
 

@@ -25,10 +25,10 @@ In `day-1/`, solve all ten with **`for` loops only** — no array methods yet. T
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] Loops only — no `map`, `filter`, `reduce`, `find`, `includes`
-- [ ] Each drill is a function taking the array as a parameter and returning the result
-- [ ] None of them mutate the input array — prove it by logging the original after each call
-- [ ] Tested with: a normal array, an empty array, and a single-element array
+- [x] Loops only — no `map`, `filter`, `reduce`, `find`, `includes`
+- [x] Each drill is a function taking the array as a parameter and returning the result
+- [x] None of them mutate the input array — prove it by logging the original after each call
+- [x] Tested with: a normal array, an empty array, and a single-element array
 
 ## 🎤 The teacher will ask you
 

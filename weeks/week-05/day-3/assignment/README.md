@@ -30,11 +30,11 @@ Required functions, all pure (input → output, no globals):
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] Every function returns new data; the original `students` array is never mutated
-- [ ] `reduce` used for at least two of the aggregations
-- [ ] Handles the empty-array case without crashing
-- [ ] Output is a readable aligned table (`console.table` is allowed and encouraged here)
-- [ ] At least 8 students, at least 3 subjects
+- [x] Every function returns new data; the original `students` array is never mutated
+- [x] `reduce` used for at least two of the aggregations
+- [x] Handles the empty-array case without crashing
+- [x] Output is a readable aligned table (`console.table` is allowed and encouraged here)
+- [x] At least 8 students, at least 3 subjects
 
 ## 🎤 The teacher will ask you
 
