@@ -20,12 +20,12 @@ In `day-4/`, model three real things as objects with both data and methods:
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] Dot notation and bracket notation both used, with a comment on when bracket notation is *required*
-- [ ] Nested objects and an array inside an object
-- [ ] Object destructuring used at least 3 times
-- [ ] Spread used to copy/update an object without mutating it
-- [ ] `Object.keys` / `Object.values` / `Object.entries` each used at least once
-- [ ] One method that uses `this` — plus a comment explaining what `this` refers to there
+- [x] Dot notation and bracket notation both used, with a comment on when bracket notation is *required*
+- [x] Nested objects and an array inside an object
+- [x] Object destructuring used at least 3 times
+- [x] Spread used to copy/update an object without mutating it
+- [x] `Object.keys` / `Object.values` / `Object.entries` each used at least once
+- [x] One method that uses `this` — plus a comment explaining what `this` refers to there
 
 ## 🎤 The teacher will ask you
 
