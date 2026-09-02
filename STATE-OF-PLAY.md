@@ -1,134 +1,149 @@
-# 📊 State of play — 18 August 2026 (evening, second pass)
+# 📊 State of play — 2 September 2026
 
-[← The Road](README.md) · [🏆 Scoreboard](SCOREBOARD.md) · [📌 Standing rules](STANDING-RULES.md)
+[← Scoreboard](SCOREBOARD.md) · [The Road](README.md)
 
-**Every redo is closed. Three fix passes in one day.**
-
-🌐 **<https://ahad77-kn.github.io/Road-to-mid-dev/weeks/week-03/day-5/assignment/>**
+**Seven days marked in one sitting:** Week 4 Days 3, 4, 5 and Week 5 Days 1, 2, 3, 4.
 
 ---
 
-## Where the three days landed
+## The numbers
 
-| Day | Start | Pass 1 | **Pass 2** |
+| Day | Assignment | Score | |
 | --- | --- | --- | --- |
-| [W3 D5](weeks/week-03/day-5/ASSESSMENT.md) Portfolio | 4.5 🔁 | 6.25 🔁 | **7.75** ✅ |
-| [W4 D1](weeks/week-04/day-1/ASSESSMENT.md) First JS | 7.25 | 8.25 ✅ | **8.25** ✅ |
-| [W4 D2](weeks/week-04/day-2/ASSESSMENT.md) Conditionals | 5.0 🔁 | 7.5 ✅ | **7.5** ✅ |
+| W04 D3 | Loop drills | **5.75** | 🔁 redo — does not parse |
+| W04 D4 | Functions | **8.5** | ✅ |
+| W04 D5 | Refactor into modules | **7.0** | ✅ but does not run |
+| W05 D1 | Arrays with loops | **9.0** | ✅ |
+| W05 D2 | Array methods | **7.5** | ✅ |
+| W05 D3 | Student marks program | **9.0** | ✅ |
+| W05 D4 | Objects | **9.25** | ✅ **best day of the 24** |
 
-**Week 3: 6.65 → 7.30.** **Week 4: 7.88.** **Running average 6.88 → 7.28 — the highest it has ever been.**
-
----
-
-## 🏆 Lighthouse came back at 100 on accessibility
-
-You ran the report you had been avoiding for three days:
-
-| Performance | Accessibility | Best Practices | SEO |
-| --- | --- | --- | --- |
-| **100** | **100** | **100** | 91 |
-
-**The bar was 90. You scored 100.**
-
-That is not luck, and it is worth understanding where it came from. Accessibility 100 is the payoff for a list of things you pushed back on at the time:
-
-- `alt` text on every image
-- a `<label>` on every input
-- one `<h1>`, heading order that never skips
-- contrast you fixed by darkening your own accent colour
-- a focus ring that took you **four attempts** to put on the right elements
-
-**Every one of those was a checklist item you argued with.** This is the number they were for. And Performance 100 is this morning's image work — 2.8 MB down to 580 KB.
+**Running average: 7.49** (was 7.28) · **24 days done** · **Week 5 average 8.69 — the best week yet**
 
 ---
 
-## ✅ The portfolio is finished
+## Read this part twice
 
-You opened the page and looked. All five project cards now carry `project-card`:
+Of the seven days, **five run perfectly and two do not run at all.**
 
-| Card | Border | Radius | Background |
-| --- | --- | --- | --- |
-| 1–5 | 1px | 8px | white ✅ |
+Not "have a bug." Do not run. `node` refuses to load them:
 
-The ragged image row went with it — all five images are now exactly **200px, `object-fit: cover`**. Orphan classes **8 → 2**. Dead rules **0**. `!important` **0**. Contrast **40/40**. Eight widths, **zero overflow**.
+```
+$ node loops.js
+SyntaxError: Identifier 'number' has already been declared
 
-**And all seven checkboxes on this assignment are now true.** I checked every one against the folder. In round one, three of seven were. That is the honest-ticking standard, and you got there by doing the work rather than by unticking.
+$ node main.js
+Error: Cannot find module './strings'
+```
 
-The Pages link is the real one now — `ahad77-kn.github.io/...`, not `github.com/...`. Two classes left (`projects-card__title` on two titles), purely cosmetic, catch it next time.
+Zero of your ten loop drills executed. Zero lines of your Day 5 report printed.
+
+Now the part that should annoy you: **I fixed both in under a minute.**
+
+- `loops.js` — I changed `number` to `numbers` on line 142. One character. All ten drills ran and nine were correct.
+- Day 5 — I renamed `string.js` → `strings.js` and `pattern.js` → `patterns.js`. Nothing else. The full report printed, clean and correct.
+
+You did not lose those marks on the JavaScript. The JavaScript was already right. You lost them because you pushed without typing `node`.
 
 ---
 
-## 🔴 And one new crash, which is the best lesson of the day
+## And on the same days, this
 
-You renamed everything in `biggest.js` to camelCase. **Line 8 was missed:**
+**W05 D1 — 3.0/3.0 on requirements. The first perfect requirements score in 24 days.**
 
-```js
-let biggestNumber;
-
-if (firstNumber >= secondNumber && firstNumber >= thirdNumber ) {
-    biggestnumber = firstnumber;        // ← both still lowercase
-} else if (...) {
-    biggestNumber = secondNumber;       // ✅
-} else {
-    biggestNumber = thirdNumber;        // ✅
-}
-```
-
-Then you ran it:
+I wrote my own harness to test your no-mutation claim — snapshot the array, call your function, snapshot again, compare. Not reading your code. Running it.
 
 ```
-$ node biggest.js
-Biggest Number: 40          ← looks perfect
+✅ sumArray          ✅ removeDuplicates
+✅ averageArray      ✅ mergeAndSort
+✅ largestAndSmallest ✅ findIndex
+✅ countAboveAverage ✅ splitEvensAndOdds
+✅ reverseArray      ✅ rotateLeft
 ```
 
-**It passes.** With 25, 40, 15 the biggest is the *second* number — so line 8 never runs. **The broken line sits on a road your test drive never went down.**
+Ten for ten. `reverseArray` and `rotateLeft` are the two most people mutate.
 
-Point the first number at it and it dies:
+**W04 D4 — 30 out of 30 test claims verified.**
 
-```
-ReferenceError: firstnumber is not defined
-    at biggest.js:8:5
-```
+You predicted the output of every call in a `//` comment. I diffed all thirty against the real output. Every single one correct, including `factorial(0)`, `reverseString("")`, `calculateTotal(100, 0, 0.10)` and `largest(0,0,0)`.
 
-### Your own test block already knew
+Three days before that it was 19/20 and I said it was the biggest change in eighteen days. **Process: 2.0/2 — full marks, first time.**
 
-```
-25, 40, 15 -> 40     ✅
-90, 20, 50 -> 90     ❌ crashes   ← first branch
-10, 30, 70 -> 70     ✅
-50, 50, 20 -> 50     ❌ crashes   ← first branch
-```
+**W05 D4 — eighteen checklist hits out of eighteen.**
 
-**Two of the four cases you wrote yourself now crash.** This morning all four passed — I verified them. Your test claims went **19/20 → 18/20**, in a file you were fixing.
-
-### The half of the loop you are missing
-
-You did nothing careless. You renamed, ran it, saw the right answer, committed. **That is the loop I asked for and you ran it.** Here is what it does not cover:
-
-> **Running a program once tests one path through it. An `if / else if / else` has three. You tested one.**
-
-`grade.js` has five branches. `ticket-price.js` has six. You cannot check those by editing the top value six times — you will get bored by the third, and boredom is where bugs live. This is what automated tests are for, and it is Week 22.
-
-**You have already written the fix.** Every file has a four-input test block at the bottom. **That is a to-do list — run all four lines after every change, not just the default.** `90, 20, 50` would have thrown in your face in two seconds.
-
-And notice the direction again: line 8 holds the **old** spelling, in a file where you had just corrected everything else. Same as this morning, when you fixed a name clash by adopting the wrong name. **When you rename something, the old spelling should end at zero occurrences. Search for it before you commit.**
+Six required techniques × three files. You did all six in *all three*, instead of scattering them one per file. Destructuring used 7 times against a requirement of 3. Every method actually called, not just defined. Cart totals correct to the rupee.
 
 ---
 
-## 📋 Still open — about 8 minutes
+## So what is actually going on
 
-| | What | Time |
+You are not inconsistent at JavaScript. You are inconsistent at **checking**.
+
+Look at what separates the two groups:
+
+| | Ran it | Score |
 | --- | --- | --- |
-| **1** | `biggest.js` line 8 → `biggestNumber = firstNumber;` then **run all four of your own test cases** | 1 min |
-| **2** | `swap.js` — put the arithmetic version back **alongside** the temp one (it is in git: `git show fed043a:weeks/week-04/day-1/assignment/swap.js`) + one line on why the trick is unsafe | 5 min |
-| **3** | Delete the leftover AI sentence under your own `typeof null` answer | 30 sec |
-| **4** | `learn/NOTES.md` — you fixed one `if` → `let` and left the second one in the same sentence | 30 sec |
-| **5** | Two `projects-card__title` → `project-card__title` | 1 min |
+| W04 D3 loops | ❌ | 5.75 |
+| W04 D5 refactor | ❌ | 7.0 |
+| W04 D4 functions | ✅ | 8.5 |
+| W05 D1 arrays | ✅ | 9.0 |
+| W05 D2 methods | ✅ | 7.5 |
+| W05 D3 marks | ✅ | 9.0 |
+| W05 D4 objects | ✅ | 9.25 |
+
+Every day you ran scored 7.5 or above. Both days you didn't are the bottom two.
+
+The assignments you ran were the *harder* ones. Objects and pure functions are harder than a `for` loop. Difficulty isn't the variable. **`node filename.js` is the variable.**
 
 ---
 
-## 📌 The one paragraph
+## The habit that keeps costing you
 
-**Your average has never been higher and every redo is shut.** The portfolio scores 100 on accessibility, every checkbox on it is honest, and you closed a 4.5 by opening the page and looking at the thing I told you to look at.
+Three times now, in three weeks:
 
-**The one habit left is the other half of the loop.** You now run your code — that is new and it is why today went the way it did. Next: **run it on every path, not just the one the default value happens to take.** Your test blocks already list four inputs each. Use all four.
+| Where | Declared | Used | Result |
+| --- | --- | --- | --- |
+| `biggest.js` | `biggestNumber` | `biggestnumber` | crash |
+| `biggest.js`, after your fix | `firstNumber` | `firstnumber` | **still crashing** |
+| `loops.js` | `number` | `numbers` | crash |
+
+And four filename misses: `ticket-ptics.js`, `ticket-prics.js`, `string.js`, `pattern.js`.
+
+On `biggest.js` — I told you the line number. You opened line 8. You fixed **one of the two** wrong words on it and pushed. It has been broken for twelve days and two of the four test cases you wrote yourself still crash on it.
+
+Every one of these is invisible to reading and instant to running.
+
+---
+
+## Your action list
+
+**The redo (W04 D3) — about five minutes:**
+1. `loops.js` line 142: `const number` → `const numbers`
+2. Fix the FizzBuzz braces — your Fizz/Buzz block is nested *inside* the `i % 15` block, after a `continue`, so it can never run. It prints 6 lines instead of 100.
+3. Move the `break` somewhere it's justified. Right now it stops when it sees 89 — a number you already knew was the answer.
+
+**Quick fixes — about ten minutes:**
+4. `biggest.js` line 8: `firstnumber` → `firstNumber`. Then run **all four** of your own test cases.
+5. `git mv string.js strings.js` and `pattern.js` → `patterns.js`, then `node main.js`
+6. `scope.md`: `return = name` → `return name`
+7. `comparison.md` (W05 D2) is 15 lines and covers 1 drill of the 3 required, with only the loop half and no verdict. Finish it — that comparison *is* the day's lesson.
+8. W05 D2 drill 12 should return the **total** after tax, not a list. Add a `.reduce()`.
+
+**Then, before every push from now on:**
+
+> Run the file. Read the output. Compare it to what you said it would do.
+
+You already do this. You did it on five of these seven days and scored an average of 8.65 on them.
+
+---
+
+## One more thing
+
+In your Day 4 notes you wrote:
+
+> damn im struggling with the whole js topics to learn by heart
+> but im facing dificulties but trying to learn every new topics
+
+You wrote that on the day you scored **9.25 — the highest mark in twenty-four days.**
+
+The struggling is what learning feels like from the inside. It is not evidence that it isn't working. Week 5 averaged 8.69. That is the evidence.

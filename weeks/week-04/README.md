@@ -50,9 +50,9 @@ node bmi.js
 | --- | --- | --- | --- |
 | [**D1**](day-1/) | Variables, types & 5 tiny programs | [📄 open →](day-1/) | **8.25** ✅ [assessment](day-1/ASSESSMENT.md) |
 | [**D2**](day-2/) | Conditionals — 6 decision programs | [📄 open →](day-2/) | **7.5** ✅ [assessment](day-2/ASSESSMENT.md) |
-| [**D3**](day-3/) | Loop drills — sums, reversals, FizzBuzz, patterns | [📄 open →](day-3/) | – |
-| [**D4**](day-4/) | Functions — parameters, returns, scope | [📄 open →](day-4/) | – |
-| [**D5**](day-5/) | Refactor everything from D1–D3 into functions | [📄 open →](day-5/) | – |
+| [**D3**](day-3/) | Loop drills — sums, reversals, FizzBuzz, patterns | [📄 open →](day-3/) | **5.75** 🔁 [assessment](day-3/ASSESSMENT.md) |
+| [**D4**](day-4/) | Functions — parameters, returns, scope | [📄 open →](day-4/) | **8.5** ✅ [assessment](day-4/ASSESSMENT.md) |
+| [**D5**](day-5/) | Refactor everything from D1–D3 into functions | [📄 open →](day-5/) | **7.0** ✅ [assessment](day-5/ASSESSMENT.md) |
 
 ---
 

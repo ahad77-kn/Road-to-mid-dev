@@ -18,7 +18,7 @@ Day 2 went **5 → 5.75 → 7.0** across two redos and is now a clean pass.
 
 ### ▶️ Next: **[Week 03 · Day 5 — Finish & deploy the portfolio →](weeks/week-03/day-5/)**
 
-_**18 Aug (evening):** **all redos closed** — W3 D5 **4.5 → 7.75**, W4 D1 **7.25 → 8.25**, W4 D2 **5.0 → 7.5**, three fix passes in one day. Portfolio scores **Lighthouse Accessibility 100** and every checkbox on it is true. Running average **7.28**, the highest yet. Portfolio [live](https://ahad77-kn.github.io/Road-to-mid-dev/weeks/week-03/day-5/assignment/). 📊 **[State of play](STATE-OF-PLAY.md)**._
+_**2 Sep:** **seven days marked** — W4 D3 **5.75** 🔁, D4 **8.5**, D5 **7.0**; W5 D1 **9.0**, D2 **7.5**, D3 **9.0**, D4 **9.25**. Week 5 averaged **8.69**, the best week of the course. Running average **7.49** over 24 days. But two of the seven files **do not run at all** — both fixed in under a minute once opened. 📊 **[State of play](STATE-OF-PLAY.md)**._
 
 _(W02: 8.5 · 8.5 · 8.25 · 7.0 · 7.5 → **7.95** ✅ · W03: 6.0 · 8.0 · 7.0 · 7.75 → **7.19** ✅)_
 

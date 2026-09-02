@@ -443,3 +443,42 @@ Line 8 is `biggestnumber = firstnumber` — **the old, wrong spelling**, in a fi
 2. **Run all four of your own test cases**, not just the one at the top. Paste what you actually see.
 
 **The one sentence:** *Every name, the filename and the capital F are all correct now — and a rename you tested once left a crash on the one branch your test never took, which is exactly why running a program is not the same as testing it.*
+
+---
+
+# ⚠️ Follow-up — 19 Aug (`e9ab043`) · score unchanged at 7.5, **item still open**
+
+You went to line 8. You edited line 8. It still crashes.
+
+```diff
+- biggestnumber = firstnumber;
++ biggestNumber = firstnumber;
+```
+
+There were **two** wrong identifiers on that line. You fixed the one on the left.
+
+```
+$ node biggest.js                    # 25, 40, 15 — branch 2
+Biggest Number: 40                   ✅ looks fine
+
+$ # your own documented case: 90, 20, 50 — branch 1
+biggest.js:8
+    biggestNumber = firstnumber;
+    ^
+ReferenceError: firstnumber is not defined
+
+$ # your own documented case: 50, 50, 20 — branch 1
+ReferenceError: firstnumber is not defined
+```
+
+Two of the four test cases **you wrote in this file** still crash, twelve days later, after a fix aimed exactly at the line that breaks them.
+
+I am not re-scoring the day — 7.5 stands, it was graded on what you submitted. But I want you to see the shape of this, because it's the same shape three times now:
+
+1. You read that line 8 was wrong.
+2. You opened line 8 and changed what you could see was wrong.
+3. **You did not run it.**
+
+If you had typed `node biggest.js` with `firstNumber = 90` — one of the four cases already written in your own file — you'd have had the answer in one second.
+
+The fix is `firstNumber`, capital N, on the right-hand side. Then run all four of your cases. All four.

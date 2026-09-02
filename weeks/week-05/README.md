@@ -31,10 +31,10 @@
 
 | Day | Assignment | Open | Score |
 | --- | --- | --- | --- |
-| [**D1**](day-1/) | Array basics — 10 drills with loops | [📄 open →](day-1/) | – |
-| [**D2**](day-2/) | Rewrite all 10 with `map`/`filter`/`reduce` | [📄 open →](day-2/) | – |
-| [**D3**](day-3/) | Student marks program | [📄 open →](day-3/) | – |
-| [**D4**](day-4/) | Objects — modelling real things | [📄 open →](day-4/) | – |
+| [**D1**](day-1/) | Array basics — 10 drills with loops | [📄 open →](day-1/) | **9.0** ✅ [assessment](day-1/ASSESSMENT.md) |
+| [**D2**](day-2/) | Rewrite all 10 with `map`/`filter`/`reduce` | [📄 open →](day-2/) | **7.5** ✅ [assessment](day-2/ASSESSMENT.md) |
+| [**D3**](day-3/) | Student marks program | [📄 open →](day-3/) | **9.0** ✅ [assessment](day-3/ASSESSMENT.md) |
+| [**D4**](day-4/) | Objects — modelling real things | [📄 open →](day-4/) | **9.25** ✅ [assessment](day-4/ASSESSMENT.md) |
 | [**D5**](day-5/) | Console contact book (array of objects) | [📄 open →](day-5/) | – |
 
 ---

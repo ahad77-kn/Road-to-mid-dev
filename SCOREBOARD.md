@@ -5,9 +5,9 @@
 Every assignment is out of 10. Pass mark 6. Week average below 6 → the week repeats.
 Filled in by the teacher after each day is marked.
 
-**Running average:** **7.28** · **Days completed:** 17 / 125 · **Best day:** W02 D1 & D2 (8.5) · **Redos:** 4 completed, **0 open** (W02 D5: 5.5 → **7.5** · W03 D5: 4.5 → **7.75** · W04 D2: 5.0 → **7.5** · W04 D1: 7.25 → **8.25**)
+**Running average:** **7.49** · **Days completed:** 24 / 125 · **Best day:** **W05 D4 (9.25)** · **Redos:** 4 completed, **1 open** (W04 D3 — 5.75, file does not parse)
 
-> 📊 **[Read the state of play](STATE-OF-PLAY.md)** — 18 Aug (evening): **all redos closed.** Portfolio scores **Lighthouse Accessibility 100**; every checkbox on it is now true. One new latent crash in `biggest.js` — a rename tested on one branch out of three.
+> 📊 **[Read the state of play](STATE-OF-PLAY.md)** — 2 Sep: **seven days marked at once.** Week 5 is his strongest work yet (**8.69 average**, three days at 9+). Week 4 is split down the middle: the two days he ran are 8.5 and 7.0, the two he didn't **do not execute at all**.
 
 **Week 1 ✅ PASSED** · **Week 2 ✅ PASSED** · **Week 3 ✅ PASSED** — Phase 2 (JavaScript) unlocked.
 
@@ -34,8 +34,8 @@ Filled in by the teacher after each day is marked.
 
 | Week | D1 | D2 | D3 | D4 | D5 | Avg | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [04](weeks/week-04/) — Language fundamentals | **8.25** ✅ | **7.5** ✅ | – | – | – | **7.88** | 🟢 both redos cleared |
-| [05](weeks/week-05/) — Arrays & objects | – | – | – | – | – | – | ⬜ |
+| [04](weeks/week-04/) — Language fundamentals | **8.25** ✅ | **7.5** ✅ | **5.75** 🔁 | **8.5** | **7.0** | **7.40** | ✅ passed · 1 redo open |
+| [05](weeks/week-05/) — Arrays & objects | **9.0** | **7.5** | **9.0** | **9.25** | – | **8.69** | 🟢 best week yet |
 | [06](weeks/week-06/) — The DOM | – | – | – | – | – | – | ⬜ |
 | [07](weeks/week-07/) — Events & forms | – | – | – | – | – | – | ⬜ |
 | [08](weeks/week-08/) — Modern JS & async | – | – | – | – | – | – | ⬜ |
