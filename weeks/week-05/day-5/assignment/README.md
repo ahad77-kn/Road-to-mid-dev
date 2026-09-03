@@ -16,13 +16,13 @@ Required: `addContact` · `deleteContact(id)` · `updateContact(id, changes)` ·
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] Each contact: `id`, `name`, `phone`, `email`, `city`, `tags` (array)
-- [ ] Unique IDs generated, not hard-coded
-- [ ] Immutable updates throughout — no direct mutation, ever
-- [ ] Search is partial and case-insensitive (`"ah"` finds `"Ahad"`)
-- [ ] Validation: reject a contact with no name or a phone shorter than 10 chars, with a clear message
-- [ ] `groupByCity()` returns `{ Lahore: [...], Karachi: [...] }` — built with `reduce`
-- [ ] At least 10 contacts and a demo run at the bottom of the file exercising every function
+- [x] Each contact: `id`, `name`, `phone`, `email`, `city`, `tags` (array)
+- [x] Unique IDs generated, not hard-coded
+- [x] Immutable updates throughout — no direct mutation, ever
+- [x] Search is partial and case-insensitive (`"ah"` finds `"Ahad"`)
+- [x] Validation: reject a contact with no name or a phone shorter than 10 chars, with a clear message
+- [x] `groupByCity()` returns `{ Lahore: [...], Karachi: [...] }` — built with `reduce`
+- [x] At least 10 contacts and a demo run at the bottom of the file exercising every function
 
 ## 🎤 The teacher will ask you
 

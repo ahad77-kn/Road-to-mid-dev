@@ -16,13 +16,13 @@ Make it actually calculate.
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] `+ − × ÷` all work, including chained operations (`5 + 3 × 2 =`) — decide and document whether you do left-to-right or operator precedence
-- [ ] Divide by zero shows a clear message, does not print `Infinity`
-- [ ] `%` and `+/−` (sign toggle) work
-- [ ] Keyboard support: digits, operators, Enter for `=`, Escape for clear, Backspace to delete a digit
-- [ ] Results longer than the display are truncated or formatted sensibly — no overflow
-- [ ] Floating point handled: `0.1 + 0.2` must not display `0.30000000000000004`. Explain the fix in a comment.
-- [ ] The arithmetic lives in pure functions with **no DOM code inside them** — the UI calls them
+- [x] `+ − × ÷` all work, including chained operations (`5 + 3 × 2 =`) — decide and document whether you do left-to-right or operator precedence
+- [x] Divide by zero shows a clear message, does not print `Infinity`
+- [x] `%` and `+/−` (sign toggle) work
+- [x] Keyboard support: digits, operators, Enter for `=`, Escape for clear, Backspace to delete a digit
+- [x] Results longer than the display are truncated or formatted sensibly — no overflow
+- [x] Floating point handled: `0.1 + 0.2` must not display `0.30000000000000004`. Explain the fix in a comment.
+- [x] The arithmetic lives in pure functions with **no DOM code inside them** — the UI calls them
 
 ## 🎤 The teacher will ask you
 

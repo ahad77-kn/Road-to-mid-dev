@@ -16,13 +16,13 @@ Build the calculator's **structure and display logic** — no arithmetic yet.
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] A proper calculator layout in CSS Grid — digits, operators, clear, equals
-- [ ] A display area showing the current entry and, above it in smaller text, the pending expression
-- [ ] Clicking digits appends to the display; the display never shows a leading `0` (except `0.`)
-- [ ] Only one decimal point can be entered per number
-- [ ] `C` clears everything; `CE` clears only the current entry
-- [ ] All button clicks handled by **one** listener on the container, using event delegation + `data-` attributes — not 18 separate listeners
-- [ ] Buttons have `:active` and `:hover` styles
+- [x] A proper calculator layout in CSS Grid — digits, operators, clear, equals
+- [x] A display area showing the current entry and, above it in smaller text, the pending expression
+- [x] Clicking digits appends to the display; the display never shows a leading `0` (except `0.`)
+- [x] Only one decimal point can be entered per number
+- [x] `C` clears everything; `CE` clears only the current entry
+- [x] All button clicks handled by **one** listener on the container, using event delegation + `data-` attributes — not 18 separate listeners
+- [x] Buttons have `:active` and `:hover` styles
 
 ## 🎤 The teacher will ask you
 

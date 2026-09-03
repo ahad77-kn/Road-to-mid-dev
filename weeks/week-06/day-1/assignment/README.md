@@ -29,11 +29,11 @@ Required operations include:
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] 20 numbered, commented operations
-- [ ] `day-1/notes.md`: the difference between `textContent`, `innerText` and `innerHTML`, in your own words, with the security note
-- [ ] At least one operation uses `querySelectorAll` and iterates it
-- [ ] Styling changes made by **toggling a class**, not by writing `element.style.x` — except one deliberate example of each, with a comment on why classes are better
-- [ ] `<script>` placed correctly (before `</body>` or with `defer`) — explain why in a comment
+- [x] 20 numbered, commented operations
+- [x] `day-1/notes.md`: the difference between `textContent`, `innerText` and `innerHTML`, in your own words, with the security note
+- [x] At least one operation uses `querySelectorAll` and iterates it
+- [x] Styling changes made by **toggling a class**, not by writing `element.style.x` — except one deliberate example of each, with a comment on why classes are better
+- [x] `<script>` placed correctly (before `</body>` or with `defer`) — explain why in a comment
 
 ## 🎤 The teacher will ask you
 

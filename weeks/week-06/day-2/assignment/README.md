@@ -16,12 +16,12 @@ A counter with +, −, reset. Styled properly (you have CSS skills — use them)
 
 ## ✅ Done when — this is the checklist you are marked against
 
-- [ ] The number turns red below zero and green above, via a **class**, not inline style
-- [ ] A step input: `+` and `−` change by that amount
-- [ ] Reset button returns to zero and clears the colour class
-- [ ] The count is held in a **single JavaScript variable** — the DOM displays it, it does not store it. This distinction is the whole point of the day.
-- [ ] One `render()` function that puts current state on screen; every button handler updates the variable then calls `render()`
-- [ ] Buttons are disabled at a max (say 100) and min (−100)
+- [x] The number turns red below zero and green above, via a **class**, not inline style
+- [x] A step input: `+` and `−` change by that amount
+- [x] Reset button returns to zero and clears the colour class
+- [x] The count is held in a **single JavaScript variable** — the DOM displays it, it does not store it. This distinction is the whole point of the day.
+- [x] One `render()` function that puts current state on screen; every button handler updates the variable then calls `render()`
+- [x] Buttons are disabled at a max (say 100) and min (−100)
 
 ## 🎤 The teacher will ask you
 
